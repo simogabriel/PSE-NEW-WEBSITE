@@ -1,0 +1,49 @@
+/* Keep legacy detail-page footers within their responsive containers. */
+footer [data-framer-name="Footer Center Wrap"],
+footer [data-framer-name="Footer Center Wrap"] > div {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+footer [data-framer-name="Footer Center Wrap"] h2 {
+  font-size: clamp(28px, 4.5vw, 58px) !important;
+  line-height: 1.15 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+footer p { white-space: normal !important; }
+footer [data-framer-name="End"] > [data-framer-name="Wrap"],
+footer [data-framer-name="Legal Wrap"] {
+  flex-wrap: wrap !important;
+  gap: 16px !important;
+  height: auto !important;
+  min-width: 0 !important;
+}
+footer [data-framer-name="Time Wrapper"],
+footer [data-framer-name="Legal Wrap"] {
+  flex: 1 1 260px !important;
+  width: auto !important;
+}
+footer [data-framer-name="Legal Wrap"] > div {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+footer [data-framer-name="Link Wrapper"] {
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 16px 32px !important;
+  width: 100% !important;
+  height: auto !important;
+}
+footer [data-framer-name="Link Wrapper"] > div {
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
+
+footer [data-framer-name="Link Wrapper"] a,
+footer [data-framer-name="Link Wrapper"] a > div {
+  width: auto !important;
+  min-width: max-content !important;
+  max-width: none !important;
+}

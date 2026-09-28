@@ -1,0 +1,3 @@
+[10236:24056:0824/025031.499:ERROR:chrome\installer\util\google_update_settings_win.cc:270] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+[10236:11208:0824/025034.781:ERROR:services\device\public\cpp\geolocation\system_geolocation_source_win.cc:259] Failed to get location access status: The parameter is incorrect. (0x80070057)
+205044 bytes written to file C:\Users\GABRIEL TANYI\Desktop\site new pse\NEW PSE SITE .website\.chrome-logo-check-v13\references.png

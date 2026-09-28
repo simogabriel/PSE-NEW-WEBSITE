@@ -1,0 +1,2 @@
+﻿from pathlib import Path
+p=Path('.visual-check/footer-match.cjs');s=p.read_text(encoding='utf-8-sig');s=s.replace('await new Promise(r=>setTimeout(r,1700));','''for(let n=0;n<100;n++){await new Promise(r=>setTimeout(r,100));const ready=await send('Runtime.evaluate',{expression:'!!document.querySelector("footer .pse-footer-socials")',returnByValue:true});if(ready.result?.value)break;}''');p.write_text(s,encoding='utf-8')

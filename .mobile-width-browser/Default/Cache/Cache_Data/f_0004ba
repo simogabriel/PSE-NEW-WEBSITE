@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <script src="pse-custom/site-stability.js?v=5"></script>
+    <script src="pse-custom/page-ready.js?v=7"></script>
+  
+  <meta name="viewport" content="width=device-width">
+  <title>Références - PSE Consulting</title>
+  <meta name="description" content="Une sélection de projets livrés par PSE Consulting pour des institutions et grands comptes au Cameroun, en Suisse et à l'international.">
+  <link href="pse-custom/favicon.ico" rel="icon" media="(prefers-color-scheme: light)">
+  <link href="pse-custom/favicon.ico" rel="icon" media="(prefers-color-scheme: dark)">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Archivo:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="pse-custom/references-tablet-tech-hero-v2.webp">
+
+  
+
+
+<link rel="stylesheet" href="pse-custom/enhance.css?v=101" data-pse-enhance>
+<link rel="stylesheet" href="pse-custom/references-page.css?v=21">
+<link rel="stylesheet" href="pse-custom/footer-nav.css?v=9">
+
+
+<link rel="stylesheet" href="pse-custom/references-team-footer.css?v=2">
+</head>
+<body class="pse-ref-page"><header class="pse-nav" data-pse-static-nav="true"><a class="pse-nav__brand" href="index.html" aria-label="PSE Consulting"><img decoding="async" src="pse-custom/pse-logo.webp" alt="PSE Consulting"></a><button class="pse-nav__burger" type="button" aria-label="Menu" aria-expanded="false"><span></span></button><ul class="pse-nav__links"><li><a href="index.html" data-fr="Accueil" data-en="Home">Accueil</a></li><li><a href="about.html" data-fr="À propos" data-en="About">À propos</a></li><li><a href="solutions.html" data-fr="Solutions" data-en="Solutions">Solutions</a></li><li><a href="team.html" data-fr="Équipe" data-en="Team">Équipe</a></li><li><a class="is-active" href="references.html" data-fr="Références" data-en="References">Références</a></li><li><a href="contact.html" data-fr="Contact" data-en="Contact">Contact</a></li></ul><div class="pse-nav__right"><button class="pse-nav__theme" type="button" data-pse-theme-toggle aria-label="Toggle colour theme"><span class="pse-nav__theme-sun" aria-hidden="true">&#9728;</span><span class="pse-nav__theme-moon" aria-hidden="true">&#9790;</span></button><div class="pse-nav__lang" role="group" aria-label="Langue / Language"><button type="button" data-pse-lang="fr" class="is-active" aria-pressed="true">FR</button><button type="button" data-pse-lang="en" aria-pressed="false">EN</button></div></div></header>
+  <main>
+    <section class="ref-hero" aria-labelledby="ref-title">
+      <div class="ref-shell ref-hero__grid">
+        <div class="ref-hero__copy">
+          <h1 id="ref-title">Nos réalisations</h1>
+          <p class="ref-lead">Une sélection de projets livrés pour des institutions et grands comptes au Cameroun, en Suisse et à l'international.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ref-projects" aria-label="Liste des références">
+      <div class="ref-shell">
+        <div class="ref-projects__head">
+          <p class="ref-eyebrow">Projets livrés</p>
+          <h2>Des plateformes en production, à grande échelle</h2>
+        </div>
+
+        <div class="ref-grid">
+          <article class="ref-card ref-card--featured">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/minessante.png" alt="Ministère de la Santé Publique"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Secteur public · Santé</span>
+                <span>Cameroun · 2023</span>
+              </div>
+              <h3>Ministère de la Santé Publique</h3>
+              <p>Plateforme et site web de la Couverture Santé Universelle (CSU/CTN), pour un accès simplifié à des soins de qualité.</p>
+            </div>
+          </article>
+
+          <article class="ref- card">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/minetransport.png" alt="Ministère des Transports"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Secteur public · Mobilité</span>
+                <span>Cameroun · 2022</span>
+              </div>
+              <h3>Ministère des Transports</h3>
+              <p>Plateforme nationale d'échange, de sensibilisation et d'analyse sur la sécurité routière.</p>
+            </div>
+          </article>
+
+          <article class="ref-card">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/fond-routier.png" alt="Fonds Routier"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Secteur public · Finances</span>
+                <span>Cameroun · 2022</span>
+              </div>
+              <h3>Fonds Routier</h3>
+              <p>Plateforme électronique d'authentification des déclarations et des dépôts au Fonds Routier.</p>
+            </div>
+          </article>
+
+          <article class="ref-card">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/minepat.png" alt="MINEPAT"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Secteur public · Planification</span>
+                <span>Cameroun · 2016-2021</span>
+              </div>
+              <h3>MINEPAT</h3>
+              <p>Système de gestion automatique des processus de programmation (chaîne PPBS) et reporting du BIP.</p>
+            </div>
+          </article>
+
+          <article class="ref-card">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/Pad.png" alt="Port Autonome de Douala"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Logistique & Transport</span>
+                <span>Cameroun · 2020</span>
+              </div>
+              <h3>Port Autonome de Douala</h3>
+              <p>Plateforme web de centralisation des projets pour la planification et la programmation budgétaire.</p>
+            </div>
+          </article>
+
+          <article class="ref-card">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/republic-canton-geneve.png" alt="République et Canton de Genève"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Secteur public</span>
+                <span>Suisse · 2011</span>
+              </div>
+              <h3>République & Canton de Genève</h3>
+              <p>Système informatique de remontée des données radar à l'échelle du canton.</p>
+            </div>
+          </article>
+
+          <article class="ref-card">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/pictet.png" alt="Banque Pictet"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Banque & Finance</span>
+                <span>Suisse · 2012</span>
+              </div>
+              <h3>Banque Pictet</h3>
+              <p>Application de mise en conformité pour la gestion des avoirs de contribuables américains.</p>
+            </div>
+          </article>
+
+          <article class="ref-card">
+            <div class="ref-card__media"><img decoding="async" src="pse-custom/clients/philip-morris.png" alt="Philip Morris International"></div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Industrie</span>
+                <span>International · 2015</span>
+              </div>
+              <h3>Philip Morris International</h3>
+              <p>Application de gestion de la force de vente déployée dans plus de 40 pays.</p>
+            </div>
+          </article>
+
+          <article class="ref-card">
+            <div class="ref-card__media ref-card__media--duo">
+              <img decoding="async" src="pse-custom/clients/nestle.png" alt="Nestlé">
+              <img decoding="async" src="pse-custom/clients/nespresso.png" alt="Nespresso">
+            </div>
+            <div class="ref-card__body">
+              <div class="ref-card__top">
+                <span>Industrie</span>
+                <span>Europe · 2004</span>
+              </div>
+              <h3>Nestlé & Nespresso</h3>
+              <p>Application de calcul des bonus des employés à l'échelle européenne.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ref-trust" aria-labelledby="trust-title">
+      <div class="ref-shell">
+        <p class="ref-eyebrow">Ils nous font confiance</p>
+        <h2 id="trust-title">Institutions, banques, industriels et partenaires publics</h2>
+        <div class="ref-logo-grid" aria-label="Organisations qui nous font confiance">
+          <div class="ref-logo-grid__row ref-logo-grid__row--top">
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/minessante.png" alt="Ministère de la Santé Publique" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/minetransport.png" alt="Ministère des Transports" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/fond-routier.png" alt="Fonds Routier" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/minepat.png" alt="MINEPAT" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/Pad.png" alt="Port Autonome de Douala" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/republic-canton-geneve.png" alt="République et Canton de Genève" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/canton-de-vaud.png" alt="Canton de Vaud" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/pictet.png" alt="Banque Pictet" loading="lazy"></div>
+          </div>
+          <div class="ref-logo-grid__row ref-logo-grid__row--bottom">
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/philip-morris.png" alt="Philip Morris International" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/nestle.png" alt="Nestlé" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/nespresso.png" alt="Nespresso" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/blue-infinity.png" alt="Blue Infinity" loading="lazy"></div>
+            <div class="ref-logo"><img decoding="async" src="pse-custom/clients/bc-pme.png" alt="BC PME" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+ 
+  <div id="pse-reference-footer"><div class="pse-footer-variant pse-footer-variant--desktop"><footer class="framer-Mj4NR framer-M4LGl framer-By0QJ framer-u7ht6v framer-v-u7ht6v"
+                        data-framer-name="Desktop"
+                        style="background-color:var(--token-4904ad93-0af3-4d66-8943-5858e4bdc968, rgb(26, 15, 58));width:100%">
+                        <div class="framer-169dqj4" data-framer-name="Link Wrapper"><!--$-->
+                            <div class="framer-gjra6b-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Home</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-ed41x4-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                About</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-1pbimk7-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Solutions</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-e21fb0-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Team</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-1c58nc0-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Blog</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-s5s950-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Contact</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$-->
+                        </div>
+                        <div class="framer-b6k4ea" data-framer-name="Footer Center Wrap">
+                            <div class="framer-1kiio9n" data-framer-component-type="RichTextContainer"
+                                style="--extracted-1of0zx5:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                <h2 class="framer-text"
+                                    style="--font-selector:R0Y7R2Vpc3QtcmVndWxhcg==;--framer-font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;--framer-font-size:200px;--framer-letter-spacing:-0.04em;--framer-line-height:0.9em;--framer-text-color:var(--extracted-1of0zx5, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                    PSE Consulting</h2>
+                            </div>
+                            <div class="framer-we6166" data-framer-component-type="RichTextContainer"
+                                style="--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                <p class="framer-text framer-styles-preset-g2i1sb" data-styles-preset="pdSjm5iSO">Based
+                                    in Austin,Tx</p>
+                            </div>
+                        </div>
+                        <div class="framer-11tquu2" data-framer-name="End">
+                            <div class="framer-1xrzlhw" data-framer-name="Wrap">
+                                <div class="framer-1jbbbpz" data-framer-name="Time Wrapper">
+                                    <div class="framer-1jzdm2y" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text"
+                                            style="--font-selector:R0Y7R2Vpc3QtcmVndWxhcg==;--framer-font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-letter-spacing:-0.05em;--framer-line-height:1.3em;--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            YAOUNDE, CAMEROON</p>
+                                    </div>
+                                    <div class="framer-1egbe62-container"><!--$-->
+                                        <div
+                                            style="font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:100%;color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                            12:11:56</div><!--/$-->
+                                    </div>
+                                </div>
+                                <div class="framer-1myw5x3" data-framer-name="Legal Wrap">
+                                    <div class="framer-1k7an6x" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text framer-styles-preset-12pox4o"
+                                            data-styles-preset="HtgfMc3Wc"
+                                            style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            By Flowit Supply</p>
+                                    </div>
+                                    <div class="framer-21cg61" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text framer-styles-preset-12pox4o"
+                                            data-styles-preset="HtgfMc3Wc"
+                                            style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            ©2025 PSE Consulting All Rights Reserved</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer></div><div class="pse-footer-variant pse-footer-variant--tablet"><footer class="framer-Mj4NR framer-M4LGl framer-By0QJ framer-u7ht6v framer-v-1pa9srx"
+                        data-framer-name="Tablet"
+                        style="background-color:var(--token-4904ad93-0af3-4d66-8943-5858e4bdc968, rgb(26, 15, 58));width:100%">
+                        <div class="framer-169dqj4" data-framer-name="Link Wrapper"><!--$-->
+                            <div class="framer-gjra6b-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Home</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-ed41x4-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                About</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-1pbimk7-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Solutions</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-e21fb0-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Team</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-1c58nc0-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Blog</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-s5s950-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-zpyuep framer-1pp6dck"
+                                    data-framer-name="Default" data-highlight="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-djub7j"
+                                                data-styles-preset="WENMTKUcr"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Contact</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$-->
+                        </div>
+                        <div class="framer-b6k4ea" data-framer-name="Footer Center Wrap">
+                            <div class="framer-1kiio9n" data-framer-component-type="RichTextContainer"
+                                style="--extracted-1of0zx5:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                <h2 class="framer-text"
+                                    style="--font-selector:R0Y7R2Vpc3QtcmVndWxhcg==;--framer-font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;--framer-font-size:140px;--framer-letter-spacing:-0.04em;--framer-line-height:0.9em;--framer-text-color:var(--extracted-1of0zx5, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                    PSE Consulting</h2>
+                            </div>
+                            <div class="framer-we6166" data-framer-component-type="RichTextContainer"
+                                style="--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                <p class="framer-text framer-styles-preset-g2i1sb" data-styles-preset="pdSjm5iSO">Based
+                                    in Austin,Tx</p>
+                            </div>
+                        </div>
+                        <div class="framer-11tquu2" data-framer-name="End">
+                            <div class="framer-1xrzlhw" data-framer-name="Wrap">
+                                <div class="framer-1jbbbpz" data-framer-name="Time Wrapper">
+                                    <div class="framer-1jzdm2y" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text"
+                                            style="--font-selector:R0Y7R2Vpc3QtcmVndWxhcg==;--framer-font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-letter-spacing:-0.05em;--framer-line-height:1.3em;--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            Austin, TX</p>
+                                    </div>
+                                    <div class="framer-1egbe62-container"><!--$-->
+                                        <div
+                                            style="font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:100%;color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                            12:11:56</div><!--/$-->
+                                    </div>
+                                </div>
+                                <div class="framer-1myw5x3" data-framer-name="Legal Wrap">
+                                    <div class="framer-1k7an6x" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text framer-styles-preset-12pox4o"
+                                            data-styles-preset="HtgfMc3Wc"
+                                            style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            By Flowit Supply</p>
+                                    </div>
+                                    <div class="framer-21cg61" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text framer-styles-preset-12pox4o"
+                                            data-styles-preset="HtgfMc3Wc"
+                                            style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            ©2025 PSE Consulting All Rights Reserved</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer></div><div class="pse-footer-variant pse-footer-variant--mobile"><footer class="framer-Mj4NR framer-M4LGl framer-By0QJ framer-u7ht6v framer-v-1uxplzy"
+                        data-framer-name="Phone"
+                        style="background-color:var(--token-4904ad93-0af3-4d66-8943-5858e4bdc968, rgb(26, 15, 58));width:100%">
+                        <div class="framer-169dqj4" data-framer-name="Link Wrapper"><!--$-->
+                            <div class="framer-gjra6b-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-1tucihg framer-1pp6dck"
+                                    data-framer-name="Mobile" href="index.html">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-13wnnz8"
+                                                data-styles-preset="g18gvkFva"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Home</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-ed41x4-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-1tucihg framer-1pp6dck"
+                                    data-framer-name="Mobile" href="about.html">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-13wnnz8"
+                                                data-styles-preset="g18gvkFva"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                About</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-1pbimk7-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-1tucihg framer-1pp6dck"
+                                    data-framer-name="Mobile" href="solutions.html">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-13wnnz8"
+                                                data-styles-preset="g18gvkFva"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Solutions</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-e21fb0-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-1tucihg framer-1pp6dck"
+                                    data-framer-name="Mobile" href="team.html" data-framer-page-link-current="true">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-13wnnz8"
+                                                data-styles-preset="g18gvkFva"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Team</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-1c58nc0-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-1tucihg framer-1pp6dck"
+                                    data-framer-name="Mobile" href="blog.html">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-13wnnz8"
+                                                data-styles-preset="g18gvkFva"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Blog</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$--><!--$-->
+                            <div class="framer-s5s950-container"><!--$--><a
+                                    class="framer-lvowC framer-PSXVz framer-txHSr framer-zpyuep framer-v-1tucihg framer-1pp6dck"
+                                    data-framer-name="Mobile" href="contact.html">
+                                    <div class="framer-1catuja" data-framer-name="Button Wrapper">
+                                        <div class="framer-k5jiyl" data-framer-name="Text"
+                                            data-framer-component-type="RichTextContainer"
+                                            style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                            <p class="framer-text framer-styles-preset-13wnnz8"
+                                                data-styles-preset="g18gvkFva"
+                                                style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                                Contact</p>
+                                        </div>
+                                        <div class="framer-1dzan60" data-framer-name="Line"
+                                            style="background-color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                        </div>
+                                    </div>
+                                </a><!--/$--></div><!--/$-->
+                        </div>
+                        <div class="framer-b6k4ea" data-framer-name="Footer Center Wrap">
+                            <div class="framer-1kiio9n" data-framer-component-type="RichTextContainer"
+                                style="--extracted-1of0zx5:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                <h2 class="framer-text"
+                                    style="--font-selector:R0Y7R2Vpc3QtcmVndWxhcg==;--framer-font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;--framer-font-size:80px;--framer-letter-spacing:-0.04em;--framer-line-height:0.9em;--framer-text-color:var(--extracted-1of0zx5, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                    PSE Consulting</h2>
+                            </div>
+                            <div class="framer-we6166" data-framer-component-type="RichTextContainer"
+                                style="--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                <p class="framer-text framer-styles-preset-g2i1sb" data-styles-preset="pdSjm5iSO">Based
+                                    in Austin,Tx</p>
+                            </div>
+                        </div>
+                        <div class="framer-11tquu2" data-framer-name="End">
+                            <div class="framer-1xrzlhw" data-framer-name="Wrap">
+                                <div class="framer-1jbbbpz" data-framer-name="Time Wrapper">
+                                    <div class="framer-1jzdm2y" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text"
+                                            style="--font-selector:R0Y7R2Vpc3QtcmVndWxhcg==;--framer-font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-letter-spacing:-0.05em;--framer-line-height:1.3em;--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            Austin, TX</p>
+                                    </div>
+                                    <div class="framer-1egbe62-container"><!--$-->
+                                        <div
+                                            style="font-family:&quot;Geist&quot;, &quot;Geist Placeholder&quot;, sans-serif;font-size:14px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:100%;color:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255))">
+                                            12:11:56</div><!--/$-->
+                                    </div>
+                                </div>
+                                <div class="framer-1myw5x3" data-framer-name="Legal Wrap">
+                                    <div class="framer-1k7an6x" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text framer-styles-preset-12pox4o"
+                                            data-styles-preset="HtgfMc3Wc"
+                                            style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            By Flowit Supply</p>
+                                    </div>
+                                    <div class="framer-21cg61" data-framer-component-type="RichTextContainer"
+                                        style="--extracted-r6o4lv:var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255));--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                                        <p class="framer-text framer-styles-preset-12pox4o"
+                                            data-styles-preset="HtgfMc3Wc"
+                                            style="--framer-text-color:var(--extracted-r6o4lv, var(--token-83b03504-602b-4981-a102-2dcfc3c15751, rgb(255, 255, 255)))">
+                                            ©2025 PSE Consulting All Rights Reserved</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer></div></div>
+
+  <script defer src="pse-i18n/translations.js?v=63"></script>
+  <script defer src="pse-i18n/i18n.js?v=33"></script>
+  <script defer src="pse-custom/footer-reference-fix.js?v=3"></script>
+<script defer src="pse-custom/footer-identity.js?v=21"></script>
+    <script defer src="pse-custom/nav.js?v=55"></script>
+</body>
+</html>

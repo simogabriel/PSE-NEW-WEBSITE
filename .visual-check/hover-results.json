@@ -1,0 +1,62 @@
+{
+  "results": [
+    {
+      "page": "index.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/index.html"
+    },
+    {
+      "page": "about.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/about.html"
+    },
+    {
+      "page": "solutions.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/solutions.html"
+    },
+    {
+      "page": "team.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team.html"
+    },
+    {
+      "page": "references.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/references.html"
+    },
+    {
+      "page": "contact.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/contact.html"
+    },
+    {
+      "page": "blog.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog.html"
+    },
+    {
+      "page": "team/jane-smith.html",
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/jane-smith.html"
+    }
+  ],
+  "errors": [],
+  "click": "passed"
+}

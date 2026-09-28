@@ -1,0 +1,62 @@
+/* Conferences call to action. */
+[data-framer-name="Section Recent Articles"] .pse-conference-cta {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 48px !important;
+  padding: 12px 22px !important;
+  border: 1px solid #000 !important;
+  border-radius: 999px !important;
+  color: #fff !important;
+  background: #000 !important;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .18) !important;
+  text-decoration: none !important;
+  overflow: hidden !important;
+  transition: transform .25s ease, box-shadow .25s ease, filter .25s ease !important;
+}
+
+[data-framer-name="Section Recent Articles"] .pse-conference-cta p,
+[data-framer-name="Section Recent Articles"] .pse-conference-cta span {
+  color: #fff !important;
+  font-weight: 700 !important;
+  letter-spacing: .01em !important;
+}
+
+[data-framer-name="Section Recent Articles"] .pse-conference-cta:hover {
+  transform: translateY(-3px) !important;
+  border-color: #000 !important;
+  filter: brightness(1.18);
+  box-shadow: 0 13px 28px rgba(0, 0, 0, .28) !important;
+}
+
+[data-framer-name="Section Recent Articles"] .pse-conference-cta:active {
+  transform: translateY(-1px) scale(.98) !important;
+}
+
+[data-framer-name="Section Recent Articles"] .pse-conference-cta:focus-visible {
+  outline: 3px solid rgba(55, 139, 203, 0.38) !important;
+  outline-offset: 4px !important;
+}
+
+/* Keep homepage contact labels visually uniform in both languages. */
+a[data-pse-home-contact="1"],
+a[data-pse-home-contact="1"] span,
+a[data-pse-home-contact="1"] p {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: 600 !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+a[data-pse-home-contact="1"]:hover,
+a[data-pse-home-contact="1"]:active,
+a[data-pse-home-contact="1"]:hover svg {
+  transform: none !important;
+  animation: none !important;
+}

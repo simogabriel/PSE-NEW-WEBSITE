@@ -1,0 +1,422 @@
+[
+  {
+    "page": "team",
+    "width": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "section": "Section Our Team",
+        "alt": "Dongmo Baudouin"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "section": "Section Our Team",
+        "alt": "Manga Ewane Philippe"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "section": "Section Our Team",
+        "alt": "Schimdt Nguemechia"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/aleka.jpg",
+        "section": "Section Our Team",
+        "alt": "Aleka Mervie"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "section": "Section Our Team",
+        "alt": "Alice Mervie"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/vianney.jpeg",
+        "section": "Section Our Team",
+        "alt": "Vianney Ulrich"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/lennon.jpeg",
+        "section": "Section Our Team",
+        "alt": "Lennon Youssouf"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "section": "Section Our Team",
+        "alt": "Kotieu Léonel"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "section": "Section Our Team",
+        "alt": "Audrey Ntamack"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/ludivine.jpg",
+        "section": "Section Our Team",
+        "alt": "Petmi Ludivine Chloé"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/arnold.jpeg",
+        "section": "Section Our Team",
+        "alt": "Arno Mbende"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/meline.jpg",
+        "section": "Section Our Team",
+        "alt": "Ngono Bernadette Marlyse"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+        "section": "Section Our Mission",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "team",
+    "width": 1000,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "section": "Section Our Team",
+        "alt": "Dongmo Baudouin"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "section": "Section Our Team",
+        "alt": "Manga Ewane Philippe"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "section": "Section Our Team",
+        "alt": "Schimdt Nguemechia"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/aleka.jpg",
+        "section": "Section Our Team",
+        "alt": "Aleka Mervie"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "section": "Section Our Team",
+        "alt": "Alice Mervie"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/vianney.jpeg",
+        "section": "Section Our Team",
+        "alt": "Vianney Ulrich"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/lennon.jpeg",
+        "section": "Section Our Team",
+        "alt": "Lennon Youssouf"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "section": "Section Our Team",
+        "alt": "Kotieu Léonel"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "section": "Section Our Team",
+        "alt": "Audrey Ntamack"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/ludivine.jpg",
+        "section": "Section Our Team",
+        "alt": "Petmi Ludivine Chloé"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/arnold.jpeg",
+        "section": "Section Our Team",
+        "alt": "Arno Mbende"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/meline.jpg",
+        "section": "Section Our Team",
+        "alt": "Ngono Bernadette Marlyse"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+        "section": "Section Our Mission",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "team",
+    "width": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "section": "Section Our Team",
+        "alt": "Dongmo Baudouin"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "section": "Section Our Team",
+        "alt": "Manga Ewane Philippe"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "section": "Section Our Team",
+        "alt": "Schimdt Nguemechia"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/aleka.jpg",
+        "section": "Section Our Team",
+        "alt": "Aleka Mervie"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "section": "Section Our Team",
+        "alt": "Alice Mervie"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/vianney.jpeg",
+        "section": "Section Our Team",
+        "alt": "Vianney Ulrich"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/lennon.jpeg",
+        "section": "Section Our Team",
+        "alt": "Lennon Youssouf"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "section": "Section Our Team",
+        "alt": "Kotieu Léonel"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "section": "Section Our Team",
+        "alt": "Audrey Ntamack"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/ludivine.jpg",
+        "section": "Section Our Team",
+        "alt": "Petmi Ludivine Chloé"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/arnold.jpeg",
+        "section": "Section Our Team",
+        "alt": "Arno Mbende"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/meline.jpg",
+        "section": "Section Our Team",
+        "alt": "Ngono Bernadette Marlyse"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+        "section": "Section Our Mission",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+        "section": "Section Full Image",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "width": 1000,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+        "section": "Section Full Image",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+        "section": "Section Full Image",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      }
+    ]
+  },
+  {
+    "page": "solutions",
+    "width": 1000,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      }
+    ]
+  },
+  {
+    "page": "solutions",
+    "width": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      }
+    ]
+  },
+  {
+    "page": "index",
+    "width": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-1.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-2.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-3.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-4.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-5.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-6.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "index",
+    "width": 1000,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-1.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-2.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-3.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-4.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-5.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-6.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      }
+    ]
+  },
+  {
+    "page": "index",
+    "width": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "alt": "PSE Consulting"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-1.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-2.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-3.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-4.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-5.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/news/news-6.jpg",
+        "section": "Section Recent Articles",
+        "alt": ""
+      }
+    ]
+  }
+]

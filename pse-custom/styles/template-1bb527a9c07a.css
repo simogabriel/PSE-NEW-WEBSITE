@@ -1,0 +1,3760 @@
+html,
+        body,
+        #main {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }:root {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }* {
+            box-sizing: border-box;
+            -webkit-font-smoothing: inherit
+        }h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        figure {
+            margin: 0
+        }body,
+        input,
+        textarea,
+        select,
+        button {
+            font-family: sans-serif;
+            font-size: 12px
+        }body {
+            --token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3: #1e1e1f;
+            --token-85e42553-644e-4254-88a7-c81ac840c5d2: #000;
+            --token-8328fbec-38f5-4ae3-b863-b572a6da0fce: #29292b;
+            --token-31295925-2a16-47c8-bb02-9dde316b47d1: #7d3bf4;
+            --token-83b03504-602b-4981-a102-2dcfc3c15751: #fff;
+            --token-144e382c-cd5b-4ed7-9684-9db9c45475a1: #e4e4e4;
+            --token-1fa38b65-d550-48ba-89e2-94fe63443ed4: #fcfcfc;
+            --token-da1c9599-d38a-4791-9f06-0f952af8e58f: #908f92;
+            --token-4904ad93-0af3-4d66-8943-5858e4bdc968: #1a0f3a;
+            --token-fe8c69ce-4adb-45ec-b660-1650dac6774f: #f0f4f7;
+            --token-fb8be2a8-a40c-4bd7-8214-44805d1d6f40: #d7d9ff;
+            --token-8c7c781d-94d9-47bb-a4bd-71593b452083: #af9aff
+        }@supports (z-index:calc(infinity)) {
+            #__framer-badge-container {
+                --infinity: infinity
+            }}#__framer-badge-container {
+            pointer-events: none;
+            width: 100%;
+            z-index: calc(var(--infinity, 2147480000));
+            justify-content: flex-end;
+            padding: 20px;
+            display: flex;
+            position: fixed;
+            bottom: 0
+        }body {
+            --framer-will-change-override: none
+        }@supports (background:-webkit-named-image(i)) and (not (grid-template-rows:subgrid)) {
+            body {
+                --framer-will-change-override: transform
+            }}body {
+            --framer-will-change-filter-override: none
+        }@supports (background:-webkit-named-image(i)) and (not (position-area:top right)) {
+            body {
+                --framer-will-change-filter-override: filter
+            }}[data-framer-component-type] {
+            position: absolute
+        }[data-framer-component-type=Text] {
+            cursor: inherit
+        }[data-framer-component-text-autosized] * {
+            white-space: pre
+        }[data-framer-component-type=Text]>* {
+            text-align: var(--framer-text-alignment, start)
+        }[data-framer-component-type=Text] span span,
+        [data-framer-component-type=Text] p span,
+        [data-framer-component-type=Text] h1 span,
+        [data-framer-component-type=Text] h2 span,
+        [data-framer-component-type=Text] h3 span,
+        [data-framer-component-type=Text] h4 span,
+        [data-framer-component-type=Text] h5 span,
+        [data-framer-component-type=Text] h6 span {
+            display: block
+        }[data-framer-component-type=Text] span span span,
+        [data-framer-component-type=Text] p span span,
+        [data-framer-component-type=Text] h1 span span,
+        [data-framer-component-type=Text] h2 span span,
+        [data-framer-component-type=Text] h3 span span,
+        [data-framer-component-type=Text] h4 span span,
+        [data-framer-component-type=Text] h5 span span,
+        [data-framer-component-type=Text] h6 span span {
+            display: unset
+        }[data-framer-component-type=Text] div div span,
+        [data-framer-component-type=Text] a div span,
+        [data-framer-component-type=Text] span span span,
+        [data-framer-component-type=Text] p span span,
+        [data-framer-component-type=Text] h1 span span,
+        [data-framer-component-type=Text] h2 span span,
+        [data-framer-component-type=Text] h3 span span,
+        [data-framer-component-type=Text] h4 span span,
+        [data-framer-component-type=Text] h5 span span,
+        [data-framer-component-type=Text] h6 span span,
+        [data-framer-component-type=Text] a {
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: min(calc(var(--framer-font-weight-increase, 0) + var(--font-weight, 400)), 900);
+            color: var(--text-color);
+            letter-spacing: var(--letter-spacing);
+            font-size: var(--font-size);
+            text-transform: var(--text-transform);
+            --text-decoration: var(--framer-text-decoration-style, solid)var(--framer-text-decoration, none)var(--framer-text-decoration-color, currentcolor)var(--framer-text-decoration-thickness, auto);
+            --text-decoration-skip-ink: var(--framer-text-decoration-skip-ink);
+            --text-underline-offset: var(--framer-text-decoration-offset);
+            line-height: var(--line-height);
+            --font-family: var(--framer-font-family);
+            --font-style: var(--framer-font-style);
+            --font-weight: var(--framer-font-weight);
+            --text-color: var(--framer-text-color);
+            --letter-spacing: var(--framer-letter-spacing);
+            --font-size: var(--framer-font-size);
+            --text-transform: var(--framer-text-transform);
+            --line-height: var(--framer-line-height)
+        }[data-framer-component-type=Text] a,
+        [data-framer-component-type=Text] a div span,
+        [data-framer-component-type=Text] a span span span,
+        [data-framer-component-type=Text] a p span span,
+        [data-framer-component-type=Text] a h1 span span,
+        [data-framer-component-type=Text] a h2 span span,
+        [data-framer-component-type=Text] a h3 span span,
+        [data-framer-component-type=Text] a h4 span span,
+        [data-framer-component-type=Text] a h5 span span,
+        [data-framer-component-type=Text] a h6 span span {
+            --font-family: var(--framer-link-font-family, var(--framer-font-family));
+            --font-style: var(--framer-link-font-style, var(--framer-font-style));
+            --font-weight: var(--framer-link-font-weight, var(--framer-font-weight));
+            --text-color: var(--framer-link-text-color, var(--framer-text-color));
+            --font-size: var(--framer-link-font-size, var(--framer-font-size));
+            --text-transform: var(--framer-link-text-transform, var(--framer-text-transform));
+            --text-decoration: var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid))var(--framer-link-text-decoration, var(--framer-text-decoration, none))var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor))var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto));
+            --text-decoration-skip-ink: var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink));
+            --text-underline-offset: var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset))
+        }[data-framer-component-type=Text] a:hover,
+        [data-framer-component-type=Text] a div span:hover,
+        [data-framer-component-type=Text] a span span span:hover,
+        [data-framer-component-type=Text] a p span span:hover,
+        [data-framer-component-type=Text] a h1 span span:hover,
+        [data-framer-component-type=Text] a h2 span span:hover,
+        [data-framer-component-type=Text] a h3 span span:hover,
+        [data-framer-component-type=Text] a h4 span span:hover,
+        [data-framer-component-type=Text] a h5 span span:hover,
+        [data-framer-component-type=Text] a h6 span span:hover {
+            --font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+            --font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+            --font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+            --text-color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+            --font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+            --text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+            --text-decoration: var(--framer-link-hover-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid)))var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))var(--framer-link-hover-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor)))var(--framer-link-hover-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto)));
+            --text-decoration-skip-ink: var(--framer-link-hover-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink)));
+            --text-underline-offset: var(--framer-link-hover-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset)))
+        }[data-framer-component-type=Text].isCurrent a,
+        [data-framer-component-type=Text].isCurrent a div span,
+        [data-framer-component-type=Text].isCurrent a span span span,
+        [data-framer-component-type=Text].isCurrent a p span span,
+        [data-framer-component-type=Text].isCurrent a h1 span span,
+        [data-framer-component-type=Text].isCurrent a h2 span span,
+        [data-framer-component-type=Text].isCurrent a h3 span span,
+        [data-framer-component-type=Text].isCurrent a h4 span span,
+        [data-framer-component-type=Text].isCurrent a h5 span span,
+        [data-framer-component-type=Text].isCurrent a h6 span span {
+            --font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+            --font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+            --font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+            --text-color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+            --font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+            --text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+            --text-decoration: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, solid)))var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, currentcolor)))var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, auto)));
+            --text-decoration-skip-ink: var(--framer-link-current-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink)));
+            --text-underline-offset: var(--framer-link-current-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset)))
+        }[data-framer-component-type=RichTextContainer] {
+            outline: none;
+            flex-direction: column;
+            flex-shrink: 0;
+            justify-content: flex-start;
+            display: flex
+        }p.framer-text,
+        div.framer-text,
+        figure.framer-text,
+        h1.framer-text,
+        h2.framer-text,
+        h3.framer-text,
+        h4.framer-text,
+        h5.framer-text,
+        h6.framer-text,
+        ol.framer-text,
+        ul.framer-text {
+            margin: 0;
+            padding: 0
+        }p.framer-text,
+        div.framer-text,
+        h1.framer-text,
+        h2.framer-text,
+        h3.framer-text,
+        h4.framer-text,
+        h5.framer-text,
+        h6.framer-text,
+        li.framer-text,
+        ol.framer-text,
+        ul.framer-text,
+        mark.framer-text,
+        span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-blockquote-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-blockquote-font-style, var(--framer-font-style, normal));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-font-weight, 400));
+            color: var(--framer-blockquote-text-color, var(--framer-text-color, #000));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1));
+            letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
+            text-transform: var(--framer-blockquote-text-transform, var(--framer-text-transform, none));
+            -webkit-text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-text-decoration, initial));
+            text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-text-decoration, initial));
+            -webkit-text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-text-decoration-style, initial));
+            text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-text-decoration-style, initial));
+            -webkit-text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-text-decoration-color, initial));
+            text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-text-decoration-color, initial));
+            text-decoration-thickness: var(--framer-blockquote-text-decoration-thickness, var(--framer-text-decoration-thickness, initial));
+            text-decoration-skip-ink: var(--framer-blockquote-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial));
+            text-underline-offset: var(--framer-blockquote-text-decoration-offset, var(--framer-text-decoration-offset, initial));
+            line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em));
+            text-align: var(--framer-blockquote-text-alignment, var(--framer-text-alignment, start));
+            -webkit-text-stroke-width: var(--framer-text-stroke-width, initial);
+            -webkit-text-stroke-color: var(--framer-text-stroke-color, initial);
+            -moz-font-feature-settings: var(--framer-font-open-type-features, initial);
+            -webkit-font-feature-settings: var(--framer-font-open-type-features, initial);
+            font-feature-settings: var(--framer-font-open-type-features, initial);
+            font-variation-settings: var(--framer-font-variation-axes, normal);
+            text-wrap: var(--framer-text-wrap-override, var(--framer-text-wrap))
+        }mark.framer-text,
+        p.framer-text,
+        div.framer-text,
+        h1.framer-text,
+        h2.framer-text,
+        h3.framer-text,
+        h4.framer-text,
+        h5.framer-text,
+        h6.framer-text,
+        li.framer-text,
+        ol.framer-text,
+        ul.framer-text {
+            background-color: var(--framer-blockquote-text-background-color, var(--framer-text-background-color, initial));
+            border-radius: var(--framer-blockquote-text-background-radius, var(--framer-text-background-radius, initial));
+            corner-shape: var(--framer-blockquote-text-background-corner-shape, var(--framer-text-background-corner-shape, initial));
+            padding: var(--framer-blockquote-text-background-padding, var(--framer-text-background-padding, initial))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            p.framer-text,
+            div.framer-text,
+            h1.framer-text,
+            h2.framer-text,
+            h3.framer-text,
+            h4.framer-text,
+            h5.framer-text,
+            h6.framer-text,
+            li.framer-text,
+            ol.framer-text,
+            ul.framer-text,
+            span.framer-text:not([data-text-fill]) {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))));
+                -webkit-text-stroke-color: var(--framer-text-stroke-color-rgb, var(--framer-text-stroke-color, initial))
+            }mark.framer-text {
+                background-color: var(--framer-blockquote-text-background-color-rgb, var(--framer-blockquote-text-background-color, var(--framer-text-background-color-rgb, var(--framer-text-background-color, initial))))
+            }}.framer-fit-text .framer-text {
+            white-space: nowrap;
+            white-space-collapse: preserve
+        }strong.framer-text {
+            font-family: var(--framer-blockquote-font-family-bold, var(--framer-font-family-bold));
+            font-style: var(--framer-blockquote-font-style-bold, var(--framer-font-style-bold));
+            font-weight: var(--framer-blockquote-font-weight-bold, var(--framer-font-weight-bold, bolder));
+            font-variation-settings: var(--framer-blockquote-font-variation-axes-bold, var(--framer-font-variation-axes-bold))
+        }em.framer-text {
+            font-family: var(--framer-blockquote-font-family-italic, var(--framer-font-family-italic));
+            font-style: var(--framer-blockquote-font-style-italic, var(--framer-font-style-italic, italic));
+            font-weight: var(--framer-blockquote-font-weight-italic, var(--framer-font-weight-italic));
+            font-variation-settings: var(--framer-blockquote-font-variation-axes-italic, var(--framer-font-variation-axes-italic))
+        }em.framer-text>strong.framer-text {
+            font-family: var(--framer-blockquote-font-family-bold-italic, var(--framer-font-family-bold-italic));
+            font-style: var(--framer-blockquote-font-style-bold-italic, var(--framer-font-style-bold-italic, italic));
+            font-weight: var(--framer-blockquote-font-weight-bold-italic, var(--framer-font-weight-bold-italic, bolder));
+            font-variation-settings: var(--framer-blockquote-font-variation-axes-bold-italic, var(--framer-font-variation-axes-bold-italic))
+        }p.framer-text:not(:first-child),
+        div.framer-text:not(:first-child),
+        h1.framer-text:not(:first-child),
+        h2.framer-text:not(:first-child),
+        h3.framer-text:not(:first-child),
+        h4.framer-text:not(:first-child),
+        h5.framer-text:not(:first-child),
+        h6.framer-text:not(:first-child),
+        ol.framer-text:not(:first-child),
+        ul.framer-text:not(:first-child),
+        blockquote.framer-text:not(:first-child),
+        table.framer-text:not(:first-child),
+        figure.framer-text:not(:first-child),
+        .framer-image.framer-text:not(:first-child) {
+            margin-top: var(--framer-blockquote-paragraph-spacing, var(--framer-paragraph-spacing, 0))
+        }li.framer-text>ul.framer-text:nth-child(2),
+        li.framer-text>ol.framer-text:nth-child(2) {
+            margin-top: 0
+        }.framer-text[data-text-fill] {
+            -webkit-text-fill-color: transparent;
+            padding: max(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em)))/2));
+            margin: min(0em, calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em)))/-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+            display: inline-block
+        }code.framer-text,
+        code.framer-text span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-blockquote-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1));
+            letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
+            line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            code.framer-text,
+            code.framer-text span.framer-text:not([data-text-fill]) {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
+            }}blockquote.framer-text {
+            unicode-bidi: initial;
+            margin-block-start: initial;
+            margin-block-end: initial;
+            margin-inline-start: initial;
+            margin-inline-end: initial
+        }a.framer-text,
+        a.framer-text span.framer-text:not([data-text-fill]),
+        span.framer-text[data-nested-link],
+        span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+            color: inherit;
+            font-family: var(--framer-blockquote-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            cursor: var(--framer-custom-cursors, pointer);
+            background-color: initial;
+            border-radius: var(--framer-link-text-background-radius, initial);
+            corner-shape: var(--framer-link-text-background-corner-shape, initial);
+            padding: var(--framer-link-text-background-padding, initial)
+        }a.framer-text,
+        span.framer-text[data-nested-link] {
+            color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            -webkit-text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
+            text-decoration-line: var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
+            -webkit-text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
+            text-decoration-style: var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
+            -webkit-text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
+            text-decoration-color: var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
+            text-decoration-thickness: var(--framer-blockquote-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial)));
+            text-decoration-skip-ink: var(--framer-blockquote-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial)));
+            text-underline-offset: var(--framer-blockquote-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial)));
+            background-color: var(--framer-link-text-background-color, initial)
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            a.framer-text,
+            span.framer-text[data-nested-link] {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))));
+                background-color: var(--framer-link-text-background-color-rgb, var(--framer-link-text-background-color, initial));
+                -webkit-text-decoration-color: var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))));
+                text-decoration-color: var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))))
+            }}code.framer-text a.framer-text,
+        code.framer-text a.framer-text span.framer-text:not([data-text-fill]),
+        code.framer-text span.framer-text[data-nested-link],
+        code.framer-text span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+            color: inherit;
+            font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px))*var(--framer-font-size-scale, 1))
+        }code.framer-text a.framer-text,
+        code.framer-text span.framer-text[data-nested-link] {
+            color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text,
+            code.framer-text a.framer-text span.framer-text:not([data-text-fill]),
+            code.framer-text span.framer-text[data-nested-link],
+            code.framer-text span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+                color: var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+            }}a.framer-text:hover,
+        a.framer-text:hover span.framer-text:not([data-text-fill]),
+        span.framer-text[data-nested-link]:hover,
+        span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-link-hover-font-family, var(--framer-blockquote-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+            font-style: var(--framer-link-hover-font-style, var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-font-size, 16px)))*var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+            border-radius: var(--framer-link-hover-text-background-radius, var(--framer-link-text-background-radius, var(--framer-text-background-radius, initial)));
+            corner-shape: var(--framer-link-hover-text-background-corner-shape, var(--framer-link-text-background-corner-shape, var(--framer-text-background-corner-shape, initial)));
+            padding: var(--framer-link-hover-text-background-padding, var(--framer-link-text-background-padding, var(--framer-text-background-padding, initial)))
+        }a.framer-text:hover,
+        span.framer-text[data-nested-link]:hover {
+            color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+            -webkit-text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
+            text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
+            -webkit-text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
+            text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-blockquote-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
+            -webkit-text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
+            text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-blockquote-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
+            text-decoration-thickness: var(--framer-link-hover-text-decoration-thickness, var(--framer-blockquote-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial))));
+            text-decoration-skip-ink: var(--framer-link-hover-text-decoration-skip-ink, var(--framer-blockquote-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial))));
+            text-underline-offset: var(--framer-link-hover-text-decoration-offset, var(--framer-blockquote-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial))));
+            background-color: var(--framer-link-hover-text-background-color, var(--framer-link-text-background-color, var(--framer-text-background-color, initial)))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            a.framer-text:hover,
+            span.framer-text[data-nested-link]:hover {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))));
+                background-color: var(--framer-link-hover-text-background-color-rgb, var(--framer-link-hover-text-background-color, var(--framer-link-text-background-color-rgb, var(--framer-link-text-background-color, var(--framer-text-background-color-rgb, var(--framer-text-background-color, initial))))));
+                -webkit-text-decoration-color: var(--framer-link-hover-text-decoration-color-rgb, var(--framer-link-hover-text-decoration-color, var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))))));
+                text-decoration-color: var(--framer-link-hover-text-decoration-color-rgb, var(--framer-link-hover-text-decoration-color, var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))))))
+            }}code.framer-text a.framer-text:hover,
+        code.framer-text span.framer-text[data-nested-link]:hover {
+            color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text:hover,
+            code.framer-text span.framer-text[data-nested-link]:hover {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))))
+            }}a.framer-text[data-framer-page-link-current],
+        a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
+        span.framer-text[data-framer-page-link-current],
+        span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))*var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            border-radius: var(--framer-link-current-text-background-radius, var(--framer-link-text-background-radius, initial));
+            corner-shape: var(--framer-link-current-text-background-corner-shape, var(--framer-link-text-background-corner-shape, initial));
+            padding: var(--framer-link-current-text-background-padding, var(--framer-link-text-background-padding, initial))
+        }a.framer-text[data-framer-page-link-current],
+        span.framer-text[data-framer-page-link-current] {
+            color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            -webkit-text-decoration-line: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
+            text-decoration-line: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial)));
+            -webkit-text-decoration-style: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
+            text-decoration-style: var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial)));
+            -webkit-text-decoration-color: var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
+            text-decoration-color: var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial)));
+            text-decoration-thickness: var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial)));
+            text-decoration-skip-ink: var(--framer-link-current-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial)));
+            text-underline-offset: var(--framer-link-current-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial)));
+            background-color: var(--framer-link-current-text-background-color, var(--framer-link-text-background-color, var(--framer-text-background-color, initial)))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            a.framer-text[data-framer-page-link-current],
+            span.framer-text[data-framer-page-link-current] {
+                color: var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))));
+                background-color: var(--framer-link-current-text-background-color-rgb, var(--framer-link-current-text-background-color, var(--framer-link-text-background-color-rgb, var(--framer-link-text-background-color, var(--framer-text-background-color-rgb, var(--framer-text-background-color, initial))))));
+                -webkit-text-decoration-color: var(--framer-link-current-text-decoration-color-rgb, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))))));
+                text-decoration-color: var(--framer-link-current-text-decoration-color-rgb, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))))))
+            }}code.framer-text a.framer-text[data-framer-page-link-current],
+        code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
+        code.framer-text span.framer-text[data-framer-page-link-current],
+        code.framer-text span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+            font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+            font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+            color: inherit;
+            font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))*var(--framer-font-size-scale, 1))
+        }code.framer-text a.framer-text[data-framer-page-link-current],
+        code.framer-text span.framer-text[data-framer-page-link-current] {
+            color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text[data-framer-page-link-current],
+            code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),
+            code.framer-text span.framer-text[data-framer-page-link-current],
+            code.framer-text span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))));
+                background-color: var(--framer-link-current-text-background-color-rgb, var(--framer-link-current-text-background-color, var(--framer-link-text-background-color-rgb, var(--framer-link-text-background-color, var(--framer-text-background-color-rgb, var(--framer-text-background-color, initial))))))
+            }}a.framer-text[data-framer-page-link-current]:hover,
+        a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
+        span.framer-text[data-framer-page-link-current]:hover,
+        span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+            color: inherit;
+            font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+            font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+            font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))))*var(--framer-font-size-scale, 1));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+            border-radius: var(--framer-link-hover-text-background-radius, var(--framer-link-current-text-background-radius, var(--framer-link-text-background-radius, initial)));
+            corner-shape: var(--framer-link-hover-text-background-corner-shape, var(--framer-link-current-text-background-corner-shape, var(--framer-link-text-background-corner-shape, initial)));
+            padding: var(--framer-link-hover-text-background-padding, var(--framer-link-current-text-background-padding, var(--framer-link-text-background-padding, initial)))
+        }a.framer-text[data-framer-page-link-current]:hover,
+        span.framer-text[data-framer-page-link-current]:hover {
+            color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+            -webkit-text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
+            text-decoration-line: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, initial))));
+            -webkit-text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
+            text-decoration-style: var(--framer-link-hover-text-decoration-style, var(--framer-link-current-text-decoration-style, var(--framer-link-text-decoration-style, var(--framer-text-decoration-style, initial))));
+            -webkit-text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
+            text-decoration-color: var(--framer-link-hover-text-decoration-color, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color, initial))));
+            text-decoration-thickness: var(--framer-link-hover-text-decoration-thickness, var(--framer-link-current-text-decoration-thickness, var(--framer-link-text-decoration-thickness, var(--framer-text-decoration-thickness, initial))));
+            text-decoration-skip-ink: var(--framer-link-hover-text-decoration-skip-ink, var(--framer-link-current-text-decoration-skip-ink, var(--framer-link-text-decoration-skip-ink, var(--framer-text-decoration-skip-ink, initial))));
+            text-underline-offset: var(--framer-link-hover-text-decoration-offset, var(--framer-link-current-text-decoration-offset, var(--framer-link-text-decoration-offset, var(--framer-text-decoration-offset, initial))));
+            background-color: var(--framer-link-hover-text-background-color, var(--framer-link-current-text-background-color, var(--framer-link-text-background-color, initial)))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            a.framer-text[data-framer-page-link-current]:hover,
+            span.framer-text[data-framer-page-link-current]:hover {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))));
+                background-color: var(--framer-link-hover-text-background-color-rgb, var(--framer-link-hover-text-background-color, var(--framer-link-current-text-background-color-rgb, var(--framer-link-current-text-background-color, var(--framer-link-text-background-color-rgb, var(--framer-link-text-background-color, initial))))));
+                -webkit-text-decoration-color: var(--framer-link-hover-text-decoration-color-rgb, var(--framer-link-hover-text-decoration-color, var(--framer-link-current-text-decoration-color-rgb, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))))))));
+                text-decoration-color: var(--framer-link-hover-text-decoration-color-rgb, var(--framer-link-hover-text-decoration-color, var(--framer-link-current-text-decoration-color-rgb, var(--framer-link-current-text-decoration-color, var(--framer-link-text-decoration-color-rgb, var(--framer-link-text-decoration-color, var(--framer-text-decoration-color-rgb, var(--framer-text-decoration-color, currentcolor))))))))
+            }}code.framer-text a.framer-text[data-framer-page-link-current]:hover,
+        code.framer-text span.framer-text[data-framer-page-link-current]:hover {
+            color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))))
+        }@supports not (color:color(display-p3 1 1 1)) {
+
+            code.framer-text a.framer-text[data-framer-page-link-current]:hover,
+            code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),
+            code.framer-text span.framer-text[data-framer-page-link-current]:hover,
+            code.framer-text span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                color: var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))));
+                background-color: var(--framer-link-hover-text-background-color-rgb, var(--framer-link-hover-text-background-color, var(--framer-link-current-text-background-color-rgb, var(--framer-link-current-text-background-color, var(--framer-link-text-background-color-rgb, var(--framer-link-text-background-color, initial))))))
+            }}.framer-image.framer-text {
+            max-width: 100%;
+            height: auto;
+            display: block
+        }.text-styles-preset-reset.framer-text {
+            --framer-font-family: Inter, Inter Placeholder, sans-serif;
+            --framer-font-style: normal;
+            --framer-font-weight: 500;
+            --framer-text-color: #000;
+            --framer-font-size: 16px;
+            --framer-letter-spacing: 0;
+            --framer-text-transform: none;
+            --framer-text-decoration: none;
+            --framer-text-decoration-style: none;
+            --framer-text-decoration-color: none;
+            --framer-text-decoration-thickness: none;
+            --framer-text-decoration-skip-ink: none;
+            --framer-text-decoration-offset: none;
+            --framer-line-height: 1.2em;
+            --framer-text-alignment: start;
+            --framer-font-open-type-features: normal;
+            --framer-text-background-color: initial;
+            --framer-text-background-radius: initial;
+            --framer-text-background-corner-shape: initial;
+            --framer-text-background-padding: initial
+        }ol.framer-text {
+            --list-style-type: decimal
+        }ul.framer-text,
+        ol.framer-text {
+            padding-inline-start: 0;
+            position: relative
+        }li.framer-text {
+            counter-increment: list-item;
+            padding-inline-start: 2ch;
+            list-style: none
+        }ol.framer-text>li.framer-text:before {
+            content: counter(list-item, var(--list-style-type))".";
+            font-variant-numeric: tabular-nums;
+            position: absolute;
+            inset-inline-start: 0
+        }ol.framer-text>li.framer-text:nth-last-child(n+10),
+        ol.framer-text>li.framer-text:nth-last-child(n+10)~li {
+            padding-inline-start: 3ch
+        }ol.framer-text>li.framer-text:nth-last-child(n+100),
+        ol.framer-text>li.framer-text:nth-last-child(n+100)~li {
+            padding-inline-start: 4ch
+        }ol.framer-text>li.framer-text:nth-last-child(n+1000),
+        ol.framer-text>li.framer-text:nth-last-child(n+1000)~li {
+            padding-inline-start: 5ch
+        }ol.framer-text>li.framer-text:nth-last-child(n+10000),
+        ol.framer-text>li.framer-text:nth-last-child(n+10000)~li {
+            padding-inline-start: 6ch
+        }ol.framer-text>li.framer-text:nth-last-child(n+100000),
+        ol.framer-text>li.framer-text:nth-last-child(n+100000)~li {
+            padding-inline-start: 7ch
+        }ol.framer-text>li.framer-text:nth-last-child(n+1000000),
+        ol.framer-text>li.framer-text:nth-last-child(n+1000000)~li {
+            padding-inline-start: 8ch
+        }ul.framer-text>li.framer-text:before {
+            content: "•";
+            position: absolute;
+            inset-inline-start: 0
+        }.framer-table-wrapper {
+            overflow-x: auto
+        }table.framer-text,
+        .framer-table-wrapper table.framer-text {
+            border-collapse: separate;
+            border-spacing: 0;
+            table-layout: auto;
+            word-break: normal;
+            width: 100%
+        }td.framer-text,
+        th.framer-text {
+            vertical-align: top;
+            min-width: 16ch
+        }.framer-text-module[data-width=fill]>:first-child,
+        .framer-text-module:not([data-width=fit])[style*=aspect-ratio]>:first-child {
+            width: 100%
+        }@supports not (aspect-ratio:1) {
+            .framer-text-module:not([data-width=fit])[style*=aspect-ratio] {
+                position: relative
+            }.framer-text-module:not([data-width=fit])[style*=aspect-ratio]:before {
+                content: "";
+                padding-bottom: calc(100%/calc(var(--aspect-ratio)));
+                display: block
+            }.framer-text-module[data-width=fill]>:first-child,
+            .framer-text-module:not([data-width=fit])[style*=aspect-ratio]>:first-child {
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0
+            }}[data-framer-component-type=DeprecatedRichText] {
+            cursor: inherit
+        }[data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset {
+            --framer-font-family: Inter, Inter Placeholder, sans-serif;
+            --framer-font-style: normal;
+            --framer-font-weight: 500;
+            --framer-text-color: #000;
+            --framer-font-size: 16px;
+            --framer-letter-spacing: 0;
+            --framer-text-transform: none;
+            --framer-text-decoration: none;
+            --framer-line-height: 1.2em;
+            --framer-text-alignment: start;
+            --framer-font-open-type-features: normal;
+            --font-variation-settings: normal
+        }[data-framer-component-type=DeprecatedRichText] p,
+        [data-framer-component-type=DeprecatedRichText] div,
+        [data-framer-component-type=DeprecatedRichText] h1,
+        [data-framer-component-type=DeprecatedRichText] h2,
+        [data-framer-component-type=DeprecatedRichText] h3,
+        [data-framer-component-type=DeprecatedRichText] h4,
+        [data-framer-component-type=DeprecatedRichText] h5,
+        [data-framer-component-type=DeprecatedRichText] h6 {
+            margin: 0;
+            padding: 0
+        }[data-framer-component-type=DeprecatedRichText] p,
+        [data-framer-component-type=DeprecatedRichText] div,
+        [data-framer-component-type=DeprecatedRichText] h1,
+        [data-framer-component-type=DeprecatedRichText] h2,
+        [data-framer-component-type=DeprecatedRichText] h3,
+        [data-framer-component-type=DeprecatedRichText] h4,
+        [data-framer-component-type=DeprecatedRichText] h5,
+        [data-framer-component-type=DeprecatedRichText] h6,
+        [data-framer-component-type=DeprecatedRichText] li,
+        [data-framer-component-type=DeprecatedRichText] ol,
+        [data-framer-component-type=DeprecatedRichText] ul,
+        [data-framer-component-type=DeprecatedRichText] span:not([data-text-fill]) {
+            font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+            font-style: var(--framer-font-style, normal);
+            font-weight: var(--framer-font-weight, 400);
+            color: var(--framer-text-color, #000);
+            font-size: var(--framer-font-size, 16px);
+            letter-spacing: var(--framer-letter-spacing, 0);
+            text-transform: var(--framer-text-transform, none);
+            -webkit-text-decoration: var(--framer-text-decoration, none);
+            text-decoration: var(--framer-text-decoration, none);
+            line-height: var(--framer-line-height, 1.2em);
+            text-align: var(--framer-text-alignment, start)
+        }[data-framer-component-type=DeprecatedRichText] p:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] div:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h1:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h2:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h3:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h4:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h5:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] h6:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] ol:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] ul:not(:first-child),
+        [data-framer-component-type=DeprecatedRichText] .framer-image:not(:first-child) {
+            margin-top: var(--framer-paragraph-spacing, 0)
+        }[data-framer-component-type=DeprecatedRichText] span[data-text-fill] {
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            display: inline-block
+        }[data-framer-component-type=DeprecatedRichText] a,
+        [data-framer-component-type=DeprecatedRichText] a span:not([data-text-fill]) {
+            font-family: var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+            font-style: var(--framer-link-font-style, var(--framer-font-style, normal));
+            font-weight: var(--framer-link-font-weight, var(--framer-font-weight, 400));
+            color: var(--framer-link-text-color, var(--framer-text-color, #000));
+            font-size: var(--framer-link-font-size, var(--framer-font-size, 16px));
+            text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+            -webkit-text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none));
+            text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none))
+        }[data-framer-component-type=DeprecatedRichText] a:hover,
+        [data-framer-component-type=DeprecatedRichText] a:hover span:not([data-text-fill]) {
+            font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            -webkit-text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)));
+            text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+        }[data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current],
+        [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current] span:not([data-text-fill]):not([data-nested-link]) {
+            font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+            font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+            font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+            color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+            font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+            text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+            -webkit-text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)));
+            text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+        }[data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current]:hover,
+        [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current]:hover span:not([data-text-fill]):not([data-nested-link]) {
+            font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+            font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+            font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+            color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+            font-size: var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))));
+            text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+            -webkit-text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))));
+            text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+        }[data-framer-component-type=DeprecatedRichText] strong {
+            font-weight: bolder
+        }[data-framer-component-type=DeprecatedRichText] em {
+            font-style: italic
+        }[data-framer-component-type=DeprecatedRichText] .framer-image {
+            max-width: 100%;
+            height: auto;
+            display: block
+        }[data-framer-component-type=DeprecatedRichText] ul,
+        [data-framer-component-type=DeprecatedRichText] ol {
+            width: 100%;
+            margin: 0;
+            padding-left: 0;
+            display: table
+        }[data-framer-component-type=DeprecatedRichText] li {
+            counter-increment: list-item;
+            list-style: none;
+            display: table-row
+        }[data-framer-component-type=DeprecatedRichText] ol>li:before {
+            box-sizing: border-box;
+            content: counter(list-item)".";
+            white-space: nowrap;
+            width: 2.25ch;
+            padding-right: .75ch;
+            display: table-cell
+        }[data-framer-component-type=DeprecatedRichText] ul>li:before {
+            box-sizing: border-box;
+            content: "•";
+            width: 2.25ch;
+            padding-right: .75ch;
+            display: table-cell
+        }:not([data-framer-generated])>[data-framer-stack-content-wrapper]>*,
+        :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-component-type],
+        :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>*,
+        :not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>[data-framer-component-type] {
+            position: relative
+        }.flexbox-gap-not-supported [data-framer-legacy-stack-gap-enabled=true]>*,
+        [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false] {
+            margin-top: calc(var(--stack-gap-y)/2);
+            margin-bottom: calc(var(--stack-gap-y)/2);
+            margin-right: calc(var(--stack-gap-x)/2);
+            margin-left: calc(var(--stack-gap-x)/2)
+        }[data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+            row-gap: var(--stack-native-row-gap);
+            column-gap: var(--stack-native-column-gap)
+        }.flexbox-gap-not-supported [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+            row-gap: unset;
+            column-gap: unset
+        }.flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>:first-child,
+        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:first-child,
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>:last-child,
+        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:last-child {
+            margin-top: 0;
+            margin-left: 0
+        }.flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>:last-child,
+        [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:last-child,
+        .flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>:first-child,
+        [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>:first-child {
+            margin-bottom: 0;
+            margin-right: 0
+        }NavigationContainer [data-framer-component-type=NavigationContainer]>*,
+        [data-framer-component-type=NavigationContainer]>[data-framer-component-type] {
+            position: relative
+        }[data-framer-component-type=Scroll]::-webkit-scrollbar {
+            display: none
+        }[data-framer-component-type=ScrollContentWrapper]>* {
+            position: relative
+        }[data-framer-component-type=NativeScroll] {
+            -webkit-overflow-scrolling: touch
+        }[data-framer-component-type=NativeScroll]>* {
+            position: relative
+        }[data-framer-component-type=NativeScroll].direction-both {
+            overflow: auto
+        }[data-framer-component-type=NativeScroll].direction-vertical {
+            overflow: hidden auto
+        }[data-framer-component-type=NativeScroll].direction-horizontal {
+            overflow: auto hidden
+        }[data-framer-component-type=NativeScroll].direction-vertical>* {
+            width: 100% !important
+        }[data-framer-component-type=NativeScroll].direction-horizontal>* {
+            height: 100% !important
+        }[data-framer-component-type=NativeScroll].scrollbar-hidden::-webkit-scrollbar {
+            display: none
+        }[data-framer-component-type=PageContentWrapper]>*,
+        [data-framer-component-type=PageContentWrapper]>[data-framer-component-type] {
+            position: relative
+        }[data-framer-component-type=DeviceComponent].no-device>* {
+            width: 100% !important;
+            height: 100% !important
+        }[data-is-present=false],
+        [data-is-present=false] * {
+            pointer-events: none !important
+        }[data-framer-cursor=pointer] {
+            cursor: pointer
+        }[data-framer-cursor=grab] {
+            cursor: grab
+        }[data-framer-cursor=grab]:active {
+            cursor: grabbing
+        }[data-framer-component-type=Frame] *,
+        [data-framer-component-type=Stack] * {
+            pointer-events: auto
+        }[data-framer-generated] * {
+            pointer-events: unset
+        }.svgContainer svg {
+            display: block
+        }[data-reset=button] {
+            background: 0 0;
+            border-width: 0;
+            padding: 0
+        }[data-hide-scrollbars=true]::-webkit-scrollbar {
+            width: 0;
+            height: 0
+        }[data-hide-scrollbars=true]::-webkit-scrollbar-thumb {
+            background: 0 0
+        }[data-hide-scrollbars=true] {
+            scrollbar-width: none
+        }@supports not (overflow:clip) {
+            :root {
+                --overflow-clip-fallback: hidden
+            }}.framer-lightbox-container {
+            opacity: 1 !important;
+            pointer-events: auto !important
+        }@supports (background:-webkit-named-image(i)) and (not (contain-intrinsic-size:inherit)) {
+
+            div.framer-text,
+            p.framer-text,
+            h1.framer-text,
+            h2.framer-text,
+            h3.framer-text,
+            h4.framer-text,
+            h5.framer-text,
+            h6.framer-text,
+            ol.framer-text,
+            ul.framer-text,
+            li.framer-text,
+            blockquote.framer-text,
+            .framer-text.framer-image {
+                display: var(--text-truncation-display-inline-for-safari-16, revert)
+            }div.framer-text:after,
+            p.framer-text:after,
+            h1.framer-text:after,
+            h2.framer-text:after,
+            h3.framer-text:after,
+            h4.framer-text:after,
+            h5.framer-text:after,
+            h6.framer-text:after,
+            ol.framer-text:after,
+            ul.framer-text:after,
+            li.framer-text:after,
+            blockquote.framer-text:after,
+            .framer-text.framer-image:after {
+                content: var(--text-truncation-line-break-for-safari-16);
+                white-space: pre
+            }.framer-text.framer-text-module,
+            .framer-text.framer-table-wrapper {
+                display: var(--text-truncation-display-none-for-safari-16, revert)
+            }p.framer-text[data-text-fill] {
+                display: var(--text-truncation-display-inline-for-safari-16, inline-block)
+            }}.framer-cursor-none,
+        .framer-cursor-none * {
+            cursor: none !important
+        }.framer-pointer-events-none,
+        .framer-pointer-events-none * {
+            pointer-events: none !important
+        }@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-vAqIo.framer-gap8fb,
+        .framer-vAqIo .framer-gap8fb {
+            display: block
+        }.framer-vAqIo.framer-1ayxgup {
+            background-color: var(--token-1fa38b65-d550-48ba-89e2-94fe63443ed4, #fcfcfc);
+            flex-flow: column;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-vAqIo .framer-jtune1-container {
+            height: auto;
+            position: var(--framer-canvas-fixed-position, fixed);
+            z-index: 9;
+            flex: none;
+            order: -1000;
+            top: 0;
+            left: 0;
+            right: 0
+        }.framer-vAqIo.framer-vzk3ti {
+            -webkit-user-select: none;
+            user-select: none;
+            z-index: 9;
+            background-color: #0000004d;
+            position: fixed;
+            inset: 0
+        }.framer-vAqIo.framer-fo61ej-container {
+            z-index: 9;
+            flex: none;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0
+        }.framer-vAqIo .framer-lcqthu {
+            background: 0 0;
+            flex-grow: 1;
+            width: 0;
+            height: 0;
+            margin: 0;
+            position: relative
+        }.framer-vAqIo .framer-10v6r9 {
+            bottom: calc(calc(100% - min(var(--framer-viewport-height, 100%), 100%)) + 0px);
+            height: 0;
+            position: var(--framer-canvas-fixed-position, fixed);
+            z-index: 10;
+            flex-flow: row;
+            flex: none;
+            order: 1002;
+            place-content: flex-end;
+            align-items: flex-end;
+            gap: 10px;
+            width: 100%;
+            padding: 0;
+            display: flex;
+            left: 0%;
+            overflow: visible
+        }.framer-vAqIo .framer-dbmrxp {
+            z-index: 1;
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: absolute;
+            bottom: 66px;
+            right: 20px;
+            overflow: visible
+        }.framer-vAqIo .framer-emljr7-container {
+            will-change: var(--framer-will-change-effect-override, transform);
+            flex: none;
+            width: 142px;
+            height: 36px;
+            position: relative
+        }.framer-vAqIo .framer-1knabti-container {
+            z-index: 1;
+            flex: none;
+            order: 1003;
+            width: 100%;
+            height: auto;
+            position: relative
+        }[data-layout-template=true]>#overlay {
+            margin-bottom: 0
+        }@media (max-width:809.98px) {
+            .framer-vAqIo .framer-10v6r9 {
+                flex-direction: column
+            }}.ssr-variant {
+            display: contents
+        }@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-y3HN9.framer-1ttzfvj,
+        .framer-y3HN9 .framer-1ttzfvj {
+            display: block
+        }.framer-y3HN9.framer-71b0t8 {
+            flex-flow: column;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 20px;
+            width: 1200px;
+            height: min-content;
+            padding: 20px 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-y3HN9 .framer-clwztr {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 0 20px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-y3HN9 .framer-1iygpc3 {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center space-between;
+            align-items: center;
+            width: 1px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-y3HN9 .framer-107pa0v {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            text-decoration: none;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-y3HN9 .framer-10dojrq {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: 26px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-y3HN9 .framer-1vfx9o5 {
+            aspect-ratio: 3.55556;
+            height: 100%;
+            width: var(--framer-aspect-ratio-supported, 92px);
+            flex: none;
+            position: relative
+        }.framer-y3HN9 .framer-1dq5wh3-container {
+            flex: none;
+            width: 48px;
+            height: 24px;
+            position: relative
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-y3HN9.framer-71b0t8,
+            .framer-y3HN9 .framer-clwztr,
+            .framer-y3HN9 .framer-107pa0v,
+            .framer-y3HN9 .framer-10dojrq {
+                gap: 0
+            }.framer-y3HN9.framer-71b0t8>* {
+                margin: 10px 0
+            }.framer-y3HN9.framer-71b0t8>:first-child {
+                margin-top: 0
+            }.framer-y3HN9.framer-71b0t8>:last-child {
+                margin-bottom: 0
+            }.framer-y3HN9 .framer-clwztr>*,
+            .framer-y3HN9 .framer-10dojrq>* {
+                margin: 0 5px
+            }.framer-y3HN9 .framer-clwztr>:first-child,
+            .framer-y3HN9 .framer-107pa0v>:first-child,
+            .framer-y3HN9 .framer-10dojrq>:first-child {
+                margin-left: 0
+            }.framer-y3HN9 .framer-clwztr>:last-child,
+            .framer-y3HN9 .framer-107pa0v>:last-child,
+            .framer-y3HN9 .framer-10dojrq>:last-child {
+                margin-right: 0
+            }.framer-y3HN9 .framer-107pa0v>* {
+                margin: 0
+            }}@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-tkeq5.framer-ohin5i,
+        .framer-tkeq5 .framer-ohin5i {
+            display: block
+        }.framer-tkeq5.framer-x5vm78 {
+            cursor: pointer;
+            width: 48px;
+            height: 24px;
+            position: relative;
+            overflow: hidden
+        }.framer-tkeq5 .framer-1f7yvfc {
+            flex: none;
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            overflow: hidden
+        }.framer-tkeq5 .framer-1nucpeo {
+            flex: none;
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            overflow: hidden
+        }.framer-tkeq5.framer-v-1xa0j8h .framer-1nucpeo {
+            bottom: unset;
+            top: 5px
+        }@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-drDPV.framer-250tvh,
+        .framer-drDPV .framer-250tvh {
+            display: block
+        }.framer-drDPV.framer-yqsc6z {
+            background-color: var(--token-1fa38b65-d550-48ba-89e2-94fe63443ed4, #fcfcfc);
+            flex-flow: column;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 1200px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-drDPV .framer-1dm7rny-container {
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-drDPV .framer-15ldi85 {
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 180px 32px 80px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-14zr2fv {
+            aspect-ratio: .991228;
+            width: var(--framer-aspect-ratio-supported, 185px);
+            z-index: 1;
+            flex: none;
+            position: absolute;
+            top: 250px;
+            bottom: -2px;
+            right: 0
+        }.framer-drDPV .framer-t7j5yi {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 32px;
+            width: 100%;
+            max-width: 1800px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-gmtckn {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 48px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1p0c3hs {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 1px;
+            max-width: 700px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1705bai,
+        .framer-drDPV .framer-42ifvg,
+        .framer-drDPV .framer-fo3tqb {
+            --framer-link-text-color: #09f;
+            --framer-link-text-decoration: underline;
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: 1 0 0;
+            width: 1px;
+            height: auto;
+            position: relative
+        }.framer-drDPV .framer-1sp6gf1 {
+            background-color: var(--token-83b03504-602b-4981-a102-2dcfc3c15751, #fff);
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-47gshc,
+        .framer-drDPV .framer-1l61dhk,
+        .framer-drDPV .framer-1rjp7d1 {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 1px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-16saea {
+            aspect-ratio: 1.03093;
+            background-color: var(--token-4904ad93-0af3-4d66-8943-5858e4bdc968, #1a0f3a);
+            height: var(--framer-aspect-ratio-supported, 582px);
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 1px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-737zfk {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 48px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1e5z32h {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 16px;
+            width: 1px;
+            max-width: 500px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1d5cdzr,
+        .framer-drDPV .framer-tukuzu,
+        .framer-drDPV .framer-1wjcm07,
+        .framer-drDPV .framer-loll6j,
+        .framer-drDPV .framer-1sb89nt,
+        .framer-drDPV .framer-1c2t4ad,
+        .framer-drDPV .framer-1wokupv {
+            --framer-link-text-color: #09f;
+            --framer-link-text-decoration: underline;
+            white-space: pre;
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-drDPV .framer-1jvvrzu {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-ljdtfj,
+        .framer-drDPV .framer-11uljfo,
+        .framer-drDPV .framer-11nu2rt {
+            --framer-link-text-color: #09f;
+            --framer-link-text-decoration: underline;
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
+        }.framer-drDPV .framer-1yk4dk4 {
+            background-color: var(--token-83b03504-602b-4981-a102-2dcfc3c15751, #fff);
+            flex: 1 0 0;
+            align-self: stretch;
+            width: 1px;
+            height: auto;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-rbv67s {
+            filter: brightness();
+            z-index: 1;
+            flex: none;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -.101009%
+        }.framer-drDPV .framer-t9cu75 {
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 24px;
+            width: 100%;
+            height: min-content;
+            padding: 128px 32px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-drDPV .framer-1b1offv {
+            z-index: 2;
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 32px;
+            width: 100%;
+            max-width: 1800px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-drDPV .framer-1ye789v {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 24px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-drDPV .framer-1xi2svm {
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 80px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-drDPV .framer-1lfpbnk-container,
+        .framer-drDPV .framer-9l0p4n-container,
+        .framer-drDPV .framer-b6q0td-container {
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
+        }.framer-drDPV .framer-4f3q01 {
+            z-index: 0;
+            flex: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            overflow: hidden
+        }.framer-drDPV .framer-107q9mi {
+            filter: brightness();
+            z-index: -1;
+            flex: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            overflow: hidden
+        }.framer-drDPV .framer-gbn8jy {
+            filter: brightness();
+            background: linear-gradient(180deg, var(--token-1fa38b65-d550-48ba-89e2-94fe63443ed4, #fcfcfc)0%, #fcfcfc00 49.94%, var(--token-1fa38b65-d550-48ba-89e2-94fe63443ed4, #fcfcfc)100%);
+            z-index: 0;
+            flex: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            overflow: hidden
+        }.framer-drDPV .framer-x3jcm5 {
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 180px 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1m8j31q {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 100px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-tiqhw3 {
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 32px;
+            width: 100%;
+            max-width: 1800px;
+            height: min-content;
+            padding: 0 32px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-gutjue {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 48px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1xxmedi,
+        .framer-drDPV .framer-70oape {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-woaxu8 {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 80px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1hsc03m,
+        .framer-drDPV .framer-18obszt {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 1px;
+            max-width: 400px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-20nkee {
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-iwreg4 {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1w97i40 {
+            background-color: var(--token-4904ad93-0af3-4d66-8943-5858e4bdc968, #1a0f3a);
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
+            gap: 80px;
+            width: 1px;
+            max-width: 100%;
+            height: 600px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1803044 {
+            flex-flow: column;
+            flex: none;
+            place-content: center space-between;
+            align-items: center;
+            width: min-content;
+            max-width: 600px;
+            height: min-content;
+            padding: 64px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-x2t8oi,
+        .framer-drDPV .framer-17bydld,
+        .framer-drDPV .framer-1ni91z1 {
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 0;
+            width: min-content;
+            height: min-content;
+            padding: 0 0 64px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1tfh1dk,
+        .framer-drDPV .framer-1drrg48,
+        .framer-drDPV .framer-vqhijs {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 0;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1s7okv6 {
+            aspect-ratio: .868074;
+            height: var(--framer-aspect-ratio-supported, 203px);
+            flex: none;
+            width: 176px;
+            position: relative
+        }.framer-drDPV .framer-1cqx8o1 {
+            background-color: var(--token-31295925-2a16-47c8-bb02-9dde316b47d1, #7d3bf4);
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: center;
+            align-items: center;
+            gap: 80px;
+            width: 1px;
+            height: 600px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-10mruzz,
+        .framer-drDPV .framer-1js8mxx {
+            flex-flow: column;
+            flex: none;
+            place-content: center space-between;
+            align-items: center;
+            width: min-content;
+            max-width: 600px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-160o97e {
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 0;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-1fjfzes {
+            aspect-ratio: 1;
+            height: var(--framer-aspect-ratio-supported, 145px);
+            flex: none;
+            width: 145px;
+            position: relative
+        }.framer-drDPV .framer-ah8xgs {
+            background-color: var(--token-fb8be2a8-a40c-4bd7-8214-44805d1d6f40, #d7d9ff);
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 100px 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-epqm8 {
+            aspect-ratio: 8.22951;
+            height: var(--framer-aspect-ratio-supported, 61px);
+            flex: none;
+            width: 502px;
+            position: relative
+        }.framer-drDPV .framer-1bbbgz2 {
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 80px 0 180px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-drDPV .framer-496g7j {
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 32px;
+            width: 100%;
+            max-width: 1800px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-drDPV .framer-1eot5d9 {
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 80px;
+            width: 100%;
+            max-width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-drDPV .framer-mk6vqc-container {
+            flex: none;
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            position: relative
+        }.framer-drDPV .framer-17zbetg-container {
+            z-index: 1;
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
+        }@supports (background:-webkit-named-image(i)) and (not (scale:1)) {
+
+            .framer-drDPV.framer-yqsc6z,
+            .framer-drDPV .framer-15ldi85,
+            .framer-drDPV .framer-t7j5yi,
+            .framer-drDPV .framer-gmtckn,
+            .framer-drDPV .framer-1p0c3hs,
+            .framer-drDPV .framer-1sp6gf1,
+            .framer-drDPV .framer-47gshc,
+            .framer-drDPV .framer-16saea,
+            .framer-drDPV .framer-737zfk,
+            .framer-drDPV .framer-1e5z32h,
+            .framer-drDPV .framer-1jvvrzu,
+            .framer-drDPV .framer-t9cu75,
+            .framer-drDPV .framer-1b1offv,
+            .framer-drDPV .framer-1ye789v,
+            .framer-drDPV .framer-1xi2svm,
+            .framer-drDPV .framer-x3jcm5,
+            .framer-drDPV .framer-1m8j31q,
+            .framer-drDPV .framer-tiqhw3,
+            .framer-drDPV .framer-gutjue,
+            .framer-drDPV .framer-1xxmedi,
+            .framer-drDPV .framer-1l61dhk,
+            .framer-drDPV .framer-woaxu8,
+            .framer-drDPV .framer-1hsc03m,
+            .framer-drDPV .framer-18obszt,
+            .framer-drDPV .framer-20nkee,
+            .framer-drDPV .framer-iwreg4,
+            .framer-drDPV .framer-1w97i40,
+            .framer-drDPV .framer-x2t8oi,
+            .framer-drDPV .framer-1tfh1dk,
+            .framer-drDPV .framer-1cqx8o1,
+            .framer-drDPV .framer-17bydld,
+            .framer-drDPV .framer-160o97e,
+            .framer-drDPV .framer-1drrg48,
+            .framer-drDPV .framer-ah8xgs,
+            .framer-drDPV .framer-1ni91z1,
+            .framer-drDPV .framer-vqhijs,
+            .framer-drDPV .framer-1bbbgz2,
+            .framer-drDPV .framer-496g7j,
+            .framer-drDPV .framer-1eot5d9,
+            .framer-drDPV .framer-70oape,
+            .framer-drDPV .framer-1rjp7d1 {
+                gap: 0
+            }.framer-drDPV.framer-yqsc6z>*,
+            .framer-drDPV .framer-20nkee>*,
+            .framer-drDPV .framer-x2t8oi>*,
+            .framer-drDPV .framer-17bydld>*,
+            .framer-drDPV .framer-160o97e>*,
+            .framer-drDPV .framer-ah8xgs>*,
+            .framer-drDPV .framer-1ni91z1>* {
+                margin: 0
+            }.framer-drDPV.framer-yqsc6z>:first-child,
+            .framer-drDPV .framer-15ldi85>:first-child,
+            .framer-drDPV .framer-t7j5yi>:first-child,
+            .framer-drDPV .framer-16saea>:first-child,
+            .framer-drDPV .framer-1e5z32h>:first-child,
+            .framer-drDPV .framer-1jvvrzu>:first-child,
+            .framer-drDPV .framer-t9cu75>:first-child,
+            .framer-drDPV .framer-1b1offv>:first-child,
+            .framer-drDPV .framer-1ye789v>:first-child,
+            .framer-drDPV .framer-1xi2svm>:first-child,
+            .framer-drDPV .framer-x3jcm5>:first-child,
+            .framer-drDPV .framer-1m8j31q>:first-child,
+            .framer-drDPV .framer-tiqhw3>:first-child,
+            .framer-drDPV .framer-gutjue>:first-child,
+            .framer-drDPV .framer-1hsc03m>:first-child,
+            .framer-drDPV .framer-18obszt>:first-child,
+            .framer-drDPV .framer-20nkee>:first-child,
+            .framer-drDPV .framer-1w97i40>:first-child,
+            .framer-drDPV .framer-x2t8oi>:first-child,
+            .framer-drDPV .framer-1cqx8o1>:first-child,
+            .framer-drDPV .framer-17bydld>:first-child,
+            .framer-drDPV .framer-160o97e>:first-child,
+            .framer-drDPV .framer-ah8xgs>:first-child,
+            .framer-drDPV .framer-1ni91z1>:first-child,
+            .framer-drDPV .framer-1bbbgz2>:first-child,
+            .framer-drDPV .framer-496g7j>:first-child,
+            .framer-drDPV .framer-1eot5d9>:first-child {
+                margin-top: 0
+            }.framer-drDPV.framer-yqsc6z>:last-child,
+            .framer-drDPV .framer-15ldi85>:last-child,
+            .framer-drDPV .framer-t7j5yi>:last-child,
+            .framer-drDPV .framer-16saea>:last-child,
+            .framer-drDPV .framer-1e5z32h>:last-child,
+            .framer-drDPV .framer-1jvvrzu>:last-child,
+            .framer-drDPV .framer-t9cu75>:last-child,
+            .framer-drDPV .framer-1b1offv>:last-child,
+            .framer-drDPV .framer-1ye789v>:last-child,
+            .framer-drDPV .framer-1xi2svm>:last-child,
+            .framer-drDPV .framer-x3jcm5>:last-child,
+            .framer-drDPV .framer-1m8j31q>:last-child,
+            .framer-drDPV .framer-tiqhw3>:last-child,
+            .framer-drDPV .framer-gutjue>:last-child,
+            .framer-drDPV .framer-1hsc03m>:last-child,
+            .framer-drDPV .framer-18obszt>:last-child,
+            .framer-drDPV .framer-20nkee>:last-child,
+            .framer-drDPV .framer-1w97i40>:last-child,
+            .framer-drDPV .framer-x2t8oi>:last-child,
+            .framer-drDPV .framer-1cqx8o1>:last-child,
+            .framer-drDPV .framer-17bydld>:last-child,
+            .framer-drDPV .framer-160o97e>:last-child,
+            .framer-drDPV .framer-ah8xgs>:last-child,
+            .framer-drDPV .framer-1ni91z1>:last-child,
+            .framer-drDPV .framer-1bbbgz2>:last-child,
+            .framer-drDPV .framer-496g7j>:last-child,
+            .framer-drDPV .framer-1eot5d9>:last-child {
+                margin-bottom: 0
+            }.framer-drDPV .framer-15ldi85>*,
+            .framer-drDPV .framer-16saea>*,
+            .framer-drDPV .framer-1jvvrzu>*,
+            .framer-drDPV .framer-x3jcm5>*,
+            .framer-drDPV .framer-1hsc03m>*,
+            .framer-drDPV .framer-18obszt>*,
+            .framer-drDPV .framer-1bbbgz2>* {
+                margin: 5px 0
+            }.framer-drDPV .framer-t7j5yi>*,
+            .framer-drDPV .framer-1b1offv>*,
+            .framer-drDPV .framer-tiqhw3>*,
+            .framer-drDPV .framer-496g7j>* {
+                margin: 16px 0
+            }.framer-drDPV .framer-gmtckn>* {
+                margin: 0 24px
+            }.framer-drDPV .framer-gmtckn>:first-child,
+            .framer-drDPV .framer-1p0c3hs>:first-child,
+            .framer-drDPV .framer-1sp6gf1>:first-child,
+            .framer-drDPV .framer-47gshc>:first-child,
+            .framer-drDPV .framer-737zfk>:first-child,
+            .framer-drDPV .framer-1xxmedi>:first-child,
+            .framer-drDPV .framer-1l61dhk>:first-child,
+            .framer-drDPV .framer-woaxu8>:first-child,
+            .framer-drDPV .framer-iwreg4>:first-child,
+            .framer-drDPV .framer-1tfh1dk>:first-child,
+            .framer-drDPV .framer-1drrg48>:first-child,
+            .framer-drDPV .framer-vqhijs>:first-child,
+            .framer-drDPV .framer-70oape>:first-child,
+            .framer-drDPV .framer-1rjp7d1>:first-child {
+                margin-left: 0
+            }.framer-drDPV .framer-gmtckn>:last-child,
+            .framer-drDPV .framer-1p0c3hs>:last-child,
+            .framer-drDPV .framer-1sp6gf1>:last-child,
+            .framer-drDPV .framer-47gshc>:last-child,
+            .framer-drDPV .framer-737zfk>:last-child,
+            .framer-drDPV .framer-1xxmedi>:last-child,
+            .framer-drDPV .framer-1l61dhk>:last-child,
+            .framer-drDPV .framer-woaxu8>:last-child,
+            .framer-drDPV .framer-iwreg4>:last-child,
+            .framer-drDPV .framer-1tfh1dk>:last-child,
+            .framer-drDPV .framer-1drrg48>:last-child,
+            .framer-drDPV .framer-vqhijs>:last-child,
+            .framer-drDPV .framer-70oape>:last-child,
+            .framer-drDPV .framer-1rjp7d1>:last-child {
+                margin-right: 0
+            }.framer-drDPV .framer-1p0c3hs>*,
+            .framer-drDPV .framer-47gshc>*,
+            .framer-drDPV .framer-1l61dhk>*,
+            .framer-drDPV .framer-iwreg4>*,
+            .framer-drDPV .framer-1tfh1dk>*,
+            .framer-drDPV .framer-1drrg48>*,
+            .framer-drDPV .framer-vqhijs>*,
+            .framer-drDPV .framer-1rjp7d1>* {
+                margin: 0
+            }.framer-drDPV .framer-1sp6gf1>*,
+            .framer-drDPV .framer-737zfk>*,
+            .framer-drDPV .framer-1xxmedi>*,
+            .framer-drDPV .framer-70oape>* {
+                margin: 0 5px
+            }.framer-drDPV .framer-1e5z32h>* {
+                margin: 8px 0
+            }.framer-drDPV .framer-t9cu75>*,
+            .framer-drDPV .framer-1ye789v>* {
+                margin: 12px 0
+            }.framer-drDPV .framer-1xi2svm>*,
+            .framer-drDPV .framer-1w97i40>*,
+            .framer-drDPV .framer-1cqx8o1>*,
+            .framer-drDPV .framer-1eot5d9>* {
+                margin: 40px 0
+            }.framer-drDPV .framer-1m8j31q>* {
+                margin: 50px 0
+            }.framer-drDPV .framer-gutjue>* {
+                margin: 24px 0
+            }.framer-drDPV .framer-woaxu8>* {
+                margin: 0 40px
+            }}.framer-NHOWn .framer-styles-preset-1733vpa:not(.rich-text-wrapper),
+        .framer-NHOWn .framer-styles-preset-1733vpa.rich-text-wrapper h1 {
+            --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 80px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-font-weight-bold: 700;
+            --framer-font-weight-bold-italic: 700;
+            --framer-font-weight-italic: 400;
+            --framer-letter-spacing: -.04em;
+            --framer-line-height: 1.1em;
+            --framer-paragraph-spacing: 0px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-NHOWn .framer-styles-preset-1733vpa:not(.rich-text-wrapper),
+            .framer-NHOWn .framer-styles-preset-1733vpa.rich-text-wrapper h1 {
+                --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 64px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.04em;
+                --framer-line-height: 1.1em;
+                --framer-paragraph-spacing: 0px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-NHOWn .framer-styles-preset-1733vpa:not(.rich-text-wrapper),
+            .framer-NHOWn .framer-styles-preset-1733vpa.rich-text-wrapper h1 {
+                --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 51px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.04em;
+                --framer-line-height: 1.1em;
+                --framer-paragraph-spacing: 0px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}.framer-YVjyK .framer-styles-preset-2lg6fh:not(.rich-text-wrapper),
+        .framer-YVjyK .framer-styles-preset-2lg6fh.rich-text-wrapper h2 {
+            --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 64px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-font-weight-bold: 700;
+            --framer-font-weight-bold-italic: 700;
+            --framer-font-weight-italic: 400;
+            --framer-letter-spacing: -.04em;
+            --framer-line-height: 1.2em;
+            --framer-paragraph-spacing: 40px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-YVjyK .framer-styles-preset-2lg6fh:not(.rich-text-wrapper),
+            .framer-YVjyK .framer-styles-preset-2lg6fh.rich-text-wrapper h2 {
+                --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 51px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.04em;
+                --framer-line-height: 1.2em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-YVjyK .framer-styles-preset-2lg6fh:not(.rich-text-wrapper),
+            .framer-YVjyK .framer-styles-preset-2lg6fh.rich-text-wrapper h2 {
+                --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 41px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.04em;
+                --framer-line-height: 1.2em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (min-width:810px) and (max-width:1199px) {
+            .framer-drDPV.framer-yqsc6z {
+                width: 810px
+            }.framer-drDPV .framer-1dm7rny-container {
+                order: 6
+            }.framer-drDPV .framer-15ldi85 {
+                order: 0;
+                padding: 180px 24px 80px
+            }.framer-drDPV .framer-14zr2fv {
+                aspect-ratio: 1.03937;
+                width: var(--framer-aspect-ratio-supported, 132px);
+                top: 276px;
+                right: -2px
+            }.framer-drDPV .framer-1sp6gf1 {
+                order: 1
+            }.framer-drDPV .framer-16saea {
+                height: var(--framer-aspect-ratio-supported, 393px)
+            }.framer-drDPV .framer-t9cu75 {
+                order: 2;
+                padding: 120px 24px
+            }.framer-drDPV .framer-1xi2svm {
+                gap: 64px
+            }.framer-drDPV .framer-x3jcm5 {
+                order: 3;
+                padding: 120px 0 80px
+            }.framer-drDPV .framer-1m8j31q {
+                gap: 80px
+            }.framer-drDPV .framer-tiqhw3 {
+                padding: 0 24px
+            }.framer-drDPV .framer-woaxu8 {
+                gap: 48px
+            }.framer-drDPV .framer-1w97i40,
+            .framer-drDPV .framer-1cqx8o1 {
+                height: 500px
+            }.framer-drDPV .framer-1s7okv6 {
+                height: var(--framer-aspect-ratio-supported, 169px);
+                width: 146px
+            }.framer-drDPV .framer-1fjfzes {
+                height: var(--framer-aspect-ratio-supported, 122px);
+                width: 122px
+            }.framer-drDPV .framer-1bbbgz2 {
+                order: 4;
+                padding: 120px 24px
+            }.framer-drDPV .framer-17zbetg-container {
+                order: 5
+            }@supports (background:-webkit-named-image(i)) and (not (scale:1)) {
+
+                .framer-drDPV .framer-1xi2svm,
+                .framer-drDPV .framer-1m8j31q,
+                .framer-drDPV .framer-woaxu8 {
+                    gap: 0
+                }.framer-drDPV .framer-1xi2svm>* {
+                    margin: 32px 0
+                }.framer-drDPV .framer-1xi2svm>:first-child,
+                .framer-drDPV .framer-1m8j31q>:first-child {
+                    margin-top: 0
+                }.framer-drDPV .framer-1xi2svm>:last-child,
+                .framer-drDPV .framer-1m8j31q>:last-child {
+                    margin-bottom: 0
+                }.framer-drDPV .framer-1m8j31q>* {
+                    margin: 40px 0
+                }.framer-drDPV .framer-woaxu8>* {
+                    margin: 0 24px
+                }.framer-drDPV .framer-woaxu8>:first-child {
+                    margin-left: 0
+                }.framer-drDPV .framer-woaxu8>:last-child {
+                    margin-right: 0
+                }}}@media (max-width:809px) {
+            .framer-drDPV.framer-yqsc6z {
+                width: 390px
+            }.framer-drDPV .framer-15ldi85 {
+                order: 0;
+                padding: 180px 16px 48px
+            }.framer-drDPV .framer-gmtckn,
+            .framer-drDPV .framer-47gshc,
+            .framer-drDPV .framer-iwreg4 {
+                flex-direction: column
+            }.framer-drDPV .framer-1p0c3hs,
+            .framer-drDPV .framer-1hsc03m,
+            .framer-drDPV .framer-18obszt {
+                flex: none;
+                width: 100%
+            }.framer-drDPV .framer-1sp6gf1 {
+                order: 1
+            }.framer-drDPV .framer-16saea {
+                aspect-ratio: unset;
+                flex: none;
+                order: 1;
+                width: 100%;
+                height: 379px
+            }.framer-drDPV .framer-1yk4dk4 {
+                align-self: unset;
+                aspect-ratio: 1.36842;
+                height: var(--framer-aspect-ratio-supported, 146px);
+                flex: none;
+                order: 0;
+                width: 100%
+            }.framer-drDPV .framer-t9cu75 {
+                order: 2;
+                padding: 100px 16px
+            }.framer-drDPV .framer-x3jcm5 {
+                order: 3;
+                padding: 100px 0
+            }.framer-drDPV .framer-1m8j31q {
+                gap: 80px
+            }.framer-drDPV .framer-tiqhw3 {
+                padding: 0 16px
+            }.framer-drDPV .framer-gutjue {
+                gap: 32px
+            }.framer-drDPV .framer-woaxu8 {
+                flex-direction: column;
+                gap: 32px
+            }.framer-drDPV .framer-1w97i40,
+            .framer-drDPV .framer-1cqx8o1 {
+                flex: none;
+                width: 100%;
+                height: 500px
+            }.framer-drDPV .framer-1s7okv6 {
+                height: var(--framer-aspect-ratio-supported, 173px);
+                width: 150px
+            }.framer-drDPV .framer-1fjfzes {
+                height: var(--framer-aspect-ratio-supported, 133px);
+                width: 133px
+            }.framer-drDPV .framer-ah8xgs {
+                height: 500px
+            }.framer-drDPV .framer-epqm8 {
+                height: var(--framer-aspect-ratio-supported, 31px);
+                width: 255px
+            }.framer-drDPV .framer-1bbbgz2 {
+                order: 4;
+                padding: 80px 16px 100px
+            }.framer-drDPV .framer-1eot5d9 {
+                align-content: flex-start;
+                align-items: flex-start
+            }.framer-drDPV .framer-17zbetg-container {
+                order: 5
+            }@supports (background:-webkit-named-image(i)) and (not (scale:1)) {
+
+                .framer-drDPV .framer-gmtckn,
+                .framer-drDPV .framer-47gshc,
+                .framer-drDPV .framer-1m8j31q,
+                .framer-drDPV .framer-gutjue,
+                .framer-drDPV .framer-woaxu8,
+                .framer-drDPV .framer-iwreg4 {
+                    gap: 0
+                }.framer-drDPV .framer-gmtckn>* {
+                    margin: 24px 0
+                }.framer-drDPV .framer-gmtckn>:first-child,
+                .framer-drDPV .framer-47gshc>:first-child,
+                .framer-drDPV .framer-1m8j31q>:first-child,
+                .framer-drDPV .framer-gutjue>:first-child,
+                .framer-drDPV .framer-woaxu8>:first-child,
+                .framer-drDPV .framer-iwreg4>:first-child {
+                    margin-top: 0
+                }.framer-drDPV .framer-gmtckn>:last-child,
+                .framer-drDPV .framer-47gshc>:last-child,
+                .framer-drDPV .framer-1m8j31q>:last-child,
+                .framer-drDPV .framer-gutjue>:last-child,
+                .framer-drDPV .framer-woaxu8>:last-child,
+                .framer-drDPV .framer-iwreg4>:last-child {
+                    margin-bottom: 0
+                }.framer-drDPV .framer-47gshc>*,
+                .framer-drDPV .framer-iwreg4>* {
+                    margin: 0
+                }.framer-drDPV .framer-1m8j31q>* {
+                    margin: 40px 0
+                }.framer-drDPV .framer-gutjue>*,
+                .framer-drDPV .framer-woaxu8>* {
+                    margin: 16px 0
+                }}}html.lenis {
+            height: auto
+        }.lenis.lenis-smooth {
+            scroll-behavior: auto !important
+        }.lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain
+        }.lenis.lenis-stopped {
+            overflow: hidden
+        }.lenis.lenis-scrolling iframe {
+            pointer-events: none
+        }@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-59ZhR.framer-79jyd3,
+        .framer-59ZhR .framer-79jyd3 {
+            display: block
+        }.framer-59ZhR.framer-3073yz {
+            flex-flow: row;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 1136px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-59ZhR .framer-wai6ba {
+            z-index: 1;
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 1px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: sticky;
+            top: 160px;
+            overflow: visible
+        }.framer-59ZhR .framer-1ufemcz {
+            z-index: 1;
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: sticky;
+            top: 80px;
+            overflow: visible
+        }.framer-59ZhR .framer-1lhcqdi,
+        .framer-59ZhR .framer-5j45v {
+            white-space: pre;
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-59ZhR .framer-1u5jjmb {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start center;
+            align-items: flex-start;
+            gap: 0;
+            width: 1px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-59ZhR .framer-1526pxu {
+            will-change: var(--framer-will-change-override, transform);
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 24px;
+            width: 100%;
+            height: min-content;
+            padding: 32px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-59ZhR .framer-1uefs76,
+        .framer-59ZhR .framer-1u2kvj6 {
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-59ZhR.framer-3073yz,
+            .framer-59ZhR .framer-wai6ba,
+            .framer-59ZhR .framer-1ufemcz,
+            .framer-59ZhR .framer-1u5jjmb,
+            .framer-59ZhR .framer-1526pxu {
+                gap: 0
+            }.framer-59ZhR.framer-3073yz>*,
+            .framer-59ZhR .framer-1ufemcz>* {
+                margin: 0 5px
+            }.framer-59ZhR.framer-3073yz>:first-child,
+            .framer-59ZhR .framer-1ufemcz>:first-child {
+                margin-left: 0
+            }.framer-59ZhR.framer-3073yz>:last-child,
+            .framer-59ZhR .framer-1ufemcz>:last-child {
+                margin-right: 0
+            }.framer-59ZhR .framer-wai6ba>* {
+                margin: 5px 0
+            }.framer-59ZhR .framer-wai6ba>:first-child,
+            .framer-59ZhR .framer-1u5jjmb>:first-child,
+            .framer-59ZhR .framer-1526pxu>:first-child {
+                margin-top: 0
+            }.framer-59ZhR .framer-wai6ba>:last-child,
+            .framer-59ZhR .framer-1u5jjmb>:last-child,
+            .framer-59ZhR .framer-1526pxu>:last-child {
+                margin-bottom: 0
+            }.framer-59ZhR .framer-1u5jjmb>* {
+                margin: 0
+            }.framer-59ZhR .framer-1526pxu>* {
+                margin: 12px 0
+            }}.framer-59ZhR.framer-v-1tqjgbg.framer-3073yz {
+            flex-direction: column;
+            gap: 48px;
+            width: 320px
+        }.framer-59ZhR.framer-v-1tqjgbg .framer-wai6ba {
+            top: unset;
+            flex: none;
+            width: 100%;
+            position: relative
+        }.framer-59ZhR.framer-v-1tqjgbg .framer-1u5jjmb {
+            flex: none;
+            width: 100%
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+            .framer-59ZhR.framer-v-1tqjgbg.framer-3073yz {
+                gap: 0
+            }.framer-59ZhR.framer-v-1tqjgbg.framer-3073yz>* {
+                margin: 24px 0
+            }.framer-59ZhR.framer-v-1tqjgbg.framer-3073yz>:first-child {
+                margin-top: 0
+            }.framer-59ZhR.framer-v-1tqjgbg.framer-3073yz>:last-child {
+                margin-bottom: 0
+            }}.framer-QUwWh .framer-styles-preset-e89zi:not(.rich-text-wrapper),
+        .framer-QUwWh .framer-styles-preset-e89zi.rich-text-wrapper h4 {
+            --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 32px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-font-weight-bold: 700;
+            --framer-font-weight-bold-italic: 700;
+            --framer-font-weight-italic: 400;
+            --framer-letter-spacing: -.04em;
+            --framer-line-height: 1.3em;
+            --framer-paragraph-spacing: 40px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-QUwWh .framer-styles-preset-e89zi:not(.rich-text-wrapper),
+            .framer-QUwWh .framer-styles-preset-e89zi.rich-text-wrapper h4 {
+                --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 28px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.04em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-QUwWh .framer-styles-preset-e89zi:not(.rich-text-wrapper),
+            .framer-QUwWh .framer-styles-preset-e89zi.rich-text-wrapper h4 {
+                --framer-font-family: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-family-italic: "Archivo", "Archivo Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 24px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.04em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 40px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3, #1e1e1f);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}.framer-59ZhR[data-border=true]:after,
+        .framer-59ZhR [data-border=true]:after {
+            content: "";
+            border-width: var(--border-top-width, 0)var(--border-right-width, 0)var(--border-bottom-width, 0)var(--border-left-width, 0);
+            border-color: var(--border-color, none);
+            border-style: var(--border-style, none);
+            box-sizing: border-box;
+            border-radius: inherit;
+            pointer-events: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0
+        }@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-FcdMW.framer-1hio3yw,
+        .framer-FcdMW .framer-1hio3yw {
+            display: block
+        }.framer-FcdMW.framer-12il8ew {
+            flex-flow: column;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 0;
+            width: 500px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-FcdMW .framer-1wjsy93-container,
+        .framer-FcdMW .framer-1fdbirf-container,
+        .framer-FcdMW .framer-4e98k6-container,
+        .framer-FcdMW .framer-kwno3q-container {
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+            .framer-FcdMW.framer-12il8ew {
+                gap: 0
+            }.framer-FcdMW.framer-12il8ew>* {
+                margin: 0
+            }.framer-FcdMW.framer-12il8ew>:first-child {
+                margin-top: 0
+            }.framer-FcdMW.framer-12il8ew>:last-child {
+                margin-bottom: 0
+            }}@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-MMBpN.framer-1q74ww5,
+        .framer-MMBpN .framer-1q74ww5 {
+            display: block
+        }.framer-MMBpN.framer-16q84ra {
+            cursor: pointer;
+            flex-flow: column;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 24px;
+            width: 430px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-MMBpN .framer-1rpp69 {
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 15px 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-MMBpN .framer-jq5f9k {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 8px;
+            width: 1px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-MMBpN .framer-1nerxsp {
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: 1 0 0;
+            width: 1px;
+            height: auto;
+            position: relative
+        }.framer-MMBpN .framer-1vlba7k-container {
+            flex: none;
+            width: 22px;
+            height: 22px;
+            position: relative
+        }.framer-MMBpN .framer-q2lhbr {
+            flex-flow: row;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-MMBpN .framer-nm1a85 {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 1px;
+            height: min-content;
+            padding: 0 0 15px;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-MMBpN .framer-31s6c8 {
+            -webkit-user-select: none;
+            user-select: none;
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: none;
+            width: 90%;
+            height: auto;
+            position: relative
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-MMBpN.framer-16q84ra,
+            .framer-MMBpN .framer-1rpp69,
+            .framer-MMBpN .framer-jq5f9k,
+            .framer-MMBpN .framer-q2lhbr,
+            .framer-MMBpN .framer-nm1a85 {
+                gap: 0
+            }.framer-MMBpN.framer-16q84ra>* {
+                margin: 12px 0
+            }.framer-MMBpN.framer-16q84ra>:first-child,
+            .framer-MMBpN .framer-nm1a85>:first-child {
+                margin-top: 0
+            }.framer-MMBpN.framer-16q84ra>:last-child,
+            .framer-MMBpN .framer-nm1a85>:last-child {
+                margin-bottom: 0
+            }.framer-MMBpN .framer-1rpp69>*,
+            .framer-MMBpN .framer-q2lhbr>* {
+                margin: 0
+            }.framer-MMBpN .framer-1rpp69>:first-child,
+            .framer-MMBpN .framer-jq5f9k>:first-child,
+            .framer-MMBpN .framer-q2lhbr>:first-child {
+                margin-left: 0
+            }.framer-MMBpN .framer-1rpp69>:last-child,
+            .framer-MMBpN .framer-jq5f9k>:last-child,
+            .framer-MMBpN .framer-q2lhbr>:last-child {
+                margin-right: 0
+            }.framer-MMBpN .framer-jq5f9k>* {
+                margin: 0 4px
+            }.framer-MMBpN .framer-nm1a85>* {
+                margin: 5px 0
+            }}.framer-MMBpN.framer-v-1vskgoh.framer-16q84ra {
+            cursor: unset;
+            gap: 0
+        }.framer-MMBpN.framer-v-1vskgoh .framer-1rpp69 {
+            padding: 32px 0
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+            .framer-MMBpN.framer-v-1vskgoh.framer-16q84ra {
+                gap: 0
+            }.framer-MMBpN.framer-v-1vskgoh.framer-16q84ra>* {
+                margin: 0
+            }.framer-MMBpN.framer-v-1vskgoh.framer-16q84ra>:first-child {
+                margin-top: 0
+            }.framer-MMBpN.framer-v-1vskgoh.framer-16q84ra>:last-child {
+                margin-bottom: 0
+            }}@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-b0Dto .framer-styles-preset-wi5mma:not(.rich-text-wrapper),
+            .framer-b0Dto .framer-styles-preset-wi5mma.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 20px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-b0Dto .framer-styles-preset-wi5mma:not(.rich-text-wrapper),
+            .framer-b0Dto .framer-styles-preset-wi5mma.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 18px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}.framer-MMBpN[data-border=true]:after,
+        .framer-MMBpN [data-border=true]:after {
+            content: "";
+            border-width: var(--border-top-width, 0)var(--border-right-width, 0)var(--border-bottom-width, 0)var(--border-left-width, 0);
+            border-color: var(--border-color, none);
+            border-style: var(--border-style, none);
+            box-sizing: border-box;
+            border-radius: inherit;
+            pointer-events: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0
+        }@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-SBabs.framer-rdcp4f,
+        .framer-SBabs .framer-rdcp4f {
+            display: block
+        }.framer-SBabs.framer-upk1dg {
+            flex-flow: row;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 22px;
+            height: 22px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-SBabs .framer-1x0dtlx {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-SBabs .framer-1kkodrh {
+            flex: none;
+            width: 15px;
+            height: 1px;
+            position: relative;
+            overflow: hidden
+        }.framer-SBabs .framer-1tzvu1v {
+            z-index: 1;
+            flex: none;
+            position: absolute;
+            inset: 0;
+            overflow: hidden
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-SBabs.framer-upk1dg,
+            .framer-SBabs .framer-1x0dtlx {
+                gap: 0
+            }.framer-SBabs.framer-upk1dg>*,
+            .framer-SBabs .framer-1x0dtlx>* {
+                margin: 0 5px
+            }.framer-SBabs.framer-upk1dg>:first-child,
+            .framer-SBabs .framer-1x0dtlx>:first-child {
+                margin-left: 0
+            }.framer-SBabs.framer-upk1dg>:last-child,
+            .framer-SBabs .framer-1x0dtlx>:last-child {
+                margin-right: 0
+            }}@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-OR4dp.framer-tr9r5v,
+        .framer-OR4dp .framer-tr9r5v {
+            display: block
+        }.framer-OR4dp.framer-glim1p {
+            flex-flow: column;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 1200px;
+            height: min-content;
+            padding: 160px 32px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-OR4dp .framer-cfqr2b {
+            flex-flow: column;
+            flex: none;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 32px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-OR4dp .framer-t39qtp {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 64px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-OR4dp .framer-34sgy5 {
+            flex-flow: column;
+            flex: 1 0 0;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 16px;
+            width: 1px;
+            max-width: 350px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-OR4dp .framer-pmzfmx {
+            white-space: pre;
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-OR4dp .framer-xl3nsn {
+            flex-flow: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+            width: 100%;
+            max-width: 400px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-OR4dp .framer-1b9jpzn {
+            white-space: pre-wrap;
+            word-break: break-word;
+            word-wrap: break-word;
+            flex: none;
+            width: 100%;
+            height: auto;
+            position: relative
+        }.framer-OR4dp .framer-11yil02 {
+            flex: none;
+            width: 2px;
+            height: 64px;
+            position: relative;
+            overflow: hidden
+        }.framer-OR4dp .framer-14lf5pb-container {
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-OR4dp.framer-glim1p,
+            .framer-OR4dp .framer-cfqr2b,
+            .framer-OR4dp .framer-t39qtp,
+            .framer-OR4dp .framer-34sgy5,
+            .framer-OR4dp .framer-xl3nsn {
+                gap: 0
+            }.framer-OR4dp.framer-glim1p>*,
+            .framer-OR4dp .framer-xl3nsn>* {
+                margin: 5px 0
+            }.framer-OR4dp.framer-glim1p>:first-child,
+            .framer-OR4dp .framer-cfqr2b>:first-child,
+            .framer-OR4dp .framer-34sgy5>:first-child,
+            .framer-OR4dp .framer-xl3nsn>:first-child {
+                margin-top: 0
+            }.framer-OR4dp.framer-glim1p>:last-child,
+            .framer-OR4dp .framer-cfqr2b>:last-child,
+            .framer-OR4dp .framer-34sgy5>:last-child,
+            .framer-OR4dp .framer-xl3nsn>:last-child {
+                margin-bottom: 0
+            }.framer-OR4dp .framer-cfqr2b>* {
+                margin: 16px 0
+            }.framer-OR4dp .framer-t39qtp>* {
+                margin: 0 32px
+            }.framer-OR4dp .framer-t39qtp>:first-child {
+                margin-left: 0
+            }.framer-OR4dp .framer-t39qtp>:last-child {
+                margin-right: 0
+            }.framer-OR4dp .framer-34sgy5>* {
+                margin: 8px 0
+            }}.framer-OR4dp.framer-v-1rtjqye.framer-glim1p {
+            width: 820px;
+            padding: 120px 32px
+        }.framer-OR4dp.framer-v-zgptdh.framer-glim1p {
+            width: 320px;
+            padding: 100px 16px
+        }.framer-OR4dp.framer-v-zgptdh .framer-t39qtp {
+            flex-direction: column;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 48px
+        }.framer-OR4dp.framer-v-zgptdh .framer-34sgy5 {
+            flex: none;
+            width: 100%
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+            .framer-OR4dp.framer-v-zgptdh .framer-t39qtp {
+                gap: 0
+            }.framer-OR4dp.framer-v-zgptdh .framer-t39qtp>* {
+                margin: 24px 0
+            }.framer-OR4dp.framer-v-zgptdh .framer-t39qtp>:first-child {
+                margin-top: 0
+            }.framer-OR4dp.framer-v-zgptdh .framer-t39qtp>:last-child {
+                margin-bottom: 0
+            }}@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-ajSA0.framer-ap4rol,
+        .framer-ajSA0 .framer-ap4rol {
+            display: block
+        }.framer-ajSA0.framer-k3p6id {
+            cursor: pointer;
+            flex-flow: column;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-ajSA0 .framer-1cbntvy {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 8px;
+            width: min-content;
+            height: min-content;
+            padding: 4px 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-ajSA0 .framer-i2c1ra {
+            white-space: pre;
+            z-index: 2;
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-ajSA0 .framer-a8z5bb {
+            z-index: 2;
+            flex: none;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            overflow: hidden
+        }.framer-ajSA0 .framer-1orpbw7 {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: -31px;
+            overflow: visible
+        }.framer-ajSA0 .framer-ycx7ke,
+        .framer-ajSA0 .framer-hvi6tx {
+            aspect-ratio: 1;
+            height: var(--framer-aspect-ratio-supported, 20px);
+            flex: none;
+            width: 20px;
+            position: relative
+        }.framer-ajSA0 .framer-hkluie {
+            z-index: 2;
+            flex: none;
+            width: 1px;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: -1px;
+            overflow: hidden
+        }.framer-ajSA0 .framer-15kr12h {
+            z-index: 1;
+            flex: none;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            overflow: hidden
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-ajSA0.framer-k3p6id,
+            .framer-ajSA0 .framer-1cbntvy,
+            .framer-ajSA0 .framer-1orpbw7 {
+                gap: 0
+            }.framer-ajSA0.framer-k3p6id>* {
+                margin: 5px 0
+            }.framer-ajSA0.framer-k3p6id>:first-child {
+                margin-top: 0
+            }.framer-ajSA0.framer-k3p6id>:last-child {
+                margin-bottom: 0
+            }.framer-ajSA0 .framer-1cbntvy>* {
+                margin: 0 4px
+            }.framer-ajSA0 .framer-1cbntvy>:first-child,
+            .framer-ajSA0 .framer-1orpbw7>:first-child {
+                margin-left: 0
+            }.framer-ajSA0 .framer-1cbntvy>:last-child,
+            .framer-ajSA0 .framer-1orpbw7>:last-child {
+                margin-right: 0
+            }.framer-ajSA0 .framer-1orpbw7>* {
+                margin: 0 5px
+            }}.framer-ajSA0.framer-v-18c74x1.framer-k3p6id,
+        .framer-ajSA0.framer-v-1i38qms.framer-k3p6id {
+            text-decoration: none
+        }.framer-ajSA0.framer-v-18c74x1 .framer-1orpbw7 {
+            left: 1px
+        }.framer-ajSA0.framer-v-18c74x1 .framer-hkluie {
+            width: unset;
+            left: 0;
+            right: 0
+        }.framer-b0Dto .framer-styles-preset-wi5mma:not(.rich-text-wrapper),
+        .framer-b0Dto .framer-styles-preset-wi5mma.rich-text-wrapper p {
+            --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+            --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 24px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 500;
+            --framer-font-weight-bold: 700;
+            --framer-font-weight-bold-italic: 700;
+            --framer-font-weight-italic: 400;
+            --framer-letter-spacing: -.05em;
+            --framer-line-height: 1.3em;
+            --framer-paragraph-spacing: 20px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-b0Dto .framer-styles-preset-wi5mma:not(.rich-text-wrapper),
+            .framer-b0Dto .framer-styles-preset-wi5mma.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 20px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-b0Dto .framer-styles-preset-wi5mma:not(.rich-text-wrapper),
+            .framer-b0Dto .framer-styles-preset-wi5mma.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 18px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-style-bold-italic: italic;
+                --framer-font-style-italic: italic;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 500;
+                --framer-font-weight-bold: 700;
+                --framer-font-weight-bold-italic: 700;
+                --framer-font-weight-italic: 400;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.3em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-oHs2t.framer-tbc4nr,
+        .framer-oHs2t .framer-tbc4nr {
+            display: block
+        }.framer-oHs2t.framer-1tnouj6 {
+            cursor: pointer;
+            flex-flow: row;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 142px;
+            height: 36px;
+            padding: 0;
+            text-decoration: none;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-oHs2t .framer-gl2eue {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 142px;
+            height: 36px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-oHs2t .framer-8dc4e2 {
+            aspect-ratio: 5.4;
+            height: var(--framer-aspect-ratio-supported, 15px);
+            flex: none;
+            width: 81px;
+            position: relative
+        }.framer-oHs2t .framer-18rymhu {
+            aspect-ratio: 6.23077;
+            height: var(--framer-aspect-ratio-supported, 13px);
+            flex: none;
+            width: 81px;
+            position: relative
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-oHs2t.framer-1tnouj6,
+            .framer-oHs2t .framer-gl2eue {
+                gap: 0
+            }.framer-oHs2t.framer-1tnouj6>*,
+            .framer-oHs2t .framer-gl2eue>* {
+                margin: 0 5px
+            }.framer-oHs2t.framer-1tnouj6>:first-child,
+            .framer-oHs2t .framer-gl2eue>:first-child {
+                margin-left: 0
+            }.framer-oHs2t.framer-1tnouj6>:last-child,
+            .framer-oHs2t .framer-gl2eue>:last-child {
+                margin-right: 0
+            }}@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-Mj4NR.framer-1a6ma5o,
+        .framer-Mj4NR .framer-1a6ma5o {
+            display: block
+        }.framer-Mj4NR.framer-u7ht6v {
+            flex-flow: column;
+            place-content: center;
+            align-items: center;
+            gap: 160px;
+            width: 1170px;
+            height: min-content;
+            padding: 16px 16px 8px;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-Mj4NR .framer-169dqj4 {
+            flex-flow: row;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 16px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-Mj4NR .framer-gjra6b-container,
+        .framer-Mj4NR .framer-ed41x4-container,
+        .framer-Mj4NR .framer-1pbimk7-container,
+        .framer-Mj4NR .framer-e21fb0-container,
+        .framer-Mj4NR .framer-1c58nc0-container,
+        .framer-Mj4NR .framer-s5s950-container,
+        .framer-Mj4NR .framer-1egbe62-container {
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-Mj4NR .framer-b6k4ea {
+            flex-flow: column;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-Mj4NR .framer-1kiio9n,
+        .framer-Mj4NR .framer-we6166,
+        .framer-Mj4NR .framer-1jzdm2y,
+        .framer-Mj4NR .framer-1k7an6x,
+        .framer-Mj4NR .framer-21cg61 {
+            white-space: pre;
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-Mj4NR .framer-11tquu2 {
+            flex-flow: row;
+            flex: none;
+            place-content: center space-between;
+            align-items: center;
+            width: 100%;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-Mj4NR .framer-1xrzlhw {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center space-between;
+            align-items: center;
+            width: 1px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-Mj4NR .framer-1jbbbpz {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center flex-start;
+            align-items: center;
+            gap: 4px;
+            width: 1px;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-Mj4NR .framer-1myw5x3 {
+            flex-flow: row;
+            flex: 1 0 0;
+            place-content: center flex-end;
+            align-items: center;
+            gap: 16px;
+            width: 1px;
+            height: 18px;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-Mj4NR.framer-u7ht6v,
+            .framer-Mj4NR .framer-169dqj4,
+            .framer-Mj4NR .framer-b6k4ea,
+            .framer-Mj4NR .framer-1jbbbpz,
+            .framer-Mj4NR .framer-1myw5x3 {
+                gap: 0
+            }.framer-Mj4NR.framer-u7ht6v>* {
+                margin: 80px 0
+            }.framer-Mj4NR.framer-u7ht6v>:first-child,
+            .framer-Mj4NR .framer-b6k4ea>:first-child {
+                margin-top: 0
+            }.framer-Mj4NR.framer-u7ht6v>:last-child,
+            .framer-Mj4NR .framer-b6k4ea>:last-child {
+                margin-bottom: 0
+            }.framer-Mj4NR .framer-169dqj4>*,
+            .framer-Mj4NR .framer-1myw5x3>* {
+                margin: 0 8px
+            }.framer-Mj4NR .framer-169dqj4>:first-child,
+            .framer-Mj4NR .framer-1jbbbpz>:first-child,
+            .framer-Mj4NR .framer-1myw5x3>:first-child {
+                margin-left: 0
+            }.framer-Mj4NR .framer-169dqj4>:last-child,
+            .framer-Mj4NR .framer-1jbbbpz>:last-child,
+            .framer-Mj4NR .framer-1myw5x3>:last-child {
+                margin-right: 0
+            }.framer-Mj4NR .framer-b6k4ea>* {
+                margin: 5px 0
+            }.framer-Mj4NR .framer-1jbbbpz>* {
+                margin: 0 2px
+            }}.framer-Mj4NR.framer-v-1pa9srx.framer-u7ht6v {
+            width: 810px
+        }.framer-Mj4NR.framer-v-1uxplzy.framer-u7ht6v {
+            align-content: flex-start;
+            align-items: flex-start;
+            gap: 100px;
+            width: 320px;
+            padding: 32px 16px 8px
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-169dqj4 {
+            flex-direction: column;
+            order: 0;
+            gap: 4px
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-b6k4ea {
+            order: 1;
+            align-content: flex-start;
+            align-items: flex-start
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-11tquu2 {
+            flex-direction: column;
+            order: 2;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 8px
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-1xrzlhw {
+            flex-direction: column;
+            flex: none;
+            place-content: flex-start;
+            align-items: flex-start;
+            gap: 4px;
+            width: 100%
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-1jbbbpz {
+            flex: none;
+            gap: 8px;
+            width: 100%
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-1jzdm2y {
+            order: 0
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-1egbe62-container {
+            order: 1
+        }.framer-Mj4NR.framer-v-1uxplzy .framer-1myw5x3 {
+            flex-direction: column;
+            flex: none;
+            align-content: flex-start;
+            align-items: flex-start;
+            gap: 4px;
+            width: 100%;
+            height: min-content
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-Mj4NR.framer-v-1uxplzy.framer-u7ht6v,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-169dqj4,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-11tquu2,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1xrzlhw,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1jbbbpz,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1myw5x3 {
+                gap: 0
+            }.framer-Mj4NR.framer-v-1uxplzy.framer-u7ht6v>* {
+                margin: 50px 0
+            }.framer-Mj4NR.framer-v-1uxplzy.framer-u7ht6v>:first-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-169dqj4>:first-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-11tquu2>:first-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1xrzlhw>:first-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1myw5x3>:first-child {
+                margin-top: 0
+            }.framer-Mj4NR.framer-v-1uxplzy.framer-u7ht6v>:last-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-169dqj4>:last-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-11tquu2>:last-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1xrzlhw>:last-child,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1myw5x3>:last-child {
+                margin-bottom: 0
+            }.framer-Mj4NR.framer-v-1uxplzy .framer-169dqj4>*,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1xrzlhw>*,
+            .framer-Mj4NR.framer-v-1uxplzy .framer-1myw5x3>* {
+                margin: 2px 0
+            }.framer-Mj4NR.framer-v-1uxplzy .framer-11tquu2>* {
+                margin: 4px 0
+            }.framer-Mj4NR.framer-v-1uxplzy .framer-1jbbbpz>* {
+                margin: 0 4px
+            }.framer-Mj4NR.framer-v-1uxplzy .framer-1jbbbpz>:first-child {
+                margin-left: 0
+            }.framer-Mj4NR.framer-v-1uxplzy .framer-1jbbbpz>:last-child {
+                margin-right: 0
+            }}.framer-M4LGl .framer-styles-preset-g2i1sb:not(.rich-text-wrapper),
+        .framer-M4LGl .framer-styles-preset-g2i1sb.rich-text-wrapper p {
+            --framer-font-family: "PT Mono", monospace;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 14px;
+            --framer-font-style: normal;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-letter-spacing: 0em;
+            --framer-line-height: 1.3em;
+            --framer-paragraph-spacing: 20px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-144e382c-cd5b-4ed7-9684-9db9c45475a1, #e4e4e4);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: uppercase
+        }.framer-By0QJ .framer-styles-preset-12pox4o:not(.rich-text-wrapper),
+        .framer-By0QJ .framer-styles-preset-12pox4o.rich-text-wrapper p {
+            --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+            --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 14px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-font-weight-bold: 700;
+            --framer-font-weight-bold-italic: 700;
+            --framer-font-weight-italic: 400;
+            --framer-letter-spacing: -.02em;
+            --framer-line-height: 1.3em;
+            --framer-paragraph-spacing: 20px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }@supports (aspect-ratio:1) {
+            body {
+                --framer-aspect-ratio-supported: auto
+            }}.framer-lvowC.framer-1pp6dck,
+        .framer-lvowC .framer-1pp6dck {
+            display: block
+        }.framer-lvowC.framer-zpyuep {
+            cursor: pointer;
+            flex-flow: column;
+            place-content: center;
+            align-items: center;
+            gap: 10px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: hidden
+        }.framer-lvowC .framer-1catuja {
+            flex-flow: row;
+            flex: none;
+            place-content: center;
+            align-items: center;
+            gap: 8px;
+            width: min-content;
+            height: min-content;
+            padding: 0;
+            display: flex;
+            position: relative;
+            overflow: visible
+        }.framer-lvowC .framer-k5jiyl {
+            white-space: pre;
+            z-index: 2;
+            flex: none;
+            width: auto;
+            height: auto;
+            position: relative
+        }.framer-lvowC .framer-1dzan60 {
+            z-index: 2;
+            flex: none;
+            width: 53px;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: -60px;
+            overflow: hidden
+        }@supports (background:-webkit-named-image(i)) and (not (font-palette:dark)) {
+
+            .framer-lvowC.framer-zpyuep,
+            .framer-lvowC .framer-1catuja {
+                gap: 0
+            }.framer-lvowC.framer-zpyuep>* {
+                margin: 5px 0
+            }.framer-lvowC.framer-zpyuep>:first-child {
+                margin-top: 0
+            }.framer-lvowC.framer-zpyuep>:last-child {
+                margin-bottom: 0
+            }.framer-lvowC .framer-1catuja>* {
+                margin: 0 4px
+            }.framer-lvowC .framer-1catuja>:first-child {
+                margin-left: 0
+            }.framer-lvowC .framer-1catuja>:last-child {
+                margin-right: 0
+            }}.framer-lvowC.framer-v-rlwvj0.framer-zpyuep,
+        .framer-lvowC.framer-v-1tucihg.framer-zpyuep {
+            text-decoration: none
+        }.framer-lvowC.framer-v-rlwvj0 .framer-1dzan60 {
+            height: 1px;
+            width: unset;
+            left: 1px;
+            right: 0
+        }.framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+        .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+            --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+            --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 16px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-font-weight-bold: 700;
+            --framer-letter-spacing: -.05em;
+            --framer-line-height: 1.5em;
+            --framer-paragraph-spacing: 20px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }@media (max-width:1199px) and (min-width:810px) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}@media (max-width:809px) and (min-width:0) {
+
+            .framer-PSXVz .framer-styles-preset-djub7j:not(.rich-text-wrapper),
+            .framer-PSXVz .framer-styles-preset-djub7j.rich-text-wrapper p {
+                --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-family-bold: "Geist", "Geist Placeholder", sans-serif;
+                --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+                --framer-font-size: 16px;
+                --framer-font-style: normal;
+                --framer-font-style-bold: normal;
+                --framer-font-variation-axes: normal;
+                --framer-font-weight: 400;
+                --framer-font-weight-bold: 700;
+                --framer-letter-spacing: -.05em;
+                --framer-line-height: 1.5em;
+                --framer-paragraph-spacing: 20px;
+                --framer-text-alignment: start;
+                --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+                --framer-text-decoration: none;
+                --framer-text-stroke-color: initial;
+                --framer-text-stroke-width: initial;
+                --framer-text-transform: none
+            }}.framer-txHSr .framer-styles-preset-13wnnz8:not(.rich-text-wrapper),
+        .framer-txHSr .framer-styles-preset-13wnnz8.rich-text-wrapper p {
+            --framer-font-family: "Geist", "Geist Placeholder", sans-serif;
+            --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+            --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+            --framer-font-size: 20px;
+            --framer-font-style: normal;
+            --framer-font-style-bold: normal;
+            --framer-font-style-bold-italic: italic;
+            --framer-font-style-italic: italic;
+            --framer-font-variation-axes: normal;
+            --framer-font-weight: 400;
+            --framer-font-weight-bold: 700;
+            --framer-font-weight-bold-italic: 700;
+            --framer-font-weight-italic: 400;
+            --framer-letter-spacing: -.05em;
+            --framer-line-height: 1.3em;
+            --framer-paragraph-spacing: 20px;
+            --framer-text-alignment: start;
+            --framer-text-color: var(--token-8328fbec-38f5-4ae3-b863-b572a6da0fce, #29292b);
+            --framer-text-decoration: none;
+            --framer-text-stroke-color: initial;
+            --framer-text-stroke-width: initial;
+            --framer-text-transform: none
+        }

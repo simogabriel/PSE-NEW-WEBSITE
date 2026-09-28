@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "heading": "L'authenticité avant tout : notre histoire et nos valeurs",
+      "mission": "PSE Consulting empowers organizations through innovative, tailored digital solutions.Our software, engineering, data and project-management specialists work closely with every client to ensure seamless integration, measurable value and sustainable digital growth.",
+      "banner": [
+        {
+          "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+          "loaded": true,
+          "visibility": "visible"
+        }
+      ],
+      "broken": [],
+      "overflow": false
+    },
+    {
+      "width": 1000,
+      "heading": "L'authenticité avant tout : notre histoire et nos valeurs",
+      "mission": "PSE Consulting empowers organizations through innovative, tailored digital solutions.Our software, engineering, data and project-management specialists work closely with every client to ensure seamless integration, measurable value and sustainable digital growth.",
+      "banner": [
+        {
+          "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+          "loaded": true,
+          "visibility": "visible"
+        }
+      ],
+      "broken": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "heading": "L'authenticité avant tout : notre histoire et nos valeurs",
+      "mission": "PSE Consulting empowers organizations through innovative, tailored digital solutions.Our software, engineering, data and project-management specialists work closely with every client to ensure seamless integration, measurable value and sustainable digital growth.",
+      "banner": [
+        {
+          "src": "http://127.0.0.1:8765/pse-custom/pse-team.jpg",
+          "loaded": true,
+          "visibility": "visible"
+        }
+      ],
+      "broken": [],
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,1102 @@
+/* ================================================================
+ *  AMÉLIORATIONS PSE  —  Navigation + animation du héros
+ * ================================================================ */
+
+/* Masque l'ancienne barre Framer (sera fait aussi en JS, ceinture+bretelles) */
+.pse-framer-hidden { display: none !important; }
+
+/* Décale le contenu pour laisser la place à la nav fixe */
+.pse-has-nav #main { padding-top: 76px; }
+
+/* ---------------- NAVIGATION ---------------- */
+.pse-nav {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 2147482000;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(20px, 3vw, 44px);
+  padding: 0 clamp(16px, 4vw, 56px);
+  background: rgba(255, 255, 255, 0.72);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid transparent;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  transition: border-color .25s ease, box-shadow .25s ease, background .25s ease;
+}
+.pse-nav *,
+.pse-nav *::before,
+.pse-nav *::after { box-sizing: border-box; }
+.pse-nav.is-scrolled {
+  border-bottom-color: rgba(22, 20, 42, 0.08);
+  box-shadow: 0 6px 24px rgba(22, 20, 42, 0.06);
+}
+
+.pse-nav__brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.pse-nav__brand img { height: 34px; width: auto; display: block; }
+
+.pse-nav__links {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2vw, 30px);
+  margin: 0; padding: 0; list-style: none;
+}
+.pse-nav__links a {
+  text-decoration: none;
+  color: #16142a;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: color .2s ease;
+  white-space: nowrap;
+}
+.pse-nav__links a:hover,
+.pse-nav__links a.is-active { color: #348ace; }
+
+/* pousse le bloc langue + contact tout à droite (logo + menu restent groupés à gauche) */
+.pse-nav__right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; margin-left: auto; }
+
+/* Sélecteur de langue intégré */
+.pse-nav__lang {
+  display: inline-flex; gap: 2px;
+  border: 1px solid rgba(22,20,42,.12);
+  border-radius: 999px; padding: 3px; background: #fff;
+}
+.pse-nav__lang button {
+  border: 0; background: transparent; cursor: pointer;
+  font-size: 12px; font-weight: 700; color: #6b6b80;
+  padding: 6px 10px; border-radius: 999px; line-height: 1; transition: .2s;
+}
+.pse-nav__lang button:hover { color: #348ace; }
+.pse-nav__lang button.is-active { background: #348ace; color: #fff; }
+
+/* Shared light/dark theme control. */
+.pse-nav__theme {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border: 1px solid rgba(22, 20, 42, .12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .92);
+  color: #16142a;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color .25s ease, background .25s ease, border-color .25s ease, transform .25s ease;
+}
+.pse-nav__theme:hover { color: #1677c8; transform: translateY(-1px); }
+.pse-nav__theme span {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 19px;
+  line-height: 1;
+  transition: opacity .25s ease, transform .25s ease;
+}
+.pse-nav__theme-moon { opacity: 1; transform: rotate(0) scale(1); }
+.pse-nav__theme-sun { opacity: 0; transform: rotate(-45deg) scale(.65); }
+[data-pse-theme="dark"] .pse-nav__theme-moon { opacity: 0; transform: rotate(45deg) scale(.65); }
+[data-pse-theme="dark"] .pse-nav__theme-sun { opacity: 1; transform: rotate(0) scale(1); }
+
+html[data-pse-theme="dark"] body {
+  --token-fa8bc3f4-ff3b-4ade-9ba6-2b90ee4d37f3: #edf4ff;
+  --token-85e42553-644e-4254-88a7-c81ac840c5d2: #f6f9ff;
+  --token-8328fbec-38f5-4ae3-b863-b572a6da0fce: #dbe7f5;
+  --token-1fa38b65-d550-48ba-89e2-94fe63443ed4: #071321;
+  --token-144e382c-cd5b-4ed7-9684-9db9c45475a1: #bdcada;
+  --token-fe8c69ce-4adb-45ec-b660-1650dac6774f: #0d1d2d;
+  --token-4904ad93-0af3-4d66-8943-5858e4bdc968: #07111f;
+  background: #071321 !important;
+  color: #edf4ff;
+}
+html[data-pse-theme="dark"] #main,
+html[data-pse-theme="dark"] [data-framer-root] {
+  background-color: #071321 !important;
+}
+html[data-pse-theme="dark"] .pse-nav {
+  background: rgba(7, 19, 33, .86);
+  border-bottom-color: rgba(142, 194, 255, .16);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .24);
+}
+html[data-pse-theme="dark"] .pse-nav__links a { color: #eaf2fc; }
+html[data-pse-theme="dark"] .pse-nav__links a:hover,
+html[data-pse-theme="dark"] .pse-nav__links a.is-active { color: #68b8ff; }
+html[data-pse-theme="dark"] .pse-nav__lang,
+html[data-pse-theme="dark"] .pse-nav__theme,
+html[data-pse-theme="dark"] .pse-nav__burger {
+  color: #eef6ff;
+  background: #102438;
+  border-color: rgba(142, 194, 255, .22);
+}
+html[data-pse-theme="dark"] .pse-nav__lang button { color: #bdcada; }
+html[data-pse-theme="dark"] .pse-nav__lang button.is-active { color: #fff; background: #1677c8; }
+html[data-pse-theme="dark"] .pse-nav__burger span,
+html[data-pse-theme="dark"] .pse-nav__burger span::before,
+html[data-pse-theme="dark"] .pse-nav__burger span::after { background: #eef6ff; }
+html[data-pse-theme="dark"] .pse-nav.is-open .pse-nav__burger span { background: transparent; }
+html[data-pse-theme="dark"] input,
+html[data-pse-theme="dark"] textarea,
+html[data-pse-theme="dark"] select {
+  color: #edf4ff !important;
+  background-color: #102438 !important;
+  border-color: rgba(142, 194, 255, .24) !important;
+}
+html[data-pse-theme="dark"] input::placeholder,
+html[data-pse-theme="dark"] textarea::placeholder { color: #91a4ba !important; }
+
+@media (max-width: 900px) {
+  html[data-pse-theme="dark"] .pse-nav__links { background: #071321; }
+  .pse-nav__right { gap: 8px; }
+  .pse-nav__theme { width: 36px; height: 36px; flex-basis: 36px; }
+}
+
+@media (max-width: 520px) {
+  .pse-nav { gap: 10px; padding-inline: 12px; }
+  .pse-nav__brand img { height: 28px; }
+  .pse-nav__lang button { padding: 6px 7px; }
+}
+
+/* Theme surface fallbacks for Framer blocks that use literal light colours. */
+html[data-pse-theme="dark"] #hero-section,
+html[data-pse-theme="dark"] section:not([data-framer-name="Section Blog Header"]):not([data-framer-name="Section Solutions Header"]):not([data-framer-name="Section Team Image"]):not([data-framer-name="Section Team Header"]) {
+  background-color: #071321 !important;
+}
+html[data-pse-theme="dark"] #hero-section h1,
+html[data-pse-theme="dark"] #hero-section h2,
+html[data-pse-theme="dark"] #hero-section h3,
+html[data-pse-theme="dark"] #hero-section p {
+  --framer-text-color: #edf4ff !important;
+  color: #edf4ff !important;
+}
+html[data-pse-theme="dark"] section:not([data-framer-name="Section Blog Header"]):not([data-framer-name="Section Solutions Header"]) .framer-text {
+  color: var(--framer-text-color, #edf4ff);
+}
+
+/* Dark-mode readability for cards and custom page components. Images are
+   deliberately excluded: their source, crop, opacity and colours stay intact. */
+html[data-pse-theme="dark"] section .framer-text:not(.pse-carousel-image-caption),
+html[data-pse-theme="dark"] .pse-mission-visible-copy,
+html[data-pse-theme="dark"] .pse-mission-visible-copy p,
+html[data-pse-theme="dark"] .pse-team-name {
+  --framer-text-color: #edf4ff !important;
+  color: #edf4ff !important;
+}
+html[data-pse-theme="dark"] a:not(.pse-nav__brand) { color: #8ecaff; }
+html[data-pse-theme="dark"] [data-framer-name*="Card"] {
+  border-color: rgba(142, 194, 255, .18) !important;
+}
+html[data-pse-theme="dark"] .pse-news-nav,
+html[data-pse-theme="dark"] .pse-news-nav:disabled {
+  color: #edf4ff;
+  background: #102438;
+  border-color: rgba(142, 194, 255, .25);
+}
+html[data-pse-theme="dark"] .pse-news-nav:hover {
+  color: #fff;
+  background: #1677c8;
+  border-color: #1677c8;
+}
+html[data-pse-theme="dark"] .ref-stat,
+html[data-pse-theme="dark"] .ref-stat--hero,
+html[data-pse-theme="dark"] .ref-stat--chips span,
+html[data-pse-theme="dark"] .ref-card__body,
+html[data-pse-theme="dark"] .ref-card__media {
+  color: #edf4ff !important;
+  background: #102438 !important;
+  border-color: rgba(142, 194, 255, .18) !important;
+}
+html[data-pse-theme="dark"] .pse-ref-page {
+  --ref-ink: #edf4ff;
+  --ref-muted: #aebed0;
+  --ref-line: rgba(142, 194, 255, .18);
+  --ref-soft: #0d1d2d;
+  --ref-accent-soft: #132d46;
+  color-scheme: dark;
+  color: #edf4ff !important;
+  background: #071321 !important;
+}
+html[data-pse-theme="dark"] .ref-lead,
+html[data-pse-theme="dark"] .ref-stat__label,
+html[data-pse-theme="dark"] .ref-stat__sub,
+html[data-pse-theme="dark"] .ref-card p {
+  color: #bdcada !important;
+}
+
+/* Bouton contact */
+.pse-nav__cta {
+  text-decoration: none;
+  background: #000; color: #fff;
+  font-size: 14px; font-weight: 600;
+  padding: 10px 18px; border-radius: 999px;
+  transition: transform .2s ease, background .2s ease;
+  white-space: nowrap;
+}
+.pse-nav__cta:hover { background: #348ace; transform: translateY(-1px); }
+
+/* Hamburger (mobile) */
+.pse-nav__burger {
+  display: none;
+  width: 44px; height: 44px;
+  border: 1px solid rgba(22,20,42,.12);
+  border-radius: 10px; background: #fff; position: relative; cursor: pointer;
+}
+.pse-nav__burger span,
+.pse-nav__burger span::before,
+.pse-nav__burger span::after {
+  content: ""; position: absolute; left: 50%; top: 50%;
+  width: 20px; height: 2px; background: #16142a; transition: .25s;
+  transform: translate(-50%, -50%);
+}
+.pse-nav__burger span::before { transform: translate(-50%, -7px); }
+.pse-nav__burger span::after  { transform: translate(-50%, 5px); }
+.pse-nav.is-open .pse-nav__burger span { background: transparent; }
+.pse-nav.is-open .pse-nav__burger span::before { transform: translate(-50%, 0) rotate(45deg); }
+.pse-nav.is-open .pse-nav__burger span::after  { transform: translate(-50%, 0) rotate(-45deg); }
+
+@media (max-width: 900px) {
+  .pse-nav__burger { display: block; }
+  .pse-nav__links {
+    display: none;
+    position: fixed; inset: 76px 0 0 0;
+    flex-direction: column; align-items: flex-start; gap: 8px;
+    background: #fff; padding: 24px clamp(16px, 5vw, 40px);
+    overflow-y: auto;
+  }
+  .pse-nav.is-open .pse-nav__links { display: flex; }
+  .pse-nav__links a { font-size: 19px; padding: 10px 0; }
+  .pse-nav__cta { display: none; }
+}
+
+/* ---------------- HÉROS façon « Antigravity » ----------------
+   Règles PERMANENTES (dans le <head>) : Framer reconstruit le héros
+   après coup, donc ces styles ne doivent PAS vivre dans la section. */
+
+/* On retire toute image de fond du héros (rayures « Hero Image », etc.)
+   MAIS on garde notre logo .pse-hero-logo (sinon il est masqué aussi). */
+[data-framer-name="Hero Image"],
+#hero-section [data-framer-name="Image Wrapper"],
+#hero-section img:not(.pse-hero-logo),
+#hero-section video { display: none !important; }
+
+/* Sécurité : notre logo doit toujours s'afficher */
+#hero-section img.pse-hero-logo { display: block !important; }
+
+/* ---- Sections masquées sur l'accueil (demande client) ----
+   « Qui sommes-nous » (Section Intro), « Nos services » (Section Core Services)
+   et le bloc à onglets « Notre expertise / Ce que nous faisons / Expertise
+   technique / Notre expertise (partenariat) » (Section Offerings). */
+[data-framer-name="Section Intro"],
+[data-framer-name="Section Core Services"],
+[data-framer-name="Section Offerings"] { display: none !important; }
+
+/* ---- solutions.html : section services template (« Machinery Design » +
+   FAQ) masquée — remplacée par l'accordéon PSE (services-grid.js). ---- */
+[data-framer-name="Section Services Sticky"] { display: none !important; }
+
+/* ---- Page À propos : section « Meet Our Leaders » masquée (demande client) ---- */
+[data-framer-name="Section Our Leaders"] { display: none !important; }
+
+/* ---- about.html : 2e image retirée (demande client) ----
+   La colonne image de la section « Notre mission » (Section About Intro)
+   — celle juste au-dessus des témoignages « Quelques mots de nos partenaires
+   de confiance » — est masquée. Le texte « Notre mission » prend toute la
+   largeur (on masque toute la colonne, pas juste l'<img>, pour éviter un vide).
+   « Section  Image » a un DOUBLE espace dans son data-framer-name. */
+[data-framer-name="Section About Intro"] [data-framer-name="Section  Image"] { display: none !important; }
+
+/* ---- Page À propos : bloc image juste au-dessus des témoignages masqué
+   (demande client). NB : le nom Framer contient un DOUBLE espace. ---- */
+[data-framer-name="Section  Image"] { display: none !important; }
+
+/* ---- Badges du template Framer retirés (Buy Template / Made in Framer) ---- */
+[data-framer-name="Buy Template Module"],
+[data-framer-name="Buy Template Button"],
+[class*="__framer-badge"] { display: none !important; }
+
+/* ---- Section « Nos étapes » (Our Proccss) : fond bleu nuit PLEIN (d'origine)
+   + réseau de particules animé monté en fond par antigravity.js. ---- */
+[data-framer-name="Section Our Proccss"] {
+  position: relative;            /* repère pour le canvas de particules */
+}
+/* Le contenu (titre, étapes…) passe AU-DESSUS du canvas « antigravity ». */
+[data-framer-name="Section Our Proccss"] > *:not(.pse-antigravity) {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- solutions.html : photo équipe dans la colonne « Solve Smarter » ----
+   Image portrait recadrée proprement (cover), centrée sur les visages
+   (haut-milieu). Ajuster le 2e % de object-position pour monter/descendre. */
+#solve-smarter [data-framer-name="Image Wrap"] img,
+#solve-smarter [data-framer-name="Image Wrap"] {
+  object-fit: cover !important;
+  object-position: center 30% !important;
+}
+
+/* ---- team.html : photo team-building dans la section citation (DG) ----
+   Photo de groupe (paysage) : remplissage propre (cover), centrée sur la
+   bande des visages. Si les côtés sont trop coupés, passer en `contain`. */
+/* Image ENTIÈRE (contain) : on ne coupe NI les têtes NI les pieds.
+   Les zones non couvertes (bandes) sont comblées en bleu nuit -> propre. */
+#team-intro-1 [data-framer-name="Image Wrapper"] img {
+  object-fit: contain !important;
+  object-position: center !important;
+}
+#team-intro-1 [data-framer-name="Image"],
+#team-intro-1 [data-framer-name="Image Wrapper"] {
+  background-color: #0c2034 !important;
+}
+/* Hauteur de la section : assez haute pour que l'image (contain) soit grande. */
+#team-intro-1 {
+  padding-top: 220px !important;
+  padding-bottom: 220px !important;
+}
+
+/* ---- team.html : section « Notre équipe dirigeante » (Section Team Header) ----
+   Photo d'équipe PSE (plage) posée en FOND CSS -> survit aux reconstructions
+   Framer (sinon l'image « disparaît / revient comme avant »). On masque l'<img>
+   du template. url() relative à ce fichier (pse-custom/) -> "team/…". */
+[data-framer-name="Section Team Header"] [data-framer-name="Image Wrapper"] {
+  /* Voile dégradé sombre PAR-DESSUS la photo -> texte lisible.
+     Plus sombre -> monter les alphas (0.30/0.55 -> 0.45/0.70 ...). */
+  background-image:
+    linear-gradient(180deg, rgba(8,18,30,0.30) 0%, rgba(8,18,30,0.40) 45%, rgba(8,18,30,0.62) 100%),
+    url("team/leadership.jpg") !important;
+  background-size: cover, cover !important;
+  background-position: center, center 40% !important;
+  background-repeat: no-repeat, no-repeat !important;
+}
+[data-framer-name="Section Team Header"] [data-framer-name="Image Wrapper"] img {
+  opacity: 0 !important;
+}
+
+/* ---- Footer : même bleu nuit + mêmes particules animées ---- */
+footer {
+  position: relative;
+  background-color: #0c2034 !important;   /* identique à la section « Nos étapes » */
+}
+footer > *:not(.pse-antigravity) {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* ---- Photo d'équipe (section #image) : bandeau, légèrement dézoomé ----
+   La section faisait 640px de haut -> l'image panoramique (large/basse)
+   était trop recadrée (zoomée). On réduit la hauteur du bandeau pour
+   montrer plus de l'image, en gardant un remplissage propre (cover). */
+#image {
+  height: 600px !important;
+  max-height: 80vh !important;
+  padding-top: 96px !important;
+  padding-bottom: 96px !important;
+}
+/* Persistent team photo: the CSS background survives Framer's DOM rebuilds
+   during navigation, while the template image underneath stays hidden. */
+#image [data-framer-name="Image Wrapper"] {
+  background-color: #0c1424 !important;
+  background-image:
+    linear-gradient(180deg, rgba(5, 13, 29, .18), rgba(5, 13, 29, .52)),
+    url("pse-team.jpg?v=2") !important;
+  background-position: center, center 42% !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-size: cover, cover !important;
+}
+
+#image [data-framer-name="Image Wrapper"] img {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+#image [data-framer-name="Text Wrap"] {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 1100px) !important;
+}
+
+#image [data-framer-name="Text Wrap"] h2,
+#image [data-framer-name="Text Wrap"] p {
+  text-wrap: balance;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .48);
+}
+
+@media (max-width: 809px) {
+  #image {
+    height: clamp(460px, 82vh, 620px) !important;
+    max-height: none !important;
+    padding: 72px 20px !important;
+  }
+
+  #image [data-framer-name="Image Wrapper"] {
+    background-position: center, 58% center !important;
+  }
+
+  #image [data-framer-name="Text Wrap"] h2 {
+    font-size: clamp(2rem, 9.5vw, 4rem) !important;
+    line-height: 1.04 !important;
+  }
+}
+
+/* ---- Effet machine à écrire au scroll (pse-custom/scroll-type.js) ----
+   Le texte s'écrit lettre par lettre, suivi d'un curseur clignotant. */
+.pse-tt-text { white-space: pre-wrap; }
+.pse-tt-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 0.04em;
+  vertical-align: -0.12em;
+  background: currentColor;            /* curseur de la couleur du texte */
+  animation: pse-blink 1s steps(1) infinite;
+}
+/* Le titre superposé à la photo (#image) reste lisible : curseur bleu marque */
+#image .pse-tt-caret { background: #ffffff; }
+
+/* Fond blanc */
+#hero-section { background: #ffffff !important; }
+
+/* Texte du héros en sombre pour rester lisible sur fond clair */
+#hero-section h1,
+#hero-section h2,
+#hero-section h3,
+#hero-section p {
+  --framer-text-color: #16142a !important;
+  color: #16142a !important;
+}
+
+/* Disposition CENTRÉE façon Antigravity : titre + sous-titre + bouton
+   empilés et centrés (au lieu de « titre à gauche / carte à droite »). */
+#hero-section { justify-content: center !important; align-items: center !important; }
+
+#hero-section [data-framer-name="Container"],
+#hero-section [data-framer-name="Content"] {
+  width: 100% !important;
+  max-width: 1080px !important;
+  margin-inline: auto !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+/* « Top » : la rangée devient une colonne centrée */
+#hero-section [data-framer-name="Top"] {
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 38px !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+#hero-section [data-framer-name="Headline Wrap"] {
+  flex: none !important;
+  width: 100% !important;
+  max-width: 1000px !important;
+  justify-content: center !important;
+}
+
+#hero-section h1 { text-align: center !important; width: 100% !important; }
+
+/* ---- Contenu CUSTOM du héros (titre + sous-titre + bouton, centré) ----
+   On masque tout le contenu Framer d'origine du héros et on affiche
+   le nôtre (construit par pse-custom/hero-cta.js). */
+#hero-section.pse-hero-custom [data-framer-name="Container"] { display: none !important; }
+
+/* Le héros doit pouvoir GRANDIR pour afficher titre + boutons + stats sans
+   rogner le contenu (sinon les stats sous les boutons sont coupées). */
+#hero-section.pse-hero-custom {
+  height: auto !important;
+  min-height: 100vh;
+  padding-top: clamp(110px, 15vh, 180px) !important;
+  padding-bottom: clamp(56px, 9vh, 100px) !important;
+  box-sizing: border-box;
+}
+
+.pse-hero {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  /* police de TEXTE du template */
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+}
+/* Logo « pse CONSULTING » horizontal, centré au-dessus du titre.
+   L'image a une marge blanche interne -> on dimensionne en largeur et
+   on compense par des marges négatives pour un espacement régulier. */
+.pse-hero-logo {
+  width: clamp(170px, 20vw, 250px);
+  height: auto;
+  display: block;
+  margin: 0 auto -16px; /* centré + écart réduit avec le titre */
+}
+
+.pse-hero h1 {
+  margin: 0;
+  /* police de TITRE du template */
+  font-family: "Archivo", "Archivo Placeholder", sans-serif;
+  font-size: clamp(46px, 6.8vw, 92px);
+  line-height: 1.04;
+  font-weight: 500; /* moins gras, comme le titre « Nos services » */
+  letter-spacing: -0.025em;
+  color: #16142a !important;
+  min-height: 1.04em; /* évite le saut de mise en page pendant la frappe */
+}
+
+/* ---- Animation au chargement du héros ----
+   Curseur de saisie (machine à écrire) sur le titre. */
+.pse-hero .pse-caret {
+  display: inline-block;
+  width: 3px;
+  height: 0.92em;
+  margin-left: 0.06em;
+  vertical-align: -0.10em;
+  background: #348ace;            /* curseur bleu marque */
+  animation: pse-blink 1s steps(1) infinite;
+}
+@keyframes pse-blink {
+  0%, 50%    { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
+
+/* Logo puis bouton : montent du bas en fondu (le bouton est décalé en JS). */
+.pse-hero .pse-reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 1s cubic-bezier(.22,.61,.36,1),
+              transform 1s cubic-bezier(.22,.61,.36,1);
+  will-change: opacity, transform;
+}
+.pse-hero .pse-reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Accessibilité : pas d'animation si l'utilisateur la refuse. */
+@media (prefers-reduced-motion: reduce) {
+  .pse-hero .pse-reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .pse-hero .pse-caret { display: none !important; }
+}
+.pse-hero .pse-hero-sub {
+  margin: 0;
+  max-width: 600px;
+  font-size: clamp(17px, 1.5vw, 20px);
+  line-height: 1.6;
+  color: #5b5b6b !important;
+}
+.pse-hero .pse-hero-sub strong { color: #16142a !important; font-weight: 700; }
+
+/* Bouton SIMPLE : NOIR à la base, BLEU au survol */
+#hero-section .pse-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 4px;
+  background: #000;
+  color: #ffffff;
+  border: 1.5px solid #000;
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+  transition: background .2s ease, border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+#hero-section .pse-hero-cta * { color: #ffffff !important; }
+#hero-section .pse-hero-cta svg { transition: transform .2s ease; }
+#hero-section .pse-hero-cta:hover {
+  background: #348ace;
+  border-color: #348ace;
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px rgba(52, 138, 206, 0.42);
+}
+#hero-section .pse-hero-cta:hover svg { transform: translateX(3px); }
+
+/* Rangée des deux boutons côte à côte */
+.pse-hero-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+/* Indicateurs (40+/78/26/12) JUSTE SOUS les deux boutons du héros */
+.pse-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(22px, 4vw, 60px);
+  margin-top: 12px;
+}
+.pse-hero-stat { text-align: center; }
+.pse-hero-stat strong {
+  display: block;
+  font-family: "Geist", "Geist Placeholder", Inter, sans-serif;
+  font-size: clamp(28px, 3.4vw, 44px);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: #348ace;
+}
+.pse-hero-stat span {
+  display: block;
+  margin-top: 7px;
+  font-size: clamp(12px, 1.1vw, 14px);
+  font-weight: 500;
+  color: #56555f;
+}
+
+/* Bouton SECONDAIRE « Nous contacter » : fond BLANC, texte NOIR */
+#hero-section .pse-hero-cta2 {
+  display: inline-flex;
+  align-items: center;
+  background: #ffffff;
+  color: #000000 !important;
+  border: 1.5px solid #d7d7de;
+  padding: 14px 30px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+#hero-section .pse-hero-cta2 * { color: #000000 !important; }
+#hero-section .pse-hero-cta2:hover {
+  border-color: #000000;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+}
+
+/* Canvas des particules en arrière-plan, contenu du héros au-dessus */
+.pse-antigravity,
+.pse-hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+#hero-section > *:not(.pse-antigravity) { position: relative; z-index: 1; }
+
+/* ================================================================
+ *  CHARTE COULEUR PSE — tout en BLEU #348ace, plus aucun VIOLET
+ *  Le template Framer définit ses couleurs via des "tokens" (variables
+ *  CSS posées sur <body>). On les redéfinit ici => toutes les teintes
+ *  violettes deviennent bleues partout, d'un seul coup.
+ * ================================================================ */
+body {
+  /* violet vif #7d3bf4  -> bleu marque */
+  --token-31295925-2a16-47c8-bb02-9dde316b47d1: #348ace !important;
+  /* violet foncé #1a0f3a (fonds sombres) -> bleu nuit (pas de violet) */
+  --token-4904ad93-0af3-4d66-8943-5858e4bdc968: #0c2034 !important;
+  /* violet clair #af9aff -> bleu clair */
+  --token-8c7c781d-94d9-47bb-a4bd-71593b452083: #8fc1e8 !important;
+  /* lavande #d7d9ff -> bleu très clair */
+  --token-fb8be2a8-a40c-4bd7-8214-44805d1d6f40: #dceaf6 !important;
+}
+
+/* Liens accent du template (bleu clair #0099ff) -> bleu marque unique */
+a, .framer-text, p, span {
+  --framer-link-text-color: #348ace !important;
+}
+
+/* ================================================================
+ *  SECTION « ACTUALITÉS » — CARROUSEL (réf. image client P6.png)
+ *  JS : pse-custom/news-carousel.js (ajoute .pse-news* + les boutons).
+ * ================================================================ */
+
+/* 1) On retire le gros paragraphe d'intro (« Explorez nos dernières
+   analyses… »). CSS = permanent, Framer ne peut pas le réécrire. */
+[data-framer-name="Section Recent Articles"] [data-framer-name="Text Content Wrap"] {
+  display: none !important;
+}
+
+/* 2) Piste horizontale défilable (au lieu de la grille 2 colonnes). */
+.pse-news-track {
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 28px !important;
+  overflow-x: auto;
+  max-width: 100% !important;
+  overscroll-behavior-x: contain;
+  scroll-padding-inline: 2px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;            /* Firefox : pas de barre */
+  padding: 38px 28px 72px !important;
+}
+.pse-news-track::-webkit-scrollbar { display: none; }  /* WebKit : idem */
+
+/* 3) Chaque carte : large + coins très arrondis (comme l'image), de
+   sorte que deux cartes débordent => effet carrousel avec aperçu. */
+.pse-news-card {
+  --pse-news-card-radius: clamp(48px, 5.5vw, 68px);
+  --pse-news-image-radius: var(--pse-news-card-radius);
+  --pse-news-frame-width: 6px;
+  box-sizing: border-box !important;
+  flex: 0 0 auto !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  width: clamp(300px, 64%, 640px) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: var(--pse-news-frame-width) solid transparent !important;
+  border-radius: var(--pse-news-card-radius) !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  transform: translateY(-5px);
+  height: auto !important;
+  overflow: visible !important;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Keep each card as an image + title stack without altering the image crop. */
+.pse-news-card > [data-framer-name="Desktop"],
+.pse-news-card > [data-framer-name="Mobile"] {
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  min-height: 0 !important;
+}
+
+/* Conteneur transparent : aucun cadre blanc autour de la photo. */
+.pse-news-card [data-framer-name="Desktop"],
+.pse-news-card [data-framer-name="Mobile"] {
+  box-sizing: border-box !important;
+  width: calc(100% + var(--pse-news-frame-width) + var(--pse-news-frame-width)) !important;
+  height: auto !important;
+  margin: calc(0px - var(--pse-news-frame-width)) !important;
+  padding: 0 !important;
+  gap: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  border-radius: var(--pse-news-card-radius) !important;
+  overflow: visible !important;
+}
+.pse-news-card [data-framer-name="Image"] {
+  background-color: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.pse-news-card::before,
+.pse-news-card::after,
+.pse-news-card [data-framer-name="Desktop"]::before,
+.pse-news-card [data-framer-name="Desktop"]::after,
+.pse-news-card [data-framer-name="Mobile"]::before,
+.pse-news-card [data-framer-name="Mobile"]::after {
+  content: none !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+@media (min-width: 1440px) {
+  .pse-news-card { width: calc(50% - 14px) !important; }
+}
+
+@media (min-width: 810px) and (max-width: 1199px) {
+  .pse-news-card { width: 100% !important; }
+}
+
+/* Tablettes et téléphones : le carrousel défile verticalement. */
+@media (max-width: 1199px) {
+  .pse-news-track {
+    flex-direction: column !important;
+    height: clamp(360px, 65vh, 620px) !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior-x: auto;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y mandatory;
+    scroll-padding-inline: 0;
+    scroll-padding-block: 2px;
+  }
+  .pse-news-card { width: 100% !important; }
+  .pse-news-prev svg,
+  .pse-news-next svg { transform: rotate(90deg); }
+}
+
+@media (max-width: 809px) {
+  .pse-news-track { gap: 18px !important; }
+  .pse-news-card { width: 100% !important; }
+  .pse-news-controls { justify-content: center !important; margin-top: 22px !important; }
+}
+
+@media (max-width: 479px) {
+  .pse-news-track { gap: 14px !important; height: clamp(300px, 58vh, 500px) !important; }
+  .pse-news-card { width: 100% !important; }
+  .pse-news-card [data-framer-name="Blog Image Wrap"] { aspect-ratio: 4 / 3 !important; }
+  .pse-news-nav { height: 44px !important; width: 44px !important; }
+}
+
+/* Très grands coins sur la carte, coins distincts sur la photo imbriquée. */
+.pse-news-card [data-framer-name="Desktop"],
+.pse-news-card [data-framer-name="Mobile"] {
+  border-radius: var(--pse-news-card-radius) !important;
+}
+.pse-news-card [data-framer-name="Blog Image Wrap"] {
+  border-radius: var(--pse-news-image-radius) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.pse-news-card [data-framer-name="Blog Image Wrap"] { overflow: hidden !important; }
+
+.pse-news-card [data-framer-name="Blog Image Wrap"],
+.pse-news-card [data-framer-name="Image"],
+.pse-news-card [data-framer-name="Image"] > div,
+.pse-news-card [data-framer-name="Blog Image Wrap"] img {
+  border-radius: var(--pse-news-image-radius) !important;
+  clip-path: inset(0 round var(--pse-news-image-radius)) !important;
+  overflow: hidden !important;
+}
+
+/* Cadrage des vraies photos PSE : zone d'image au ratio fixe, photo
+   recadrée proprement (centrée, sans déformation) pour rester lisible. */
+.pse-news-card [data-framer-name="Blog Image Wrap"] {
+  aspect-ratio: 3 / 2 !important;
+  display: block !important;
+  flex: 0 0 auto !important;
+  order: 1 !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  position: relative !important;
+  background-color: transparent !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-clip: padding-box !important;
+  border: 0 !important;
+  border-radius: var(--pse-news-image-radius) !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+  overflow: clip !important;
+  isolation: isolate;
+  transform: translateZ(0);
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.pse-news-card [data-framer-name="Image"],
+.pse-news-card [data-framer-name="Image"] > div,
+.pse-news-card [data-framer-name="Blog Image Wrap"] img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  border-radius: inherit !important;
+  overflow: hidden !important;
+}
+.pse-news-card [data-framer-name="Image"],
+.pse-news-card [data-framer-name="Image"] > div {
+  position: absolute !important;
+  inset: 0 !important;
+  background-color: transparent !important;
+}
+.pse-news-card [data-framer-name="Blog Image Wrap"] img {
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+}
+
+/* Description displayed over each image. It does not capture interactions, so
+   links, swiping, scrolling, autoplay and carousel controls keep working. */
+.pse-carousel-image-caption {
+  position: absolute !important;
+  z-index: 5 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  min-height: 42% !important;
+  margin: 0 !important;
+  padding: clamp(22px, 4vw, 42px) !important;
+  color: #fff !important;
+  background: linear-gradient(180deg, transparent 0%, rgba(3, 13, 28, .2) 20%, rgba(3, 13, 28, .88) 100%) !important;
+  font-family: Geist, Inter, system-ui, sans-serif !important;
+  font-size: clamp(18px, 2.1vw, 30px) !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -.02em !important;
+  text-align: left !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, .72) !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+/* Home carousel captions: strong native system typography. */
+[data-framer-name="Section Recent Articles"] .pse-carousel-image-caption {
+  font-family: Archivo, "Archivo Placeholder", Geist, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  font-size: clamp(20px, 2.35vw, 34px) !important;
+  font-weight: 700 !important;
+  line-height: 1.14 !important;
+  letter-spacing: -.025em !important;
+  color: #ffffff !important;
+  padding: clamp(24px, 4.5vw, 48px) !important;
+  background:
+    linear-gradient(180deg, transparent 0%, rgba(2, 10, 24, .18) 18%, rgba(2, 10, 24, .94) 100%) !important;
+  text-shadow:
+    0 2px 3px rgba(0, 0, 0, .82),
+    0 8px 24px rgba(0, 0, 0, .62) !important;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 809px) {
+  [data-framer-name="Section Recent Articles"] .pse-carousel-image-caption {
+    font-size: clamp(19px, 5.8vw, 28px) !important;
+    padding: clamp(20px, 6vw, 30px) !important;
+    min-height: 50% !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .pse-carousel-image-caption {
+    min-height: 48% !important;
+    padding: 22px !important;
+    font-size: clamp(17px, 5.2vw, 22px) !important;
+  }
+}
+
+
+/* TEXTES des cartes Actualités RETIRÉS partout (accueil + blog.html) tant
+   qu'on n'a pas les vrais titres/dates : on masque tout le bloc texte
+   (« Blog Content » = titre + date + durée) ET l'overlay « Lire la suite »
+   (« Read More Wrap »). -> cartes = PHOTO seule. (Retirer ces règles pour
+   remontrer les textes plus tard.) Cible : cartes d'articles uniquement
+   (liens vers blog…), pas les pages d'article elles-mêmes. */
+a[href*="blog"] [data-framer-name="Blog Content"],
+a[href*="blog"] [data-framer-name="Read More Wrap"],
+.pse-news-card [data-framer-name="Blog Content"],
+.pse-news-card [data-framer-name="Read More Wrap"] { display: none !important; }
+
+/* ================================================================
+ *  PHOTOS PSE des cartes d'articles — posées en FOND via CSS.
+ *
+ *  POURQUOI EN CSS : Framer reconstruit le DOM après hydratation et
+ *  EFFACE tout ce que le JS modifie (l'<img> revenait au template ->
+ *  « l'image disparaît / revient comme avant »). Une règle CSS, elle,
+ *  continue de s'appliquer après chaque reconstruction. On cible par
+ *  le lien de l'article (href, stable) : robuste à 100 %.
+ *  Vaut pour blog.html ET le carrousel Actualités de l'accueil.
+ *  url() est relative à CE fichier (pse-custom/) -> "news/…".
+ * ================================================================ */
+[href*="ai-transforms-manufacturing"]             [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-1.jpg") !important; }
+[href*="bridging-the-manufacturing-skills-gap"]   [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-2.jpg") !important; }
+[href*="data-driven-manufacturing"]               [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-3.jpg") !important; }
+[href*="predictive-maintenance-the-game-changer"] [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-4.jpg") !important; }
+[href*="sustainable-manufacturing-solutions"]     [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-5.jpg") !important; }
+[href*="this-is-a-bloh-headline-title"]           [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-6.jpg") !important; }
+.pse-news-photo7                                  [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-7.jpg") !important; }
+
+/* Cadrage commun + on masque l'<img> du template (la photo PSE est en fond) */
+[href*="blog/"] [data-framer-name="Blog Image Wrap"],
+.pse-news-photo7 [data-framer-name="Blog Image Wrap"] {
+  background-color: transparent !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+[href*="blog/"] [data-framer-name="Blog Image Wrap"] img,
+.pse-news-photo7 [data-framer-name="Blog Image Wrap"] img { opacity: 0 !important; }
+
+/* Flottement sobre : une seule ombre douce, sans empilement proéminent. */
+.pse-news-card {
+  transition: transform .35s cubic-bezier(.22,.61,.36,1), box-shadow .35s ease;
+}
+.pse-news-card:hover {
+  transform: translateY(-11px);
+  box-shadow: none !important;
+}
+
+@media (max-width: 809px) {
+  .pse-news-card {
+    --pse-news-frame-width: 5px;
+    padding: 0 !important;
+  }
+}
+
+/* 4) Barre de contrôle : boutons ronds ‹ › alignés à droite (bas). */
+.pse-news-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  margin-top: 30px;
+}
+.pse-news-nav {
+  width: 50px; height: 50px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  border: 1.5px solid rgba(22, 20, 42, 0.18);
+  background: #fff;
+  color: #16142a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .2s ease, border-color .2s ease,
+              color .2s ease, transform .2s ease, opacity .2s ease;
+}
+.pse-news-nav svg { width: 22px; height: 22px; display: block; }
+.pse-news-nav:hover {
+  background: #348ace;
+  border-color: #348ace;
+  color: #fff;
+  transform: translateY(-1px);
+}
+.pse-news-nav:disabled {
+  opacity: .35;
+  cursor: default;
+  transform: none;
+  background: #fff;
+  border-color: rgba(22, 20, 42, 0.18);
+  color: #16142a;
+}
+
+/* ---------------- BOUTONS du template (pastilles "Button Fill") ----
+   NOIR à la base, BLEU au survol, contenu (texte + flèche) en blanc. */
+[data-framer-name="Button Fill"] {
+  background-color: #000 !important;
+  transition: background-color .2s ease !important;
+}
+/* contenu du bouton en blanc (texte + icônes), via le parent qui
+   contient la pastille */
+*:has(> [data-framer-name="Button Fill"]) p,
+*:has(> [data-framer-name="Button Fill"]) .framer-text,
+*:has([data-framer-name="Button Fill"]) [data-framer-name*="Arrow"] {
+  --framer-text-color: #fff !important;
+  color: #fff !important;
+  fill: #fff !important;
+}
+/* survol : la pastille passe au bleu */
+*:has(> [data-framer-name="Button Fill"]):hover > [data-framer-name="Button Fill"] {
+  background-color: #348ace !important;
+}

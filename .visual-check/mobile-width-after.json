@@ -1,0 +1,2624 @@
+[
+  {
+    "page": "index.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "about.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "solutions.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "team.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "references.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "contact.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "blog.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "team/david-brown.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "team/jane-smith.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "team/john-doe.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "team/mesliisa-mane.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "team/mike-johnson.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "team/sara-connor.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "blog/bridging-the-manufacturing-skills-gap.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "blog/data-driven-manufacturing.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "blog/predictive-maintenance-the-game-changer.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "blog/sustainable-manufacturing-solutions.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "blog/this-is-a-bloh-headline-title.html",
+    "width": 320,
+    "header": {
+      "x": 0,
+      "width": 320,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 320,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 320,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 320,
+    "scroll": 320
+  },
+  {
+    "page": "index.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "about.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "solutions.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "team.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "references.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "contact.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "blog.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "team/david-brown.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "team/jane-smith.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "team/john-doe.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "team/mesliisa-mane.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "team/mike-johnson.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "team/sara-connor.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "blog/bridging-the-manufacturing-skills-gap.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "blog/data-driven-manufacturing.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "blog/predictive-maintenance-the-game-changer.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "blog/sustainable-manufacturing-solutions.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "blog/this-is-a-bloh-headline-title.html",
+    "width": 390,
+    "header": {
+      "x": 0,
+      "width": 390,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 390,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 390,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 390,
+    "scroll": 390
+  },
+  {
+    "page": "index.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "about.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "solutions.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "team.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "references.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "contact.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "blog.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "team/david-brown.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "team/jane-smith.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "team/john-doe.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "team/mesliisa-mane.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "team/mike-johnson.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "team/sara-connor.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "blog/bridging-the-manufacturing-skills-gap.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "blog/data-driven-manufacturing.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "blog/predictive-maintenance-the-game-changer.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "blog/sustainable-manufacturing-solutions.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "blog/this-is-a-bloh-headline-title.html",
+    "width": 520,
+    "header": {
+      "x": 0,
+      "width": 520,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 520,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 520,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 520,
+    "scroll": 520
+  },
+  {
+    "page": "index.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "about.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "solutions.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "team.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "references.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "contact.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "blog.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "team/david-brown.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "team/jane-smith.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "team/john-doe.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "team/mesliisa-mane.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "team/mike-johnson.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "team/sara-connor.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "blog/bridging-the-manufacturing-skills-gap.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "blog/data-driven-manufacturing.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "blog/predictive-maintenance-the-game-changer.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "blog/sustainable-manufacturing-solutions.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "blog/this-is-a-bloh-headline-title.html",
+    "width": 809,
+    "header": {
+      "x": 0,
+      "width": 809,
+      "padding": "16px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 809,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 809,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 809,
+    "scroll": 809
+  },
+  {
+    "page": "index.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "40px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "about.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "40px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "solutions.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "40px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "team.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "40px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "references.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "40px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "contact.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "40px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "blog.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "40px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "team/david-brown.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "team/jane-smith.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "team/john-doe.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "team/mesliisa-mane.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "team/mike-johnson.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "team/sara-connor.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "blog/bridging-the-manufacturing-skills-gap.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "blog/data-driven-manufacturing.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "blog/predictive-maintenance-the-game-changer.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "blog/sustainable-manufacturing-solutions.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "blog/this-is-a-bloh-headline-title.html",
+    "width": 1000,
+    "header": {
+      "x": 0,
+      "width": 985,
+      "padding": "40px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 985,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 985,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1000,
+    "scroll": 985
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "48px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "about.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "48px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "solutions.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "48px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "team.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "48px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "references.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "48px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "contact.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "48px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "blog.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "48px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "team/david-brown.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "team/jane-smith.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "team/john-doe.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "team/mesliisa-mane.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "team/mike-johnson.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "team/sara-connor.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "blog/bridging-the-manufacturing-skills-gap.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "blog/data-driven-manufacturing.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "blog/predictive-maintenance-the-game-changer.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "blog/sustainable-manufacturing-solutions.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  },
+  {
+    "page": "blog/this-is-a-bloh-headline-title.html",
+    "width": 1440,
+    "header": {
+      "x": 0,
+      "width": 1425,
+      "padding": "56px"
+    },
+    "footers": [
+      {
+        "x": 0,
+        "width": 1425,
+        "padding": "16px",
+        "parent": {
+          "x": 0,
+          "width": 1425,
+          "padding": "0px"
+        }
+      }
+    ],
+    "viewport": 1440,
+    "scroll": 1425
+  }
+]

@@ -1,0 +1,240 @@
+
+html body section#team-intro[data-framer-name="Section Team Header"] {
+  position: relative !important;
+  isolation: isolate;
+  overflow: hidden !important;
+  background-color: #081626 !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(180deg, rgba(8, 18, 30, .30) 0%, rgba(8, 18, 30, .40) 45%, rgba(8, 18, 30, .62) 100%),
+    url("pse-team.webp?v=2");
+  background-position: center, center 42%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  transform: none !important;
+  animation: none !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"]
+  [data-framer-name="Image Wrapper"] {
+  z-index: 1 !important;
+  background: transparent !important;
+  background-image: none !important;
+  animation: none !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"]
+  [data-framer-name="Image Wrapper"] img {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"]
+  > :not([data-framer-name="Image Wrapper"]) {
+  position: relative;
+  z-index: 2;
+}
+
+
+html body section#team-intro[data-framer-name="Section Team Header"]
+  [data-framer-name="Headline Content"] {
+  width: min(100% - 40px, 1100px) !important;
+  margin-inline: auto !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"]
+  [data-framer-name="Headline"],
+html body section#team-intro[data-framer-name="Section Team Header"]
+  [data-framer-name="Text Content Wrap"],
+html body section#team-intro[data-framer-name="Section Team Header"]
+  [data-framer-name="Text Wrap"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+  overflow: visible !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"] h2,
+html body section#team-intro[data-framer-name="Section Team Header"] p {
+  text-align: center !important;
+  text-wrap: balance;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"] h2 {
+  width: 100% !important;
+  max-width: none !important;
+  font-size: clamp(18px, 4.4vw, 54px) !important;
+  line-height: 1.08 !important;
+  white-space: nowrap !important;
+  text-wrap: nowrap !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"] p {
+  max-width: 62ch;
+  margin-inline: auto !important;
+}
+
+
+html body [data-framer-name="Section Our Team"]
+  [data-framer-name="Headline Content"],
+html body [data-framer-name="Section Our Team"]
+  [data-framer-name="Headline"],
+html body [data-framer-name="Section Our Team"]
+  [data-framer-name="Text Wrap"] {
+  width: 100% !important;
+  margin-inline: auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+html body [data-framer-name="Section Our Team"] h2 {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-inline: auto !important;
+  font-size: clamp(20px, 5vw, 64px) !important;
+  line-height: 1.05 !important;
+  letter-spacing: -.04em !important;
+  text-align: center !important;
+  text-wrap: nowrap;
+  white-space: nowrap !important;
+  overflow-wrap: normal;
+  word-break: normal;
+  overflow: visible !important;
+  text-overflow: clip !important;
+}
+
+html body [data-framer-name="Section Our Team"]
+  [data-framer-component-type="RichTextContainer"] {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+}
+
+html body [data-framer-name="Section Our Team"]
+  [data-framer-name="Headline Content"],
+html body [data-framer-name="Section Our Team"]
+  [data-framer-name="Headline"],
+html body [data-framer-name="Section Our Team"]
+  [data-framer-name="Text Wrap"] {
+  max-width: 100% !important;
+  overflow: visible !important;
+}
+
+html body [data-framer-name="Section Our Team"]
+  [data-framer-name="Divider"] {
+  margin-inline: auto !important;
+}
+
+
+html body [data-framer-name^="Section Careers"]
+  [data-framer-name="Container"],
+html body [data-framer-name^="Section Careers"]
+  [data-framer-name="Content Wrap"],
+html body [data-framer-name^="Section Careers"]
+  [data-framer-name="Headline Content"],
+html body [data-framer-name^="Section Careers"]
+  [data-framer-name="Headline"],
+html body [data-framer-name^="Section Careers"]
+  [data-framer-name="Text Content Wrap"],
+html body [data-framer-name^="Section Careers"]
+  [data-framer-name="Text Wrap"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-inline: auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+html body [data-framer-name^="Section Careers"] h2,
+html body [data-framer-name^="Section Careers"] p {
+  margin-inline: auto !important;
+  text-align: center !important;
+  text-wrap: balance;
+}
+
+html body [data-framer-name^="Section Careers"] p {
+  max-width: 70ch !important;
+}
+
+html body [data-framer-name^="Section Careers"]
+  [data-framer-name="Brand Vector"] {
+  margin-inline: auto !important;
+}
+
+@media (max-width: 809px) {
+  html body [data-framer-name="Section Our Team"] h2 {
+    font-size: clamp(18px, 5.5vw, 38px) !important;
+    line-height: 1.08 !important;
+  }
+
+  html body section#team-intro[data-framer-name="Section Team Header"]
+    [data-framer-name="Headline Content"] {
+    width: min(100% - 32px, 680px) !important;
+  }
+
+  html body section#team-intro[data-framer-name="Section Team Header"]::before {
+    background-position: center, 55% center;
+  }
+}
+
+@media (max-width: 420px) {
+  html body [data-framer-name="Section Our Team"] h2 {
+    font-size: clamp(16px, 5.1vw, 22px) !important;
+    letter-spacing: -.035em !important;
+  }
+
+  html body section#team-intro[data-framer-name="Section Team Header"] h2 {
+    font-size: clamp(16px, 5.1vw, 22px) !important;
+    letter-spacing: -.035em !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html body section#team-intro[data-framer-name="Section Team Header"]::before {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* Responsive long-form vision copy. */
+html body [data-framer-name="Section Our Mission"] .pse-vision-wrap {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 760px !important;
+  min-width: 0 !important;
+}
+
+html body [data-framer-name="Section Our Mission"] .pse-vision-copy {
+  width: 100% !important;
+  max-width: 68ch !important;
+  margin: 0 !important;
+  font-size: clamp(16px, 1.35vw, 19px) !important;
+  line-height: 1.65 !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+}
+
+@media (max-width: 809px) {
+  html body [data-framer-name="Section Our Mission"] .pse-vision-wrap {
+    max-width: 100% !important;
+  }
+
+  html body [data-framer-name="Section Our Mission"] .pse-vision-copy {
+    font-size: clamp(15px, 4.2vw, 17px) !important;
+    line-height: 1.58 !important;
+  }
+}

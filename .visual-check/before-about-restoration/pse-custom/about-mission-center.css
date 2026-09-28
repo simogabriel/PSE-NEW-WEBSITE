@@ -1,0 +1,239 @@
+
+
+
+section[data-framer-name="Section About Header"] {
+  position: relative !important;
+  isolation: isolate;
+}
+
+section[data-framer-name="Section About Header"] [data-framer-name="Container"],
+section[data-framer-name="Section About Header"] [data-framer-name="Content Wrap"],
+section[data-framer-name="Section About Header"] [data-framer-name="Text Wrap"],
+section[data-framer-name="Section About Header"] [data-framer-component-type="RichTextContainer"] {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+section[data-framer-name="Section About Header"] [data-framer-name="Content Wrap"] {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 3 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100% !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+section[data-framer-name="Section About Header"] h1 {
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-flow: row nowrap !important;
+  align-items: baseline !important;
+  justify-content: center !important;
+  column-gap: .22em !important;
+  width: calc(100vw - 16px) !important;
+  max-width: calc(100vw - 16px) !important;
+  margin-inline: auto !important;
+  padding-inline: 4px !important;
+  font-size: min(3vw, 46px) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -.045em !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  text-wrap: nowrap !important;
+  word-break: normal !important;
+  overflow: visible !important;
+}
+
+section[data-framer-name="Section About Header"] h1 > span {
+  display: inline-flex !important;
+  flex-flow: row nowrap !important;
+  align-items: baseline !important;
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+}
+
+section[data-framer-name="Section About Header"] h1 span span {
+  display: inline-block !important;
+  flex: 0 0 auto !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+@media (max-width: 809px) {
+  section[data-framer-name="Section About Header"] h1 {
+    width: calc(100vw - 8px) !important;
+    max-width: calc(100vw - 8px) !important;
+    padding-inline: 2px !important;
+    column-gap: .14em !important;
+    font-size: min(2.8vw, 18px) !important;
+  }
+}
+
+@media (max-width: 360px) {
+  section[data-framer-name="Section About Header"] h1 {
+    width: calc(100vw - 4px) !important;
+    max-width: calc(100vw - 4px) !important;
+    padding-inline: 0 !important;
+    column-gap: .1em !important;
+    font-size: 2.7vw !important;
+  }
+}
+
+section[data-framer-name="Section About Intro"] [data-framer-name="Content Wrap"] {
+  align-items: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+section[data-framer-name="Section About Intro"] [data-framer-name="Wrap"] {
+  align-items: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  margin-inline: auto !important;
+  width: 100% !important;
+}
+
+section[data-framer-name="Section About Intro"] [data-framer-name="Text Wrap"] {
+  align-items: center !important;
+  margin-inline: auto !important;
+  max-width: 900px !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+section[data-framer-name="Section About Intro"] [data-framer-component-type="RichTextContainer"] {
+  margin-inline: auto !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+section[data-framer-name="Section About Intro"] p,
+section[data-framer-name="Section About Intro"] h1,
+section[data-framer-name="Section About Intro"] h2 {
+  --framer-text-alignment: center !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+.pse-mission-visible-copy {
+  color: #1e1e1f;
+  font-family: "Geist", "Geist Placeholder", Inter, system-ui, sans-serif;
+  margin: 26px auto 0;
+  max-width: 900px;
+  text-align: center;
+  width: 100%;
+}
+
+section[data-framer-name="Section About Intro"]
+  [data-framer-name="Content Wrap"] > [data-framer-component-type="RichTextContainer"] p {
+  --framer-text-color: #1677c8 !important;
+  color: #1677c8 !important;
+  font-size: clamp(36px, 4.2vw, 52px) !important;
+  font-weight: 600 !important;
+  text-shadow: 0 6px 24px rgba(22, 119, 200, .18);
+}
+
+section[data-framer-name="Section About Intro"] .pse-mission-label {
+  --framer-text-color: #1677c8 !important;
+  color: #1677c8 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: 0 6px 24px rgba(22, 119, 200, .18) !important;
+}
+
+.pse-mission-visible-copy p {
+  font-size: clamp(34px, 4.2vw, 52px);
+  font-weight: 500;
+  line-height: 1.45;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pse-mission-visible-copy p + p {
+  color: #5b5b6b;
+  font-size: clamp(30px, 4.2vw, 52px);
+  font-weight: 400;
+  line-height: 1.7;
+  margin-top: 26px;
+}
+
+@media (max-width: 809px) {
+  section[data-framer-name="Section About Intro"] [data-framer-name="Text Wrap"] {
+    max-width: 680px !important;
+  }
+}
+
+/* The static export has no scroll runtime to move these reveal covers away. */
+#main section[data-framer-name="Section Full Image"] [data-framer-name="Overlay"] {
+  display: none !important;
+}
+#main section[data-framer-name="Section Full Image"] [data-framer-name="Image Wrapper"] {
+  background: none !important;
+}
+#main section[data-framer-name="Section Full Image"] img {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+#main section[data-framer-name="Section Full Image"] [data-framer-name="Image"] {
+  transform: none !important;
+}
+section[data-framer-name="Section About Header"] [data-framer-name="Container"] {
+  overflow: visible !important;
+}
+section[data-framer-name="Section About Header"] [data-framer-name="Content Wrap"] {
+  position: relative !important;
+  inset: auto !important;
+  height: auto !important;
+}
+section[data-framer-name="Section About Header"] h1 {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block !important;
+  white-space: normal !important;
+  text-wrap: balance !important;
+  font-size: clamp(28px, 3.2vw, 46px) !important;
+}
+
+/* Keep About content independent of shared template section hiding rules. */
+#main [data-framer-name="Section  Image"],
+#main [data-framer-name="Section Our Leaders"] {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: auto !important;
+  gap: 32px;
+}
+#main .framer-flat07, #main .framer-17akem2 {
+  display: none !important;
+}
+#main [style*="will-change:transform"] {
+  transform: none !important;
+  opacity: 1 !important;
+}
+#main [data-framer-name="Section Our Values"] img {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+#main .pse-parch {
+  margin-top: 48px;
+}
+#main [data-framer-name="Section About Intro"] [data-framer-name="Wrap"] {
+  gap: 28px !important;
+}
+#main [data-framer-name="Section About Intro"] [data-framer-name="Text Wrap"] {
+  height: auto !important;
+}

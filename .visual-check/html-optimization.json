@@ -1,0 +1,92 @@
+[
+  {
+    "file": "about.html",
+    "before": 1116346,
+    "after": 903837
+  },
+  {
+    "file": "blog.html",
+    "before": 451781,
+    "after": 326458
+  },
+  {
+    "file": "contact.html",
+    "before": 255188,
+    "after": 129563
+  },
+  {
+    "file": "index.html",
+    "before": 434843,
+    "after": 271883
+  },
+  {
+    "file": "solutions.html",
+    "before": 693750,
+    "after": 480284
+  },
+  {
+    "file": "team.html",
+    "before": 445087,
+    "after": 257666
+  },
+  {
+    "file": "blog\\ai-transforms-manufacturing.html",
+    "before": 263255,
+    "after": 127544
+  },
+  {
+    "file": "blog\\bridging-the-manufacturing-skills-gap.html",
+    "before": 263315,
+    "after": 127604
+  },
+  {
+    "file": "blog\\data-driven-manufacturing.html",
+    "before": 263246,
+    "after": 127535
+  },
+  {
+    "file": "blog\\predictive-maintenance-the-game-changer.html",
+    "before": 264254,
+    "after": 128543
+  },
+  {
+    "file": "blog\\sustainable-manufacturing-solutions.html",
+    "before": 263336,
+    "after": 127625
+  },
+  {
+    "file": "blog\\this-is-a-bloh-headline-title.html",
+    "before": 263264,
+    "after": 127553
+  },
+  {
+    "file": "team\\david-brown.html",
+    "before": 417801,
+    "after": 232726
+  },
+  {
+    "file": "team\\jane-smith.html",
+    "before": 251304,
+    "after": 118023
+  },
+  {
+    "file": "team\\john-doe.html",
+    "before": 251163,
+    "after": 117882
+  },
+  {
+    "file": "team\\mesliisa-mane.html",
+    "before": 251862,
+    "after": 118581
+  },
+  {
+    "file": "team\\mike-johnson.html",
+    "before": 251334,
+    "after": 118053
+  },
+  {
+    "file": "team\\sara-connor.html",
+    "before": 251301,
+    "after": 118020
+  }
+]

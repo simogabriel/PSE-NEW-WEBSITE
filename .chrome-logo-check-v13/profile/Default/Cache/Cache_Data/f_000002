@@ -1,0 +1,569 @@
+/* ================================================================
+ *  CONTENU DU SITE PSE  (remplace les textes du template PSE Consulting)
+ *
+ *  Fonctionnement : à GAUCHE = le texte ORIGINAL anglais du template
+ *  (sert de repère, ne pas changer). À DROITE = le contenu PSE en
+ *  français (fr) et en anglais (en) — c'est ÇA qu'on modifie.
+ *
+ *  Les apostrophes courbes (’) sont normalisées : on peut écrire ' .
+ *  Ce fichier grandit page par page.
+ * ================================================================ */
+window.PSE_T = Object.assign(window.PSE_T || {}, {
+
+  /* ---------- Marque / héros ---------- */
+  "PSE Consulting": { fr: "PSE Consulting Cameroun SARL", en: "PSE Consulting Cameroun SARL" },
+  "Complete Manufacturing": { fr: "Services informatiques", en: "IT Services" },
+
+  /* ---------- Navigation (gardée cohérente) ---------- */
+  "Home": { fr: "Accueil", en: "Home" },
+  "About": { fr: "À propos", en: "About" },
+  "About Us": { fr: "Qui sommes-nous", en: "About Us" },
+  "Team": { fr: "Équipe", en: "Team" },
+  "Solutions": { fr: "Solutions", en: "Solutions" },
+  "Blog": { fr: "Actualités", en: "Blog" },
+  "Contact": { fr: "Contact", en: "Contact" },
+
+  /* ---------- Titres de sections ---------- */
+  "Introduction": { fr: "Qui sommes-nous", en: "About Us" },
+  "Industry Focus": { fr: "Notre expertise", en: "Our Expertise" },
+  "Core Services": { fr: "Nos services", en: "Our Services" },
+  "Service Offerings": { fr: "Ce que nous faisons", en: "What We Do" },
+  "Technical Expertise": { fr: "Expertise technique", en: "Technical Expertise" },
+  "Recent Articles": { fr: "Actualités", en: "News" },
+  "We're Here to Help": { fr: "Nous sommes là pour vous aider", en: "We're Here to Help" },
+  "Let's Connect": { fr: "Contactez-nous", en: "Get in Touch" },
+
+  /* ---------- Notre process (4 étapes) — contenu réel "Nos procédures" (SITE_PSE/fr) ---------- */
+  "Design": { fr: "Compréhension approfondie de vos besoins", en: "In-depth Needs Understanding" },
+  "Implement": { fr: "Design thinking", en: "Design Thinking" },
+  "Optimize": { fr: "Réunion de coordination", en: "Coordination Meeting" },
+  "Maintain": { fr: "Evaluation et régulation", en: "Evaluation & Compliance" },
+  "Step 1": { fr: "Étape 1", en: "Step 1" },
+  "Step 2": { fr: "Étape 2", en: "Step 2" },
+  "Step 3": { fr: "Étape 3", en: "Step 3" },
+  "Step 4": { fr: "Étape 4", en: "Step 4" },
+  "Transform your operations with expert design and development services, tailored to your unique needs.": {
+    fr: "Nous recueillons, documentons et analysons les exigences de votre projet logiciel pour nous assurer qu'il répond aux besoins des parties prenantes et des utilisateurs : identification des besoins, documentation et organisation, validation des exigences, création d'un document de spécification.",
+    en: "We gather, document and analyze your software project's requirements to ensure it meets the needs of stakeholders and users: needs identification, documentation and organization, requirements validation, and specification document creation."
+  },
+  "Seamless transition to new solutions with minimal downtime, ensuring efficiency and productivity.": {
+    fr: "Une approche qui favorise l'innovation et la résolution de problèmes en mettant l'accent sur les besoins des utilisateurs : compréhension des utilisateurs, idéation créative, prototypage rapide, itération.",
+    en: "An approach that fosters innovation and problem-solving by focusing on user needs: user understanding, creative ideation, rapid prototyping, iteration."
+  },
+  "Continuously improve performance with data-driven insights, driving efficiency, productivity, and quality.": {
+    fr: "Une activité stratégique qui rassemble les parties prenantes impliquées dans la conception et la réalisation du projet logiciel : objectifs, participants, préparation, logiciel de coordination BIM.",
+    en: "A strategic activity that brings together the stakeholders involved in designing and delivering the software project: objectives, participants, preparation, BIM coordination software."
+  },
+  "Ongoing support for peak performance and minimal downtime, with regular updates and expert maintenance": {
+    fr: "Des aspects essentiels pour garantir la qualité, la fiabilité et la conformité de vos logiciels : évaluation, régulation des processus, normes et métriques.",
+    en: "Essential aspects to guarantee the quality, reliability and compliance of your software: evaluation, process regulation, standards and metrics."
+  },
+
+  /* ---------- Cartes de services (mappées sur les services PSE) ---------- */
+  "Custom Machinery Design": { fr: "Développement de logiciels", en: "Software Development" },
+  "System Integration": { fr: "Gestion de projets informatiques", en: "IT Project Management" },
+  "Equipment Modernization": { fr: "Ingénierie, analyse & conseil", en: "Engineering, Analysis & Advice" },
+  "Innovative design and development of custom machinery, tailored to meet unique manufacturing needs.": {
+    fr: "Conception et développement d'applications et de logiciels sur mesure, adaptés à vos besoins métier.",
+    en: "Design and development of custom applications and software, tailored to your business needs."
+  },
+  "Connecting disparate systems for streamlined operations, enhanced collaboration, and improved productivity.": {
+    fr: "Pilotage de vos projets informatiques de bout en bout, du cadrage jusqu'à la mise en production.",
+    en: "End-to-end management of your IT projects, from scoping all the way to production."
+  },
+  "Upgrading existing equipment for improved performance, reliability, and compatibility with emerging technologies.": {
+    fr: "Analyse de vos besoins et conseil stratégique pour faire les bons choix technologiques.",
+    en: "Analysis of your needs and strategic advice to make the right technology choices."
+  },
+
+  /* ---------- Paragraphes d'introduction / présentation ---------- */
+  "PSE Consulting delivers consulting, implementation, and support services to optimize manufacturing operations. Flexible and adaptable, PSE Consulting's services respond to changing client needs.": {
+    fr: "PSE Consulting fournit des services de conseil, d'ingénierie et de support pour accompagner votre transformation numérique. Flexibles et adaptés, nos services suivent l'évolution de vos besoins.",
+    en: "PSE Consulting provides consulting, engineering and support services to drive your digital transformation. Flexible and adaptable, our services evolve with your needs."
+  },
+  "PSE Consulting serves the manufacturing sector, providing innovative solutions to enhance operational efficiency. With a deep understanding of industry challenges, PSE Consulting delivers tailored solutions.": {
+    fr: "PSE Consulting accompagne entreprises et institutions dans leurs projets informatiques et data. Forte d'une compréhension fine de vos enjeux, PSE livre des solutions sur mesure.",
+    en: "PSE Consulting supports companies and institutions in their IT and data projects. With a deep understanding of your challenges, PSE delivers tailored solutions."
+  },
+  "PSE Consulting's team possesses deep technical knowledge of manufacturing technology solutions. With extensive experience and industry expertise, PSE Consulting designs, implements, and supports complex technology systems.": {
+    fr: "L'équipe de PSE Consulting possède une expertise technique pointue en développement, data et gestion de projet. Forte d'une solide expérience, PSE conçoit, met en œuvre et soutient des systèmes complexes.",
+    en: "The PSE Consulting team has deep technical expertise in development, data and project management. With extensive experience, PSE designs, implements and supports complex systems."
+  },
+  "Partnership Approach: PSE Consulting collaborates closely with clients to develop tailored solutions driving business value. Working in partnership, PSE Consulting delivers solutions aligned with client goals and objectives.": {
+    fr: "Approche partenariale : PSE Consulting collabore étroitement avec ses clients pour développer des solutions créatrices de valeur, alignées sur leurs objectifs.",
+    en: "Partnership approach: PSE Consulting works closely with its clients to develop value-creating solutions aligned with their objectives."
+  },
+  "Our AI-driven robotics are built through a seamless process of innovative design, smart sourcing, automated assembly, and rigorous testing, delivering cutting-edge solutions with precision and scalability.": {
+    fr: "Nos solutions data et logicielles reposent sur un processus rigoureux : analyse des besoins, conception, développement et tests, pour des résultats fiables et évolutifs.",
+    en: "Our data and software solutions are built on a rigorous process: needs analysis, design, development and testing, delivering reliable and scalable results."
+  },
+  "Revolutionizing manufacturing and engineering with AI technology that optimizes production workflows, improve product quality, and reduce costs.": {
+    fr: "Gagnez en compétitivité grâce à des compétences digitales de haut niveau. Mobilisez les bons experts et faites avancer vos projets en quelques jours.",
+    en: "Boost your competitiveness with top-tier digital skills. Bring in the right experts and move your projects forward in just days."
+  },
+  "Ready to transform your manufacturing operations? We're here to help. Contact us today to learn more about our innovative solutions and expert services.": {
+    fr: "Prêt à accélérer votre transformation numérique ? Nous sommes là pour vous aider. Contactez-nous dès aujourd'hui pour en savoir plus sur nos solutions et nos services.",
+    en: "Ready to accelerate your digital transformation? We're here to help. Contact us today to learn more about our solutions and services."
+  },
+
+  /* ---------- Boutons / liens ---------- */
+  "Learn More": { fr: "En savoir plus", en: "Learn More" },
+  "Read More": { fr: "Lire la suite", en: "Read More" },
+  "View All": { fr: "Voir tout", en: "View All" },
+  "View Team": { fr: "Voir l'équipe", en: "View Team" },
+
+  /* ---------- Actualités / blog ---------- */
+  "AI Transforms Manufacturing": { fr: "L'IA au service de votre entreprise", en: "AI for Your Business" },
+  "Bridging the Manufacturing Skills Gap": { fr: "Réussir sa transformation numérique", en: "Succeeding in Digital Transformation" },
+  /* Titres BROUILLON pour les 4 cartes ajoutées (carrousel) — à ajuster par le client */
+  "Data-Driven Manufacturing": { fr: "Exploiter vos données pour décider", en: "Turning Your Data Into Decisions" },
+  "Predictive Maintenance: The Game Changer": { fr: "Maintenance prédictive : anticiper les pannes", en: "Predictive Maintenance: Anticipate Failures" },
+  "Sustainable Manufacturing Solutions": { fr: "Des solutions numériques durables", en: "Sustainable Digital Solutions" },
+  "The Future of Industry 4.0": { fr: "Cap sur l'industrie 4.0", en: "Toward Industry 4.0" },
+  "PSE on the Field": { fr: "PSE sur le terrain", en: "PSE on the Field" },
+  "Discover actionable advice, expert analysis, and inspiring stories of success to help you drive growth, improve efficiency, and stay ahead. Our blog offers fresh perspectives, practical guidance, and real-world examples of business excellence.": {
+    fr: "Découvrez des conseils concrets, des analyses d'experts et des retours d'expérience pour stimuler votre croissance, gagner en efficacité et garder une longueur d'avance.",
+    en: "Discover actionable advice, expert analysis and real-world experience to drive growth, improve efficiency and stay ahead."
+  },
+  "Explore the latest insights and trends in business growth and optimization on our blog. We examine the key drivers of success, from leadership and strategy to operations and innovation.": {
+    fr: "Explorez nos dernières analyses sur le numérique, la data et la gestion de projet : les leviers clés de la réussite, de la stratégie jusqu'à la mise en œuvre.",
+    en: "Explore our latest insights on digital, data and project management: the key drivers of success, from strategy to delivery."
+  },
+  "By Flowit Supply": { fr: "Par PSE Consulting", en: "By PSE Consulting" },
+  "5 mins": { fr: "5 min", en: "5 mins" },
+
+  /* ---------- Paragraphes « At PSE Consulting … » (sections présentation) ---------- */
+  "At PSE Consulting, we design and implement tailored solutions to optimize manufacturing workflows, improve product quality, and reduce costs.": {
+    fr: "Chez PSE Consulting, nous concevons et déployons des solutions sur mesure pour optimiser vos processus, améliorer la qualité et réduire vos coûts.",
+    en: "At PSE Consulting, we design and implement tailored solutions to optimize your processes, improve quality, and reduce costs."
+  },
+
+  /* ---------- Divers ---------- */
+  "Based in Austin, Tx": { fr: "Basé à Yaoundé & Genève", en: "Based in Yaoundé & Geneva" },
+  "Based in Austin,Tx": { fr: "Basé à Yaoundé & Genève", en: "Based in Yaoundé & Geneva" },
+  "©2025 PSE Consulting All Rights Reserved": { fr: "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.", en: "© 2026 PSE Consulting Cameroun SARL. All rights reserved." },
+
+  /* ================================================================
+   *  PAGES INTERNES (about / solutions / team / contact / blog)
+   *  Textes du template adaptés au métier PSE (informatique, data,
+   *  transformation numérique). Clé = texte ANGLAIS d'origine.
+   * ================================================================ */
+
+  /* -- Titres & libellés -- */
+  "Our Mission": { fr: "Notre mission", en: "Our Mission" },
+  "Our Values": { fr: "Nos valeurs", en: "Our Values" },
+  "Meet Our Leaders": { fr: "Notre équipe dirigeante", en: "Meet Our Leaders" },
+  "Our Team": { fr: "Notre équipe", en: "Our Team" },
+  "Head of Operations": { fr: "Responsable des opérations", en: "Head of Operations" },
+  "Connect With Us": { fr: "Contactez-nous", en: "Get in Touch" },
+  "Your Info": { fr: "Vos informations", en: "Your Info" },
+  "↳ Your Info": { fr: "↳ Vos informations", en: "↳ Your Info" },
+  "Back to Team": { fr: "Retour à l'équipe", en: "Back to Team" },
+  "View all": { fr: "Voir tout", en: "View all" },
+  /* -- FAQ (solutions) -- */
+  "What industries do you serve?": { fr: "Dans quels secteurs intervenez-vous ?", en: "What industries do you serve?" },
+  "How long does it take to see results?": { fr: "Combien de temps faut-il pour voir des résultats ?", en: "How long does it take to see results?" },
+  "What sets your company apart from others?": { fr: "Qu'est-ce qui vous distingue des autres ?", en: "What sets your company apart from others?" },
+  "How do you measure the success?": { fr: "Comment mesurez-vous la réussite ?", en: "How do you measure success?" },
+
+  /* -- À propos -- */
+  "Our leadership team brings together decades of experience in innovation, technology, and industry expertise. They guide our mission to deliver cutting-edge solutions that transform businesses and drive growth.": {
+    fr: "Notre équipe dirigeante réunit des décennies d'expérience en innovation, en technologie et en conseil. Elle porte notre mission : livrer des solutions de pointe qui transforment les organisations et accélèrent leur croissance.",
+    en: "Our leadership team brings together decades of experience in innovation, technology and consulting. They guide our mission to deliver cutting-edge solutions that transform organizations and drive growth."
+  },
+  "With a passion for innovation and a commitment to excellence, our leaders inspire and empower our teams to push boundaries and achieve exceptional results.": {
+    fr: "Animés par la passion de l'innovation et l'exigence d'excellence, nos dirigeants inspirent et accompagnent nos équipes pour repousser les limites et obtenir des résultats exceptionnels.",
+    en: "With a passion for innovation and a commitment to excellence, our leaders inspire and empower our teams to push boundaries and achieve exceptional results."
+  },
+  "\"We were impressed by their ability to understand our unique challenges and develop customized solutions that met our needs. Their approach is collaborative, flexible, and focused on delivering results. We've seen significant improvements in our operations and are confident in our partnership.\"": {
+    fr: "« Nous avons été impressionnés par leur capacité à comprendre nos enjeux et à concevoir des solutions sur mesure adaptées à nos besoins. Leur approche est collaborative, flexible et orientée résultats. Nos opérations se sont nettement améliorées et nous sommes confiants dans ce partenariat. »",
+    en: "\"We were impressed by their ability to understand our unique challenges and develop customized solutions that met our needs. Their approach is collaborative, flexible, and focused on delivering results. We've seen significant improvements in our operations and are confident in our partnership.\""
+  },
+
+  /* -- Solutions -- */
+  "We partner with you to understand your unique challenges and develop tailored solutions that drive results. From strategy and operations to innovation and growth, our expertise helps you overcome obstacles, capitalize on opportunities, and achieve your goals.": {
+    fr: "Nous travaillons à vos côtés pour comprendre vos enjeux et développer des solutions sur mesure qui produisent des résultats. De la stratégie aux opérations, de l'innovation à la croissance, notre expertise vous aide à lever les obstacles, saisir les opportunités et atteindre vos objectifs.",
+    en: "We partner with you to understand your challenges and develop tailored solutions that drive results. From strategy and operations to innovation and growth, our expertise helps you overcome obstacles, seize opportunities, and achieve your goals."
+  },
+  "We design and develop innovative machinery solutions that integrate AI, robotics, and cutting-edge technologies to optimize performance, efficiency, and safety. Our team of experts works closely with you to understand your unique requirements and creates customized designs that meet your specific needs.": {
+    fr: "Nous concevons et développons des applications et logiciels sur mesure, intégrant l'IA, la data et les technologies de pointe pour optimiser la performance, l'efficacité et la fiabilité. Notre équipe d'experts travaille étroitement avec vous pour comprendre vos exigences et créer des solutions adaptées à vos besoins.",
+    en: "We design and develop custom applications and software, integrating AI, data and cutting-edge technologies to optimize performance, efficiency and reliability. Our team of experts works closely with you to understand your requirements and build solutions tailored to your needs."
+  },
+  "Our system integration services bring together AI, robotics, and other advanced technologies to create seamless, efficient, and productive systems. We integrate disparate components, systems, and technologies to create a cohesive and optimized whole, enabling you to achieve greater efficiency, productivity, and competitiveness.": {
+    fr: "Nos services d'intégration réunissent l'IA, la data et les technologies avancées pour créer des systèmes fluides, efficaces et productifs. Nous intégrons composants, systèmes et technologies hétérogènes en un ensemble cohérent et optimisé, pour gagner en efficacité, en productivité et en compétitivité.",
+    en: "Our system integration services bring together AI, data and advanced technologies to create seamless, efficient and productive systems. We integrate disparate components, systems and technologies into a cohesive, optimized whole, helping you achieve greater efficiency, productivity and competitiveness."
+  },
+  "Unlock the full potential of your data with our AI-powered data analytics services. We help you collect, analyze, and interpret complex data sets to gain actionable insights, optimize operations, and drive business growth. By leveraging machine learning, robotics, and other advanced technologies, we enable you to make data-driven decisions, identify new opportunities, and stay ahead of the competition.": {
+    fr: "Exploitez tout le potentiel de vos données grâce à nos services d'analyse augmentés par l'IA. Nous vous aidons à collecter, analyser et interpréter des ensembles de données complexes pour en tirer des enseignements concrets, optimiser vos opérations et soutenir votre croissance. En mobilisant le machine learning et les technologies avancées, vous prenez des décisions fondées sur la donnée et gardez une longueur d'avance.",
+    en: "Unlock the full potential of your data with our AI-powered analytics services. We help you collect, analyze and interpret complex data sets to gain actionable insights, optimize operations and drive growth. By leveraging machine learning and advanced technologies, you make data-driven decisions, spot new opportunities and stay ahead of the competition."
+  },
+  /* -- Équipe -- */
+  "At PSE Consulting, our mission is to revolutionize manufacturing through innovation and technology. We're dedicated to empowering industries to build better, faster, and more sustainably.": {
+    fr: "Chez PSE Consulting, notre mission est de transformer les organisations par l'innovation et la technologie. Nous aidons les entreprises et institutions à construire mieux, plus vite et de façon plus durable.",
+    en: "At PSE Consulting, our mission is to transform organizations through innovation and technology. We help companies and institutions build better, faster, and more sustainably."
+  },
+  "By harnessing the power of data, automation, and human ingenuity, we're creating a brighter future for manufacturing – one that's more efficient, more resilient, and more remarkable.": {
+    fr: "En conjuguant la puissance de la data, de l'automatisation et de l'ingéniosité humaine, nous bâtissons un avenir plus efficace, plus résilient et plus prometteur pour nos clients.",
+    en: "By harnessing the power of data, automation and human ingenuity, we're building a brighter future for our clients – one that's more efficient, more resilient and more remarkable."
+  },
+  "Join our team of innovators, thinkers, and makers who are revolutionizing the manufacturing industry. We're looking for talented individuals who share our passion for innovation and excellence.": {
+    fr: "Rejoignez notre équipe d'innovateurs, de penseurs et de bâtisseurs qui transforment le numérique. Nous recherchons des talents qui partagent notre passion pour l'innovation et l'excellence.",
+    en: "Join our team of innovators, thinkers and makers who are transforming the digital landscape. We're looking for talented individuals who share our passion for innovation and excellence."
+  },
+  "Whether you're a seasoned professional or just starting your career, we offer opportunities for growth, development, and collaboration. Interested in exploring a role at PSE Consulting? Send us your application - contact details are below.": {
+    fr: "Que vous soyez un professionnel confirmé ou en début de carrière, nous offrons des opportunités d'évolution, de développement et de collaboration. Envie de rejoindre PSE Consulting ? Envoyez-nous votre candidature — nos coordonnées sont ci-dessous.",
+    en: "Whether you're a seasoned professional or just starting your career, we offer opportunities for growth, development and collaboration. Interested in a role at PSE Consulting? Send us your application — contact details are below."
+  },
+
+  /* -- À propos / Équipe : compléments -- */
+  "Empowering manufacturers to achieve excellence through innovative, tailored robotics solutions.": {
+    fr: "Donner aux organisations les moyens d'exceller grâce à des solutions numériques innovantes et sur mesure.",
+    en: "Empowering organizations to achieve excellence through innovative, tailored digital solutions."
+  },
+  "I feel incredibly fortunate to work alongside such a talented, curious, and passionate group of individuals. Every day at PSE Consulting, I'm inspired by the creativity, expertise, and kindness that surrounds me.\"": {
+    fr: "Je me sens incroyablement chanceux de travailler aux côtés d'un groupe aussi talentueux, curieux et passionné. Chaque jour chez PSE Consulting, je suis inspiré par la créativité, l'expertise et la bienveillance qui m'entourent. »",
+    en: "I feel incredibly fortunate to work alongside such a talented, curious and passionate group of individuals. Every day at PSE Consulting, I'm inspired by the creativity, expertise and kindness that surrounds me.\""
+  },
+
+  /* -- Blog -- */
+  "Stay current with PSE Consulting's latest news and announcements. From breakthroughs to innovative partnerships, we're shaping the future of manufacturing.": {
+    fr: "Suivez l'actualité de PSE Consulting : annonces, partenariats et avancées qui façonnent la transformation numérique.",
+    en: "Stay current with PSE Consulting's latest news and announcements: breakthroughs, partnerships and insights shaping digital transformation."
+  },
+  "Explore the PSE Consulting blog for expert insights on manufacturing trends, technologies, and innovation. Our team shares knowledge and expertise on the industry's latest developments.": {
+    fr: "Explorez le blog de PSE Consulting : analyses d'experts sur le numérique, la data et la gestion de projet. Notre équipe partage son savoir-faire et les dernières tendances.",
+    en: "Explore the PSE Consulting blog for expert insights on digital, data and project management. Our team shares its know-how and the latest trends."
+  },
+
+  /* ---------- Cartes d'articles ajoutées au carrousel (news-carousel.js) ---------- */
+  "Data-Driven Manufacturing": { fr: "Piloter par la donnée", en: "Data-Driven Decision-Making" },
+  "Predictive Maintenance: The Game Changer": { fr: "La maintenance prédictive change la donne", en: "Predictive Maintenance: The Game Changer" },
+  "Sustainable Manufacturing Solutions": { fr: "Vers un numérique plus responsable", en: "Sustainable, Responsible Tech" },
+  "The Future of Industry 4.0": { fr: "L'avenir de l'industrie 4.0", en: "The Future of Industry 4.0" },
+
+  /* ---------- Corps d'article de blog (partagé par les 6 articles) ---------- */
+  "5 Sustainable Manufacturing Solutions for a Greener Future": {
+    fr: "5 leviers concrets pour une activité plus durable et responsable",
+    en: "5 Practical Solutions for a Greener, More Sustainable Business"
+  },
+  "As concern for the environment continues to grow, manufacturers are under increasing pressure to reduce their ecological footprint. Sustainable manufacturing solutions are not only good for the planet, but they can also help businesses reduce costs, improve efficiency, and enhance their brand reputation. In this blog post, we'll explore five sustainable manufacturing solutions that can help your business go green.": {
+    fr: "Alors que les préoccupations environnementales ne cessent de croître, les entreprises sont de plus en plus incitées à réduire leur empreinte écologique. Les démarches durables sont bénéfiques pour la planète, mais aussi pour réduire les coûts, gagner en efficacité et renforcer l'image de marque. Dans cet article, nous explorons cinq leviers concrets pour rendre votre activité plus responsable.",
+    en: "As environmental concerns keep growing, businesses face increasing pressure to reduce their ecological footprint. Sustainable practices are good for the planet, but they also help cut costs, improve efficiency and strengthen brand reputation. In this post, we explore five practical solutions to make your business greener."
+  },
+  "Upgrading to energy-efficient equipment can significantly reduce energy consumption and lower greenhouse gas emissions. Look for equipment with energy-saving features, such as LED lighting, variable speed drives, and energy-efficient motors.": {
+    fr: "Passer à des équipements écoénergétiques réduit nettement la consommation d'énergie et les émissions de gaz à effet de serre. Privilégiez les matériels dotés de fonctions d'économie d'énergie : éclairage LED, variateurs de vitesse et moteurs à haut rendement.",
+    en: "Upgrading to energy-efficient equipment can significantly reduce energy consumption and greenhouse gas emissions. Look for energy-saving features such as LED lighting, variable speed drives and high-efficiency motors."
+  },
+  "Using sustainable materials can reduce waste, conserve natural resources, and minimize environmental impact. Consider using recycled materials, bioplastics, or sustainably sourced wood in your manufacturing processes.": {
+    fr: "L'utilisation de matériaux durables réduit les déchets, préserve les ressources naturelles et limite l'impact environnemental. Pensez aux matériaux recyclés, aux bioplastiques ou au bois issu de filières responsables dans vos process.",
+    en: "Using sustainable materials reduces waste, conserves natural resources and minimizes environmental impact. Consider recycled materials, bioplastics or responsibly sourced wood in your processes."
+  },
+  "Lean manufacturing techniques can help reduce waste, minimize energy consumption, and optimize production processes. By streamlining operations and eliminating unnecessary steps, manufacturers can reduce their environmental footprint.": {
+    fr: "Les méthodes lean aident à réduire le gaspillage, à limiter la consommation d'énergie et à optimiser les processus. En rationalisant les opérations et en supprimant les étapes superflues, on réduit son empreinte environnementale.",
+    en: "Lean methods help reduce waste, minimize energy consumption and optimize processes. By streamlining operations and eliminating unnecessary steps, you shrink your environmental footprint."
+  },
+  "Investing in renewable energy sources, such as solar or wind power, can significantly reduce dependence on fossil fuels and lower greenhouse gas emissions. Consider installing solar panels or wind turbines on-site to power your manufacturing operations.": {
+    fr: "Investir dans les énergies renouvelables, comme le solaire ou l'éolien, réduit fortement la dépendance aux énergies fossiles et les émissions de gaz à effet de serre. Envisagez l'installation de panneaux solaires ou d'éoliennes sur site pour alimenter votre activité.",
+    en: "Investing in renewable energy such as solar or wind power significantly reduces dependence on fossil fuels and lowers greenhouse gas emissions. Consider installing solar panels or wind turbines on-site to power your operations."
+  },
+  "Closed-loop production involves designing products and processes that can be continuously cycled back into production, reducing waste and the demand for new raw materials. This approach can help manufacturers reduce their environmental impact while also reducing costs.": {
+    fr: "La production en boucle fermée consiste à concevoir des produits et des processus réintégrables en continu dans la production, ce qui réduit les déchets et le besoin de matières premières neuves. Cette approche limite l'impact environnemental tout en réduisant les coûts.",
+    en: "Closed-loop production means designing products and processes that can be continuously cycled back into production, reducing waste and the need for new raw materials. This approach lowers environmental impact while also cutting costs."
+  },
+  "Sustainable manufacturing solutions are no longer a nicety, but a necessity. By adopting energy-efficient equipment, sustainable materials, lean manufacturing techniques, renewable energy sources, and closed-loop production, manufacturers can reduce their environmental footprint, improve efficiency, and enhance their brand reputation.": {
+    fr: "Les démarches durables ne sont plus un luxe, mais une nécessité. En adoptant des équipements écoénergétiques, des matériaux durables, des méthodes lean, des énergies renouvelables et la production en boucle fermée, on réduit son empreinte environnementale, on gagne en efficacité et on renforce son image de marque.",
+    en: "Sustainable practices are no longer a nicety but a necessity. By adopting energy-efficient equipment, sustainable materials, lean methods, renewable energy and closed-loop production, businesses reduce their environmental footprint, improve efficiency and strengthen their brand reputation."
+  },
+
+  /* ---------- Bios équipe (génériques, partagées par les fiches) ---------- */
+  "As a dedicated and forward-thinking leader, this individual is driven by a passion for innovation and sustainability in the manufacturing industry. With a strong foundation in business and engineering, they bring a unique perspective to the complex challenges facing manufacturers today.": {
+    fr: "Leader engagé et visionnaire, cette personne est animée par la passion de l'innovation et de la performance durable dans le numérique. Forte d'un solide socle en gestion et en ingénierie, elle apporte un regard unique sur les défis complexes des organisations d'aujourd'hui.",
+    en: "A dedicated and forward-thinking leader, this person is driven by a passion for innovation and sustainable performance in technology. With a strong foundation in business and engineering, they bring a unique perspective to the complex challenges organizations face today."
+  },
+  "Throughout their career, they have developed a deep expertise in operational excellence, sustainable practices, and strategic growth. Their experience has equipped them with a keen insight into the opportunities and obstacles that manufacturers face in their pursuit of sustainability.": {
+    fr: "Tout au long de sa carrière, cette personne a développé une expertise pointue en excellence opérationnelle, en pratiques durables et en croissance stratégique. Son expérience lui confère une fine compréhension des opportunités et des obstacles que rencontrent les organisations.",
+    en: "Throughout their career, they have developed deep expertise in operational excellence, sustainable practices and strategic growth. Their experience gives them keen insight into the opportunities and obstacles organizations face."
+  },
+  "With a strong commitment to delivering innovative, sustainable solutions, this individual is dedicated to making a positive impact on the industry and the world. Their vision is to empower manufacturers to adopt sustainable practices that drive growth while minimizing environmental footprint.": {
+    fr: "Profondément engagée à livrer des solutions innovantes et durables, cette personne a à cœur d'avoir un impact positif sur son secteur et sur le monde. Sa vision : aider les organisations à adopter des pratiques durables qui soutiennent la croissance tout en réduisant leur empreinte.",
+    en: "Deeply committed to delivering innovative, sustainable solutions, this person is dedicated to making a positive impact on the industry and the world. Their vision is to help organizations adopt sustainable practices that drive growth while minimizing their footprint."
+  },
+
+  /* ---------- Bio « dirigeant / CEO » ---------- */
+  "Our CEO is a seasoned leader with a proven track record of driving innovation and sustainability in the manufacturing industry. With a strong background in business and engineering, they possess a unique understanding of the complex challenges facing manufacturers today.": {
+    fr: "Notre dirigeant est un leader chevronné, à la feuille de route éprouvée en matière d'innovation et de performance durable dans le numérique. Fort d'une solide expérience en gestion et en ingénierie, il possède une compréhension unique des défis complexes des organisations d'aujourd'hui.",
+    en: "Our CEO is a seasoned leader with a proven track record of driving innovation and sustainable performance in technology. With a strong background in business and engineering, they have a unique understanding of the complex challenges organizations face today."
+  },
+  "Throughout their career, our CEO has held various leadership roles within the manufacturing sector, developing a deep expertise in operational excellence, sustainable practices, and strategic growth. Their experience has equipped them with a keen insight into the opportunities and obstacles that manufacturers face in their pursuit of sustainability.": {
+    fr: "Tout au long de sa carrière, notre dirigeant a occupé divers postes à responsabilité dans le secteur du numérique, développant une expertise pointue en excellence opérationnelle, en pratiques durables et en croissance stratégique. Son expérience lui confère une fine compréhension des opportunités et des obstacles des organisations.",
+    en: "Throughout their career, our CEO has held various leadership roles in the technology sector, developing deep expertise in operational excellence, sustainable practices and strategic growth. Their experience gives them keen insight into the opportunities and obstacles organizations face."
+  },
+  "Our CEO's vision is to empower manufacturers to adopt sustainable solutions that drive growth while minimizing environmental footprint. They are committed to delivering innovative, sustainable manufacturing solutions that benefit both businesses and the environment. Under their leadership, our company is dedicated to making a positive impact on the industry and the world.": {
+    fr: "La vision de notre dirigeant : aider les organisations à adopter des solutions durables qui soutiennent la croissance tout en réduisant leur empreinte environnementale. Il s'engage à livrer des solutions innovantes et durables, bénéfiques à la fois pour les entreprises et l'environnement. Sous sa direction, notre société a à cœur d'avoir un impact positif sur son secteur et sur le monde.",
+    en: "Our CEO's vision is to help organizations adopt sustainable solutions that drive growth while minimizing their environmental footprint. They are committed to delivering innovative, sustainable solutions that benefit both businesses and the environment. Under their leadership, our company is dedicated to making a positive impact on the industry and the world."
+  },
+
+  /* ---------- Pied de page & libellés divers ---------- */
+  "Austin, TX": { fr: "Yaoundé & Genève", en: "Yaoundé & Geneva" },
+  "Insights & News": { fr: "Analyses & actualités", en: "Insights & News" },
+  "Newsroom": { fr: "Actualités", en: "Newsroom" },
+  "Careers": { fr: "Carrières", en: "Careers" },
+  "Opportunities": { fr: "Opportunités", en: "Opportunities" },
+  "Overview": { fr: "Aperçu", en: "Overview" },
+  "Partners": { fr: "Partenaires", en: "Partners" },
+  "Socials": { fr: "Réseaux sociaux", en: "Socials" },
+  "Business Hours": { fr: "Horaires", en: "Business Hours" },
+  "Monday - Friday11am - 7pm": { fr: "Lundi - Vendredi 11h - 19h", en: "Monday - Friday 11am - 7pm" },
+  "Solve Smarter": { fr: "Résoudre plus intelligemment", en: "Solve Smarter" },
+  /* Valeurs PSE réelles (section « Our Values » de about.html : 4 emplacements) */
+  "Collaborate": { fr: "Loyauté", en: "Loyalty" },
+  "Pioneer": { fr: "Professionnalisme", en: "Professionalism" },
+  "Unite": { fr: "Sécurité", en: "Security" },
+  "Submit": { fr: "Envoyer", en: "Submit" },
+  "FAQ's": { fr: "FAQ", en: "FAQ's" },
+  "Data Analysis": { fr: "Analyse de données", en: "Data Analysis" },
+  "Machinery Design": { fr: "Conception de solutions", en: "Solution Design" },
+  "Monday - Friday": { fr: "Lundi - Vendredi", en: "Monday - Friday" },
+  "11am - 7pm": { fr: "11h - 19h", en: "11am - 7pm" },
+  "Your Name": { fr: "Votre nom", en: "Your Name" },
+  "Email Address": { fr: "Adresse e-mail", en: "Email Address" },
+  "Phone": { fr: "Téléphone", en: "Phone" },
+  "Company Name": { fr: "Nom de l'entreprise", en: "Company Name" },
+  "Your Message": { fr: "Votre message", en: "Your Message" },
+  "Article précédent": { fr: "Article précédent", en: "Previous article" },
+  "Article suivant": { fr: "Article suivant", en: "Next article" },
+  "Indicateurs PSE": { fr: "Indicateurs PSE", en: "PSE indicators" },
+  "Liste des références": { fr: "Liste des références", en: "List of references" },
+  "Navigation du pied de page": { fr: "Navigation du pied de page", en: "Footer navigation" },
+  "Based in YAOUNDE, CAMEROON": { fr: "Basé à Yaoundé, Cameroun", en: "Based in Yaoundé, Cameroon" },
+  "YAOUNDE, CAMEROON": { fr: "YAOUNDÉ, CAMEROUN", en: "YAOUNDÉ, CAMEROON" },
+  "Create a free website with Framer, the website builder loved by startups, designers and agencies.": {
+    fr: "Créez gratuitement un site avec Framer, l'outil apprécié des startups, designers et agences.",
+    en: "Create a free website with Framer, the website builder loved by startups, designers and agencies."
+  },
+
+  /* ---------- Page Références autonome ---------- */
+  "Références": { fr: "Références", en: "References" },
+  "Références - PSE Consulting": { fr: "Références - PSE Consulting", en: "References - PSE Consulting" },
+  "AI Transforms Manufacturing - PSE Consulting": { fr: "L'IA au service de votre entreprise - PSE Consulting", en: "AI Transforms Manufacturing - PSE Consulting" },
+  "Bridging the Manufacturing Skills Gap - PSE Consulting": { fr: "Réussir sa transformation numérique - PSE Consulting", en: "Bridging the Manufacturing Skills Gap - PSE Consulting" },
+  "Data-Driven Manufacturing - PSE Consulting": { fr: "Exploiter vos données pour décider - PSE Consulting", en: "Data-Driven Manufacturing - PSE Consulting" },
+  "Predictive Maintenance: The Game Changer - PSE Consulting": { fr: "Maintenance prédictive : anticiper les pannes - PSE Consulting", en: "Predictive Maintenance: The Game Changer - PSE Consulting" },
+  "Sustainable Manufacturing Solutions - PSE Consulting": { fr: "Des solutions numériques durables - PSE Consulting", en: "Sustainable Manufacturing Solutions - PSE Consulting" },
+  "The Future of Industry 4.0 - PSE Consulting": { fr: "Cap sur l'Industrie 4.0 - PSE Consulting", en: "The Future of Industry 4.0 - PSE Consulting" },
+  "Nos réalisations": { fr: "Nos réalisations", en: "Our Work" },
+  "Une sélection de projets livrés pour des institutions et grands comptes au Cameroun, en Suisse et à l'international.": {
+    fr: "Une sélection de projets livrés pour des institutions et grands comptes au Cameroun, en Suisse et à l'international.",
+    en: "A selection of projects delivered for institutions and major organizations in Cameroon, Switzerland and internationally."
+  },
+  "Depuis 2004": { fr: "Depuis 2004", en: "Since 2004" },
+  "projets livrés": { fr: "projets livrés", en: "projects delivered" },
+  "Développeurs & experts": { fr: "Développeurs & experts", en: "Developers & experts" },
+  "Clients accompagnés": { fr: "Clients accompagnés", en: "Clients supported" },
+  "Partenaires": { fr: "Partenaires", en: "Partners" },
+  "Cameroun": { fr: "Cameroun", en: "Cameroon" },
+  "Suisse": { fr: "Suisse", en: "Switzerland" },
+  "International": { fr: "International", en: "International" },
+  "Projets livrés": { fr: "Projets livrés", en: "Delivered Projects" },
+  "Des plateformes en production, à grande échelle": { fr: "Des plateformes en production, à grande échelle", en: "Large-scale platforms in production" },
+  "Secteur public · Santé": { fr: "Secteur public · Santé", en: "Public sector · Health" },
+  "Secteur public · Mobilité": { fr: "Secteur public · Mobilité", en: "Public sector · Mobility" },
+  "Secteur public · Finances": { fr: "Secteur public · Finances", en: "Public sector · Finance" },
+  "Secteur public · Planification": { fr: "Secteur public · Planification", en: "Public sector · Planning" },
+  "Secteur public": { fr: "Secteur public", en: "Public sector" },
+  "Logistique & Transport": { fr: "Logistique & Transport", en: "Logistics & Transport" },
+  "Banque & Finance": { fr: "Banque & Finance", en: "Banking & Finance" },
+  "Industrie": { fr: "Industrie", en: "Industry" },
+  "Cameroun · 2023": { fr: "Cameroun · 2023", en: "Cameroon · 2023" },
+  "Cameroun · 2022": { fr: "Cameroun · 2022", en: "Cameroon · 2022" },
+  "Cameroun · 2016-2021": { fr: "Cameroun · 2016-2021", en: "Cameroon · 2016–2021" },
+  "Cameroun · 2020": { fr: "Cameroun · 2020", en: "Cameroon · 2020" },
+  "Suisse · 2011": { fr: "Suisse · 2011", en: "Switzerland · 2011" },
+  "Suisse · 2012": { fr: "Suisse · 2012", en: "Switzerland · 2012" },
+  "International · 2015": { fr: "International · 2015", en: "International · 2015" },
+  "Europe · 2004": { fr: "Europe · 2004", en: "Europe · 2004" },
+  "Ministère de la Santé Publique": { fr: "Ministère de la Santé Publique", en: "Ministry of Public Health" },
+  "Ministère des Transports": { fr: "Ministère des Transports", en: "Ministry of Transportation" },
+  "Fonds Routier": { fr: "Fonds Routier", en: "Road Fund" },
+  "Port Autonome de Douala": { fr: "Port Autonome de Douala", en: "Port Authority of Douala" },
+  "République & Canton de Genève": { fr: "République & Canton de Genève", en: "Republic and Canton of Geneva" },
+  "Banque Pictet": { fr: "Banque Pictet", en: "Pictet Bank" },
+  "Nestlé & Nespresso": { fr: "Nestlé & Nespresso", en: "Nestlé & Nespresso" },
+  "Plateforme et site web de la Couverture Santé Universelle (CSU/CTN), pour un accès simplifié à des soins de qualité.": {
+    fr: "Plateforme et site web de la Couverture Santé Universelle (CSU/CTN), pour un accès simplifié à des soins de qualité.",
+    en: "Universal Health Coverage (CSU/CTN) platform and website, providing easier access to quality healthcare."
+  },
+  "Plateforme nationale d'échange, de sensibilisation et d'analyse sur la sécurité routière.": {
+    fr: "Plateforme nationale d'échange, de sensibilisation et d'analyse sur la sécurité routière.",
+    en: "National platform for road-safety exchange, awareness and analysis."
+  },
+  "Plateforme électronique d'authentification des déclarations et des dépôts au Fonds Routier.": {
+    fr: "Plateforme électronique d'authentification des déclarations et des dépôts au Fonds Routier.",
+    en: "Electronic platform for authenticating declarations and deposits submitted to the Road Fund."
+  },
+  "Système de gestion automatique des processus de programmation (chaîne PPBS) et reporting du BIP.": {
+    fr: "Système de gestion automatique des processus de programmation (chaîne PPBS) et reporting du BIP.",
+    en: "Automated programming-process management for the PPBS chain and BIP reporting."
+  },
+  "Plateforme web de centralisation des projets pour la planification et la programmation budgétaire.": {
+    fr: "Plateforme web de centralisation des projets pour la planification et la programmation budgétaire.",
+    en: "Web platform centralizing projects for planning and budget programming."
+  },
+  "Système informatique de remontée des données radar à l'échelle du canton.": {
+    fr: "Système informatique de remontée des données radar à l'échelle du canton.",
+    en: "Information system for collecting radar data across the canton."
+  },
+  "Application de mise en conformité pour la gestion des avoirs de contribuables américains.": {
+    fr: "Application de mise en conformité pour la gestion des avoirs de contribuables américains.",
+    en: "Compliance application for managing the assets of US taxpayers."
+  },
+  "Application de gestion de la force de vente déployée dans plus de 40 pays.": {
+    fr: "Application de gestion de la force de vente déployée dans plus de 40 pays.",
+    en: "Sales-force management application deployed in more than 40 countries."
+  },
+  "Application de calcul des bonus des employés à l'échelle européenne.": {
+    fr: "Application de calcul des bonus des employés à l'échelle européenne.",
+    en: "Employee bonus calculation application deployed across Europe."
+  },
+  "Ils nous font confiance": { fr: "Ils nous font confiance", en: "Trusted by" },
+  "Institutions, banques, industriels et partenaires publics": {
+    fr: "Institutions, banques, industriels et partenaires publics",
+    en: "Institutions, banks, industrial companies and public-sector partners"
+  },
+  "Nous contacter": { fr: "Nous contacter", en: "Contact Us" },
+  "Basé à Yaoundé & Genève": { fr: "Basé à Yaoundé & Genève", en: "Based in Yaoundé & Geneva" },
+  "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.": {
+    fr: "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.",
+    en: "© 2026 PSE Consulting Cameroun SARL. All rights reserved."
+  },
+  "At PSE Consulting, we design and implement tailored robotics solutions to optimize manufacturing workflows, improve product quality, and reduce costs. Our team of expert engineers is dedicated to empowering manufacturers to stay competitive, efficient, and sustainable.": {
+    fr: "Chez PSE Consulting, nous concevons et déployons des solutions numériques sur mesure pour optimiser les processus, améliorer la qualité et réduire les coûts. Notre équipe d'ingénieurs aide les organisations à rester compétitives, efficaces et durables.",
+    en: "At PSE Consulting, we design and implement tailored digital solutions to optimize workflows, improve quality, and reduce costs. Our expert engineers help organizations remain competitive, efficient, and sustainable."
+  },
+  "I feel incredibly fortunate to work alongside such a talented, curious, and passionate group of individuals. Every day at PSE Consulting, I'm inspired by the creativity, expertise, and kindness that surrounds me.\"": {
+    fr: "Je me sens privilégié de travailler aux côtés d'une équipe aussi talentueuse, curieuse et passionnée. Chaque jour chez PSE Consulting, je suis inspiré par la créativité, l'expertise et la bienveillance qui m'entourent.",
+    en: "I feel incredibly fortunate to work alongside such a talented, curious, and passionate group of individuals. Every day at PSE Consulting, I'm inspired by the creativity, expertise, and kindness that surrounds me."
+  },
+
+  /* ---------- Intitulés de postes (équipe) ---------- */
+  "CEO": { fr: "Directeur général", en: "CEO" },
+  "President": { fr: "Président", en: "President" },
+  "AI Director": { fr: "Directeur IA", en: "AI Director" },
+  "Chief Architect": { fr: "Architecte en chef", en: "Chief Architect" },
+  "Data Officer": { fr: "Responsable data", en: "Data Officer" },
+  "Sustainability Lead": { fr: "Responsable durabilité", en: "Sustainability Lead" },
+
+  /* ---------- Temps de lecture (articles) ---------- */
+  "2 mins": { fr: "2 min", en: "2 mins" },
+  "3 mins": { fr: "3 min", en: "3 mins" },
+  "4 mins": { fr: "4 min", en: "4 mins" },
+  "6 mins": { fr: "6 min", en: "6 mins" },
+  "7 mins": { fr: "7 min", en: "7 mins" },
+
+  /* ---------- Sous-titres de l'article de blog ---------- */
+  "Energy-Efficient Equipment:": { fr: "Équipements écoénergétiques :", en: "Energy-Efficient Equipment:" },
+  "Sustainable Materials:": { fr: "Matériaux durables :", en: "Sustainable Materials:" },
+  "Lean Manufacturing:": { fr: "Méthodes lean :", en: "Lean Methods:" },
+  "Renewable Energy Sources:": { fr: "Énergies renouvelables :", en: "Renewable Energy Sources:" },
+  "Closed-Loop Production:": { fr: "Production en boucle fermée :", en: "Closed-Loop Production:" },
+
+  /* ---------- Textes corrompus du template (correspondance idéale) ---------- */
+  "Adpat": { fr: "Innovation", en: "Innovation" },
+  "Meet cvxxcvbxcvOur Leaders": { fr: "Notre équipe dirigeante", en: "Meet Our Leaders" },
+
+  /* ---------- Coordonnées réelles PSE (contact / pied de page) ---------- */
+  "info@pse-consulting.com": { fr: "info@pse-consulting.com", en: "info@pse-consulting.com" },
+  "info@pse-consulting.com": { fr: "info@pse-consulting.com", en: "info@pse-consulting.com" },
+  "↳ info@pse-consulting.com": { fr: "↳ info@pse-consulting.com", en: "↳ info@pse-consulting.com" },
+
+  /* ---------- Témoignages : clients réels PSE ---------- */
+  "- Rachel Kim": { fr: "— Paul Maureau Sendjo", en: "— Paul Maureau Sendjo" },
+  "Baxter Enterprises": { fr: "Nestlé", en: "Nestlé" },
+  "Everett Industries": { fr: "Pictet", en: "Pictet" },
+  "Harrison & Co.": { fr: "Nespresso", en: "Nespresso" },
+});
+
+/* ================================================================
+ *  TRADUCTIONS « PAR BLOC »
+ *  Pour les titres que Framer éclate lettre par lettre (animation) :
+ *  le moteur normal ne peut pas les reconnaître car chaque lettre est
+ *  un nœud séparé. Ici la clé = le texte COMPLET reconstruit, et on
+ *  remplace tout le contenu de l'élément en une fois.
+ *  Cibles : <h1> et <h2>.
+ * ================================================================ */
+window.PSE_BLOCK = Object.assign(window.PSE_BLOCK || {}, {
+  "Engineering a Smarter Future": {
+    fr: "Concevoir un avenir plus intelligent",
+    en: "Engineering a Smarter Future"
+  },
+
+  /* ---- Titres des pages internes (about / solutions / team), éclatés
+     lettre par lettre par Framer => doublés ici en mode bloc. ---- */
+  "Authenticity Matters: Our Story and Values": {
+    fr: "L'authenticité avant tout : notre histoire et nos valeurs",
+    en: "Authenticity Matters: Our Story and Values"
+  },
+  "A Few Words From Our Trusted Partners": {
+    fr: "Quelques mots de nos partenaires de confiance",
+    en: "A Few Words From Our Trusted Partners"
+  },
+  "Explore our Innovative Solutions": {
+    fr: "Découvrez nos solutions innovantes",
+    en: "Explore our Innovative Solutions"
+  },
+  "Meet Our Leaders": { fr: "Notre équipe dirigeante", en: "Meet Our Leaders" },
+  "Our Team": { fr: "Notre équipe", en: "Our Team" },
+  "Our Mission": { fr: "Notre mission", en: "Our Mission" },
+  "Our Values": { fr: "Nos valeurs", en: "Our Values" },
+  "Connect With Us": { fr: "Contactez-nous", en: "Get in Touch" },
+
+  /* ---- Titre d'article (h1 éclaté lettre par lettre sur les pages blog) ---- */
+  "5 Sustainable Manufacturing Solutions for a Greener Future": {
+    fr: "5 leviers concrets pour une activité plus durable et responsable",
+    en: "5 Practical Solutions for a Greener, More Sustainable Business"
+  },
+
+  /* ---- Textes CORROMPUS du template : on impose la correspondance idéale
+     (mode bloc = remplace tout le contenu de l'élément, robuste aux nœuds
+     multiples / à la fusion de paragraphes). ---- */
+  "Empowering manufacturers to achieve excellence through innovative, tailored robotics solutionsvbcvcbcvhbcgb.": {
+    fr: "Donner aux organisations les moyens d'exceller grâce à des solutions numériques innovantes et sur mesure.",
+    en: "Empowering organizations to achieve excellence through innovative, tailored digital solutions."
+  },
+  "Our team of skilled engineers provides tailored support to ensure seamless integration and maximum ROI. We empower manufacturers to harness the full potential of robotics and automation, driving innovation and long-term success.At PSE Consulting, we design and implement tailored robotics solutions to optimize manufacturing workflows, improve product quality, and reduce costs. Our team of expert engineers is dedicated to empowering manufacturers to stay competitive, efficient, and sustainable.": {
+    fr: "Notre équipe d'ingénieurs qualifiés vous accompagne pour garantir une intégration fluide et un retour sur investissement optimal. Chez PSE Consulting, nous concevons et déployons des solutions numériques sur mesure pour optimiser vos processus, améliorer la qualité et réduire vos coûts — afin de vous aider à rester compétitif, efficace et pérenne.",
+    en: "Our team of skilled engineers provides tailored support to ensure seamless integration and maximum ROI. We empower manufacturers to harness the full potential of robotics and automation, driving innovation and long-term success."
+  },
+  "We're united by curiosity, creativity, and a commitment to excellence, with every member bringing unique perspectives and skills to the table.ion for innovation and a commitment to excellence, our leaders inspire and empower our teams to push boundaries and achieve exceptional results.": {
+    fr: "Nous sommes unis par la curiosité, la créativité et l'exigence d'excellence, chaque membre apportant un regard et des compétences uniques.",
+    en: "We're united by curiosity, creativity and a commitment to excellence, with every member bringing unique perspectives and skills to the table."
+  },
+
+  // Titre de la section équipe (généré dynamiquement par Framer)
+  "Meet the Team Driving Technological Advancements": {
+    fr: "Rencontrez l'équipe qui propulse votre transformation numérique",
+    en: "Meet the Team Driving Technological Advancements"
+  },
+
+  /* Paragraphe « At PSE Consulting … » — découpé par Framer (At / PSE Consulting / …).
+     On prévoit les 2 formes : avant et après remplacement « PSE Consulting »→« PSE ». */
+  "At PSE Consulting, we design and implement tailored solutions to optimize manufacturing workflows, improve product quality, and reduce costs.": {
+    fr: "Chez PSE Consulting, nous concevons et déployons des solutions sur mesure pour optimiser vos processus, améliorer la qualité et réduire vos coûts.",
+    en: "At PSE Consulting, we design and implement tailored solutions to optimize your processes, improve quality, and reduce costs."
+  },
+  "At PSE Consulting, we design and implement tailored solutions to optimize manufacturing workflows, improve product quality, and reduce costs.": {
+    fr: "Chez PSE Consulting, nous concevons et déployons des solutions sur mesure pour optimiser vos processus, améliorer la qualité et réduire vos coûts.",
+    en: "At PSE Consulting, we design and implement tailored solutions to optimize your processes, improve quality, and reduce costs."
+  },
+
+  /* Footer copyright — également découpé (©2025 / PSE Consulting / All Rights Reserved) ;
+     « PSE Consulting » pouvant déjà être remplacé par « PSE Consulting », on prévoit les 2 formes. */
+  "©2025 PSE Consulting All Rights Reserved": {
+    fr: "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.",
+    en: "© 2026 PSE Consulting Cameroun SARL. All rights reserved."
+  },
+  "©2025 PSE Consulting All Rights Reserved": {
+    fr: "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.",
+    en: "© 2026 PSE Consulting Cameroun SARL. All rights reserved."
+  }
+});

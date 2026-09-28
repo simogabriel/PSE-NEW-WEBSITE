@@ -1,0 +1,613 @@
+{
+  "data": {
+    "url": "http://127.0.0.1:8765/about.html?check=1788959438251",
+    "ready": "complete",
+    "title": "PSE Consulting Cameroun SARL",
+    "body": "1",
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/pse-logo.png",
+        "ok": true,
+        "visible": true
+      },
+      {
+        "src": "https://framerusercontent.com/images/oyeVbR3Ko0HpIcfLuq9aWy0jC6s.svg",
+        "ok": true,
+        "visible": false
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/pse-about-authenticite.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Full Image"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/pse-about-authenticite.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Full Image"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "https://framerusercontent.com/images/oyeVbR3Ko0HpIcfLuq9aWy0jC6s.svg",
+        "ok": true,
+        "visible": false
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/pse-about-authenticite.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Full Image"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/pse-about-authenticite.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Full Image"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "https://framerusercontent.com/images/oyeVbR3Ko0HpIcfLuq9aWy0jC6s.svg",
+        "ok": true,
+        "visible": false
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/pse-about-authenticite.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Full Image"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/pse-about-authenticite.jpg",
+        "ok": true,
+        "visible": true,
+        "section": "Section Full Image"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/parchemin-2.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section  Image"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/boss.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/philip.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/schimdt.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/audrey.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/alice.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/team/leonel.jpeg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Leaders"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": true,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/fRAvvvjEbPC2KTSGIavmXv4u9Y.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": true,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/VQOhhs9zXqjTosJ9MpzmRQWOTc.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": true,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/4q1AZJIiVuhYATsZzKdhkMlz2T8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": true,
+        "section": "Section Our Values"
+      },
+      {
+        "src": "http://127.0.0.1:8765/pse-custom/about/vNHDRQ2alUIMtimURnRt60Z3o8.jpg",
+        "ok": true,
+        "visible": false,
+        "section": "Section Our Values"
+      }
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,256 @@
+{
+  "results": [
+    {
+      "page": "about.html",
+      "url": "/about.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "blog.html",
+      "url": "/blog.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "contact.html",
+      "url": "/contact.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "url": "/index.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "references.html",
+      "url": "/references.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "solution.html",
+      "url": "/solutions.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "solutions.html",
+      "url": "/solutions.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "team.html",
+      "url": "/team.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "team/david-brown.html",
+      "url": "/team/david-brown.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "team/jane-smith.html",
+      "url": "/team/jane-smith.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "team/john-doe.html",
+      "url": "/team/john-doe.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "team/mesliisa-mane.html",
+      "url": "/team/mesliisa-mane.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "team/mike-johnson.html",
+      "url": "/team/mike-johnson.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "team/sara-connor.html",
+      "url": "/team/sara-connor.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "blog/ai-transforms-manufacturing.html",
+      "url": "/blog/ai-transforms-manufacturing.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "blog/bridging-the-manufacturing-skills-gap.html",
+      "url": "/blog/bridging-the-manufacturing-skills-gap.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "blog/data-driven-manufacturing.html",
+      "url": "/blog/data-driven-manufacturing.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "blog/predictive-maintenance-the-game-changer.html",
+      "url": "/blog/predictive-maintenance-the-game-changer.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "blog/sustainable-manufacturing-solutions.html",
+      "url": "/blog/sustainable-manufacturing-solutions.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    },
+    {
+      "page": "blog/this-is-a-bloh-headline-title.html",
+      "url": "/blog/this-is-a-bloh-headline-title.html",
+      "ready": "complete",
+      "visible": "1",
+      "pointer": "auto",
+      "nav": 1,
+      "guard": 1,
+      "transition": false,
+      "errors": []
+    }
+  ],
+  "clicks": [
+    {
+      "attrs": {
+        "href": "about.html"
+      },
+      "canceled": false,
+      "reached": false
+    },
+    {
+      "attrs": {
+        "href": "about.html",
+        "target": "_blank"
+      },
+      "canceled": false,
+      "reached": false
+    },
+    {
+      "attrs": {
+        "href": "about.html",
+        "download": "file.html"
+      },
+      "canceled": false,
+      "reached": false
+    },
+    {
+      "attrs": {
+        "href": "../team/jane-smith.html"
+      },
+      "canceled": false,
+      "reached": false
+    }
+  ]
+}

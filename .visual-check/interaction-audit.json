@@ -1,0 +1,110 @@
+[
+  {
+    "page": "contact",
+    "width": 1440,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "contact",
+    "width": 1440,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "contact",
+    "width": 1000,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "contact",
+    "width": 1000,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "contact",
+    "width": 390,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "contact",
+    "width": 390,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "about",
+    "width": 1000,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "about",
+    "width": 1000,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "team",
+    "width": 1440,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "team",
+    "width": 1440,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "team",
+    "width": 1000,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "team",
+    "width": 1000,
+    "lang": "fr",
+    "pass": true
+  },
+  {
+    "page": "team",
+    "width": 390,
+    "lang": "en",
+    "pass": true
+  },
+  {
+    "page": "team",
+    "width": 390,
+    "lang": "fr",
+    "pass": true
+  }
+]

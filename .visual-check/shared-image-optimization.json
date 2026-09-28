@@ -1,0 +1,37 @@
+[
+  {
+    "file": "pse-logo.png",
+    "original": 162400,
+    "optimized": 40648,
+    "width": 692,
+    "height": 360
+  },
+  {
+    "file": "pse-logo-hero.png",
+    "original": 164248,
+    "optimized": 20718,
+    "width": 1254,
+    "height": 214
+  },
+  {
+    "file": "pse-team.jpg",
+    "original": 496627,
+    "optimized": 335704,
+    "width": 1600,
+    "height": 636
+  },
+  {
+    "file": "dg-quote.jpg",
+    "original": 702489,
+    "optimized": 592118,
+    "width": 1600,
+    "height": 1066
+  },
+  {
+    "file": "solutions-hero.jpg",
+    "original": 162185,
+    "optimized": 172918,
+    "width": 960,
+    "height": 1280
+  }
+]

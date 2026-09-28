@@ -1,0 +1,12 @@
+2026-08-20 13:56:38.562: [INFO] CurrentProfilePath: C:\Users\GABRIEL TANYI\Desktop\site new pse\NEW PSE SITE .website\.browser-check-2\Default
+2026-08-20 13:56:38.562: [INFO] Profiles total count: 1
+2026-08-20 13:56:38.563: [INFO] Profile: name=Profile 1 path=C:\Users\GABRIEL TANYI\Desktop\site new pse\NEW PSE SITE .website\.browser-check-2\Default lastActive=2026-08-20T13:56:38.540Z
+2026-08-20 13:56:38.563: [INFO] LastUsedProfileDir: C:\Users\GABRIEL TANYI\Desktop\site new pse\NEW PSE SITE .website\.browser-check-2\Default
+2026-08-20 13:56:38.563: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\GABRIEL TANYI\Desktop\site new pse\NEW PSE SITE .website\.browser-check-2\Default lastActive=2026-08-20T13:56:38.540Z
+2026-08-20 13:56:38.563: [INFO] OnDoneLoading sync enabled: 0
+2026-08-20 13:56:38.563: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-20 13:56:38.563: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-20 13:56:38.563: [INFO] BookmarksSnapshot Startup total=4 bar=4 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-20 13:56:38.714: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-08-20 13:56:39.000: [INFO] VisibilityChanged: 0
+2026-08-20 13:56:52.712: [INFO] BookmarksSnapshot Shutdown total=4 bar=4 other=0 mobile=0 showBar=0 showBarNTP=1

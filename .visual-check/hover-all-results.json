@@ -1,0 +1,326 @@
+{
+  "results": [
+    {
+      "page": "about.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/about.html"
+    },
+    {
+      "page": "blog.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog.html"
+    },
+    {
+      "page": "contact.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/contact.html"
+    },
+    {
+      "page": "index.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/index.html"
+    },
+    {
+      "page": "references.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/references.html"
+    },
+    {
+      "page": "solution.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/solutions.html"
+    },
+    {
+      "page": "solutions.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/solutions.html"
+    },
+    {
+      "page": "team.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team.html"
+    },
+    {
+      "page": "team/david-brown.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/david-brown.html"
+    },
+    {
+      "page": "team/jane-smith.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/jane-smith.html"
+    },
+    {
+      "page": "team/john-doe.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/john-doe.html"
+    },
+    {
+      "page": "team/mesliisa-mane.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/mesliisa-mane.html"
+    },
+    {
+      "page": "team/mike-johnson.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/mike-johnson.html"
+    },
+    {
+      "page": "team/sara-connor.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/sara-connor.html"
+    },
+    {
+      "page": "blog/ai-transforms-manufacturing.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/ai-transforms-manufacturing.html"
+    },
+    {
+      "page": "blog/bridging-the-manufacturing-skills-gap.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/bridging-the-manufacturing-skills-gap.html"
+    },
+    {
+      "page": "blog/data-driven-manufacturing.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/data-driven-manufacturing.html"
+    },
+    {
+      "page": "blog/predictive-maintenance-the-game-changer.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/predictive-maintenance-the-game-changer.html"
+    },
+    {
+      "page": "blog/sustainable-manufacturing-solutions.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/sustainable-manufacturing-solutions.html"
+    },
+    {
+      "page": "blog/this-is-a-bloh-headline-title.html",
+      "width": 1440,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/this-is-a-bloh-headline-title.html"
+    },
+    {
+      "page": "about.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/about.html"
+    },
+    {
+      "page": "blog.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog.html"
+    },
+    {
+      "page": "contact.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/contact.html"
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/index.html"
+    },
+    {
+      "page": "references.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/references.html"
+    },
+    {
+      "page": "solution.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/solutions.html"
+    },
+    {
+      "page": "solutions.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/solutions.html"
+    },
+    {
+      "page": "team.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team.html"
+    },
+    {
+      "page": "team/david-brown.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/david-brown.html"
+    },
+    {
+      "page": "team/jane-smith.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/jane-smith.html"
+    },
+    {
+      "page": "team/john-doe.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/john-doe.html"
+    },
+    {
+      "page": "team/mesliisa-mane.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/mesliisa-mane.html"
+    },
+    {
+      "page": "team/mike-johnson.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/mike-johnson.html"
+    },
+    {
+      "page": "team/sara-connor.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/team/sara-connor.html"
+    },
+    {
+      "page": "blog/ai-transforms-manufacturing.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/ai-transforms-manufacturing.html"
+    },
+    {
+      "page": "blog/bridging-the-manufacturing-skills-gap.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/bridging-the-manufacturing-skills-gap.html"
+    },
+    {
+      "page": "blog/data-driven-manufacturing.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/data-driven-manufacturing.html"
+    },
+    {
+      "page": "blog/predictive-maintenance-the-game-changer.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/predictive-maintenance-the-game-changer.html"
+    },
+    {
+      "page": "blog/sustainable-manufacturing-solutions.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/sustainable-manufacturing-solutions.html"
+    },
+    {
+      "page": "blog/this-is-a-bloh-headline-title.html",
+      "width": 390,
+      "mutations": 0,
+      "prefetch": 0,
+      "stable": true,
+      "url": "/blog/this-is-a-bloh-headline-title.html"
+    }
+  ],
+  "errors": [],
+  "click": "passed"
+}

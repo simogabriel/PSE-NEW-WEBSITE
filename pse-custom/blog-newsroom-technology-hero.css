@@ -1,0 +1,90 @@
+
+.pse-blog-tech-page #team-intro[data-framer-name="Section Blog Header"] {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: clamp(420px, 58vw, 680px);
+  background: #050d1d;
+}
+
+.pse-blog-tech-page #team-intro .framer-1ql6624[data-framer-name="Image Wrapper"] {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: -1 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-image:
+    linear-gradient(90deg, rgba(3, 10, 25, .68) 0%, rgba(3, 10, 25, .34) 52%, rgba(3, 10, 25, .12) 100%),
+    url("blog-newsroom-technology-hero.webp?v=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pse-blog-tech-page #team-intro .framer-1ql6624[data-framer-name="Image Wrapper"] img {
+  opacity: 0 !important;
+}
+
+.pse-blog-tech-page #team-intro .framer-1e2ltvh[data-framer-name="Headline Content"] {
+  position: relative;
+  z-index: 2;
+}
+
+.pse-blog-tech-page #team-intro [data-framer-name="Headline"],
+.pse-blog-tech-page #team-intro [data-framer-name="Headline"] [data-framer-name="Text Wrap"],
+.pse-blog-tech-page #team-intro [data-framer-name="Headline"] [data-framer-component-type="RichTextContainer"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+}
+
+.pse-blog-tech-page #team-intro h1,
+.pse-blog-tech-page #team-intro p {
+  color: #fff !important;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .4);
+}
+
+.pse-blog-tech-page #team-intro h1 {
+  display: block !important;
+  font-size: clamp(1.75rem, 4.4vw, 4rem) !important;
+  line-height: 1 !important;
+  letter-spacing: -.045em !important;
+  width: max-content !important;
+  max-width: 100% !important;
+  white-space: nowrap !important;
+  overflow-wrap: normal !important;
+  text-wrap: nowrap !important;
+}
+
+@media (max-width: 809px) {
+  .pse-blog-tech-page #team-intro[data-framer-name="Section Blog Header"] {
+    min-height: 520px;
+  }
+
+  .pse-blog-tech-page #team-intro .framer-1ql6624[data-framer-name="Image Wrapper"] {
+    background-image:
+      linear-gradient(180deg, rgba(3, 10, 25, .72) 0%, rgba(3, 10, 25, .48) 58%, rgba(3, 10, 25, .62) 100%),
+      url("blog-newsroom-technology-hero.webp?v=1");
+    background-position: 60% center;
+  }
+
+  .pse-blog-tech-page #team-intro h1 {
+    font-size: clamp(1.25rem, 6vw, 2.25rem) !important;
+    line-height: 1 !important;
+    letter-spacing: -.05em !important;
+    width: max-content !important;
+    max-width: 100% !important;
+    white-space: nowrap !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pse-blog-tech-page #team-intro *,
+  .pse-blog-tech-page #team-intro *::before,
+  .pse-blog-tech-page #team-intro *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

@@ -1,0 +1,455 @@
+[
+  {
+    "page": "index",
+    "width": 1440,
+    "domMs": 520,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Hero",
+      "Section Stats PSE",
+      "Section Our Proccss",
+      "Section Team Image",
+      "Section Recent Articles",
+      "Section References",
+      "Desktop",
+      "Section Services Accordion PSE"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nProvision of Professional and Material Services Related to New Technologies\nGet in Touch\nView our references\n40+\nDevelopers & experts\n78\nProjects delivered\n26\nClients served\n12\nPartners\n0\n+\n\nDevelopers & experts\n\n0\n\nProjects delivered\n\n0\n\nClients supported\n\n0\n\nPartners\n\nIT Services \n\nPSE Consulting implements and manages technology solutions for businesses and organizations. These services can include hardware and software engineering. Our IT services help businesses use technology effectively to achieve their goals and improve their operations.\n\nLearn More\n\n01\n\nStep 1\n\nRequirement Engineering\n\nIt is the process of eliciting, documenting, analyzing, and managing the requirements of a system.\n\n02\n\nStep 2\n\nDesign Thinking\n\nAn approach that fosters innovation and problem-solving by focusing on user needs: user understanding, creative ideation, rapid prototyping, iteration.\n\n03\n\nStep 3\n\nModeling\n\nA strategic activity that brings together the stakeholders involved in designing and delivering the software project: objectives, participants, preparation, BIM coordination software.\n\n04\n\nStep 4\n\nDevelopment\n\nEssential aspects to guarantee the quality, reliability and compliance of your software: evaluation, process regulation, standards and metrics.\n\nMeet the Team Driving Technological Advancements\n\nView Team\n\nConferences and Presentations\nDigital Transformation Conference\nAI and Industrial Innovation Presentation\nSmart Manufacturing Leadership Forum\nPredictive Maintenance Technical Session\nSustainable Industry Conference\nIndustry 4.0 Executive Presentation\nPSE Innovation Showcase\n\nContact Us\n\nTRACK RECORD\n\nOur References\n\nTogether we build the future by delivering ambitious, large-scale projects.\n\nMinistry of Public Health — Cameroon, 2023\n\nDelivery of the CSU/CTN website: a digital platform giving easy access to the full range of quality health services, from promotion to prevention and treatment.\n\nMinistry of Transport — Cameroon, 2022\n\nA multidimensional platform for exchange, awareness, education, information, interaction and analysis on road safety in Cameroon.\n\nRoad Fund — Cameroon, 2022\n\nDevelopment of an electronic platform for authenticating declarations and deposits to the Road Fund.\n\nMINEPAT — Cameroon, 2016-2021\n\nAutomatic management system for programming processes, linked to the planning component of MINEPAT's PPBS chain.\n\nPort Authority of Douala — Cameroon, 2020\n\nWeb platform automating the database of projects essential to planning and budgeting for the Port Authority of Douala.\n\nMINEPAT — Cameroon, 2016\n\nData reporting system on BIP implementation in Cameroon, tracking physical and financial budget resources.\n\nCanton of Geneva — Switzerland, 2011\n\nDevelopment of an IT system for collecting radar data in the canton of Geneva.\n\nBlue infinity — Switzerland\n\nApplication for Blue-infinity's Marketing department in Geneva: analyzing consumer behaviour and buying habits to better meet their expectations.\n\nTRUSTED BY\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nOUR SERVICES\n\nWhat We Do\n01\nSoftware Development\n\nFrom design to post-production maintenance: custom web, mobile and business applications.\n\n02\nEngineering, Analysis & Advice\n\nIn-depth study of your needs, functional analysis and strategic advice to frame and secure your digital projects.\n\n03\nIT Project Management\n\nPlanning, organizing and supervising project delivery — on time, on budget and to the expected quality.\n\n04\nSale, Installation & Maintenance\n\nSupply of IT equipment and solutions, on-site installation and maintenance to keep your operations running.\n\n05\nData Mining & Insights\n\nExtracting useful information and patterns from your data to inform decisions and create value.\n\n06\nChange Management\n\nSupporting teams in adopting new tools and processes: training, change management and lasting adoption.\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n  ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "index",
+    "width": 390,
+    "domMs": 510,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Hero",
+      "Section Stats PSE",
+      "Section Our Proccss",
+      "Section Team Image",
+      "Section Recent Articles",
+      "Section References",
+      "Phone",
+      "Section Services Accordion PSE"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nProvision of Professional and Material Services Related to New Technologies\nLet's Connect\nView our references\n40+\nDevelopers & experts\n78\nProjects delivered\n26\nClients served\n12\nPartners\n0\n+\n\nDevelopers & experts\n\n0\n\nProjects delivered\n\n0\n\nClients supported\n\n0\n\nPartners\n\nIT Services \n\nPSE Consulting implements and manages technology solutions for businesses and organizations. These services can include hardware and software engineering. Our IT services help businesses use technology effectively to achieve their goals and improve their operations.\n\nLearn More\n\n01\n\nStep 1\n\nRequirement Engineering\n\nIt is the process of eliciting, documenting, analyzing, and managing the requirements of a system.\n\n02\n\nStep 2\n\nDesign Thinking\n\nAn approach that fosters innovation and problem-solving by focusing on user needs: user understanding, creative ideation, rapid prototyping, iteration.\n\n03\n\nStep 3\n\nModeling\n\nA strategic activity that brings together the stakeholders involved in designing and delivering the software project: objectives, participants, preparation, BIM coordination software.\n\n04\n\nStep 4\n\nDevelopment\n\nEssential aspects to guarantee the quality, reliability and compliance of your software: evaluation, process regulation, standards and metrics.\n\nMeet the Team Driving Technological Advancements\n\nView Team\n\nConferences and Presentations\nDigital Transformation Conference\nAI and Industrial Innovation Presentation\nSmart Manufacturing Leadership Forum\nPredictive Maintenance Technical Session\nSustainable Industry Conference\nIndustry 4.0 Executive Presentation\nPSE Innovation Showcase\n\nContact Us\n\nTRACK RECORD\n\nOur References\n\nTogether we build the future by delivering ambitious, large-scale projects.\n\nMinistry of Public Health — Cameroon, 2023\n\nDelivery of the CSU/CTN website: a digital platform giving easy access to the full range of quality health services, from promotion to prevention and treatment.\n\nMinistry of Transport — Cameroon, 2022\n\nA multidimensional platform for exchange, awareness, education, information, interaction and analysis on road safety in Cameroon.\n\nRoad Fund — Cameroon, 2022\n\nDevelopment of an electronic platform for authenticating declarations and deposits to the Road Fund.\n\nMINEPAT — Cameroon, 2016-2021\n\nAutomatic management system for programming processes, linked to the planning component of MINEPAT's PPBS chain.\n\nPort Authority of Douala — Cameroon, 2020\n\nWeb platform automating the database of projects essential to planning and budgeting for the Port Authority of Douala.\n\nMINEPAT — Cameroon, 2016\n\nData reporting system on BIP implementation in Cameroon, tracking physical and financial budget resources.\n\nCanton of Geneva — Switzerland, 2011\n\nDevelopment of an IT system for collecting radar data in the canton of Geneva.\n\nBlue infinity — Switzerland\n\nApplication for Blue-infinity's Marketing department in Geneva: analyzing consumer behaviour and buying habits to better meet their expectations.\n\nTRUSTED BY\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nOUR SERVICES\n\nWhat We Do\n01\nSoftware Development\n\nFrom design to post-production maintenance: custom web, mobile and business applications.\n\n02\nEngineering, Analysis & Advice\n\nIn-depth study of your needs, functional analysis and strategic advice to frame and secure your digital projects.\n\n03\nIT Project Management\n\nPlanning, organizing and supervising project delivery — on time, on budget and to the expected quality.\n\n04\nSale, Installation & Maintenance\n\nSupply of IT equipment and solutions, on-site installation and maintenance to keep your operations running.\n\n05\nData Mining & Insights\n\nExtracting useful information and patterns from your data to inform decisions and create value.\n\n06\nChange Management\n\nSupporting teams in adopting new tools and processes: training, change management and lasting adoption.\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n  ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "domMs": 305,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section About Header",
+      "Section Full Image",
+      "Section About Intro"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nA\nu\nt\nh\ne\nn\nt\ni\nc\ni\nt\ny\nM\na\nt\nt\ne\nr\ns\n:\nO\nu\nr\nS\nt\no\nr\ny\na\nn\nd\nV\na\nl\nu\ne\ns\n\nOur Mission\n\nPSE Consulting empowers organizations through innovative, tailored digital solutions.\n\nOur software, engineering, data and project-management specialists work closely with every client to ensure seamless integration, measurable value and sustainable digital growth.\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n      ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "domMs": 213,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section About Header",
+      "Section Full Image",
+      "Section About Intro"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nA\nu\nt\nh\ne\nn\nt\ni\nc\ni\nt\ny\nM\na\nt\nt\ne\nr\ns\n:\nO\nu\nr\nS\nt\no\nr\ny\na\nn\nd\nV\na\nl\nu\ne\ns\n\nOur Mission\n\nPSE Consulting empowers organizations through innovative, tailored digital solutions.\n\nOur software, engineering, data and project-management specialists work closely with every client to ensure seamless integration, measurable value and sustainable digital growth.\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n      ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "domMs": 296,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Solutions Header",
+      "Section Services PSE",
+      "Section Solve Smarter",
+      "Desktop"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\n//\nOur Innovative Solutions\n\nOUR SERVICES\n\nWhat we do\n01\nSoftware development\n\nFrom design to post-production maintenance: bespoke web, mobile and business applications.\n\n02\nEngineering, analysis & consulting\n\nIn-depth study, scoping and recommendations to secure your technology projects.\n\n03\nIT project management\n\nEnd-to-end planning, steering and oversight, with control of costs and resources.\n\n04\nHardware, installation & support\n\nEquipment supply, installation, maintenance and technical assistance.\n\n05\nData mining & analytics\n\nExtraction, analysis and visualisation to turn your data into decisions.\n\n06\nChange management\n\nSupporting transitions so your teams adopt new systems without friction.\n\n\n                                                Solve Smarter\n\n\n                                                    PSE Consulting works with you to understand your challenges and develop tailored solutions. From strategy through delivery, our expertise helps you seize opportunities and achieve your goals.\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n     ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "solutions",
+    "width": 390,
+    "domMs": 283,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Solutions Header",
+      "Section Services PSE",
+      "Section Solve Smarter",
+      "Phone"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\n//\nOur Innovative Solutions\n\nOUR SERVICES\n\nWhat we do\n01\nSoftware development\n\nFrom design to post-production maintenance: bespoke web, mobile and business applications.\n\n02\nEngineering, analysis & consulting\n\nIn-depth study, scoping and recommendations to secure your technology projects.\n\n03\nIT project management\n\nEnd-to-end planning, steering and oversight, with control of costs and resources.\n\n04\nHardware, installation & support\n\nEquipment supply, installation, maintenance and technical assistance.\n\n05\nData mining & analytics\n\nExtraction, analysis and visualisation to turn your data into decisions.\n\n06\nChange management\n\nSupporting transitions so your teams adopt new systems without friction.\n\n\n                                                Solve Smarter\n\n\n                                                    PSE Consulting works with you to understand your challenges and develop tailored solutions. From strategy through delivery, our expertise helps you seize opportunities and achieve your goals.\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n     ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "team",
+    "width": 1440,
+    "domMs": 228,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Team Header",
+      "Section Our Team",
+      "Section Our Mission",
+      "Section Quote",
+      "Section Careers ",
+      "Desktop"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nMeet Our Team\n\n\n                                            PSE Consulting's leadership team brings together decades of experience in innovation, technology and consulting. It guides our delivery of solutions that transform organizations and drive growth.\n\nWe're united by curiosity, creativity and a commitment to excellence, with every member bringing unique perspectives and skills to the table.\n\nOur Team\n\nDongmo Baudouin\n\nDirecteur informatique\n\nManga Ewane Philippe\n\nChef de projet\n\nSchimdt Nguemechia\n\nChef de projet\n\nAleka Mervie\n\nAnalyste d'affaires\n\nAlice Mervie\n\nDéveloppeuse back-end\n\nVianney Ulrich\n\nDéveloppeur front-end\n\nLennon Youssouf\n\nDéveloppeur front-end\n\nKotieu Léonel\n\nConcepteur UI/UX\n\nAudrey Ntamack\n\nDirectrice marketing\n\nPetmi Ludivine Chloé\n\nAssistante de direction\n\nArno Mbende\n\nIngénieur réseau\n\nNgono Bernadette Marlyse\n\nMembre de l'équipe\n\nOur Mission\n\nDeveloping together! We have a strong desire to build long-term relationships with our customers. That's why, at PSE, we not only offer IT solutions that meet your needs, but also work with you to create a real strategy. With the market constantly evolving and demand changing, we help you adapt and grow.\n\nBy harnessing the power of data, automation and human ingenuity, we're building a brighter future for our clients – one that's more efficient, more resilient and more remarkable.\n\n\n                                            I feel incredibly fortunate to work alongside such a talented, curious, and passionate group of individuals. Every day at PSE Consulting, I'm inspired by the creativity, expertise, and kindness that surrounds me.\n\n\n                                                — Paul Moreau Sendjo\n\n\n                                                CEO\n\nOpportunities\n\nJoin PSE Consulting's team of specialists transforming the digital landscape. We welcome talented people who share our passion for innovation and excellence.\n\nWhether you're a seasoned professional or just starting your career, we offer opportunities for growth, development, and collaboration. Interested in exploring a role at PSE Consulting? Send us your application - contact details are below.\n\n↳ info@pse-consulting.com\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n    ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "team",
+    "width": 390,
+    "domMs": 244,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Team Header",
+      "Section Our Team",
+      "Section Our Mission",
+      "Section Quote",
+      "Section Careers ",
+      "Phone"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nMeet Our Team\n\n\n                                            PSE Consulting's leadership team brings together decades of experience in innovation, technology and consulting. It guides our delivery of solutions that transform organizations and drive growth.\n\nWe're united by curiosity, creativity and a commitment to excellence, with every member bringing unique perspectives and skills to the table.\n\nOur Team\n\nDongmo Baudouin\n\nDirecteur informatique\n\nManga Ewane Philippe\n\nChef de projet\n\nSchimdt Nguemechia\n\nChef de projet\n\nAleka Mervie\n\nAnalyste d'affaires\n\nAlice Mervie\n\nDéveloppeuse back-end\n\nVianney Ulrich\n\nDéveloppeur front-end\n\nLennon Youssouf\n\nDéveloppeur front-end\n\nKotieu Léonel\n\nConcepteur UI/UX\n\nAudrey Ntamack\n\nDirectrice marketing\n\nPetmi Ludivine Chloé\n\nAssistante de direction\n\nArno Mbende\n\nIngénieur réseau\n\nNgono Bernadette Marlyse\n\nMembre de l'équipe\n\nOur Mission\n\nDeveloping together! We have a strong desire to build long-term relationships with our customers. That's why, at PSE, we not only offer IT solutions that meet your needs, but also work with you to create a real strategy. With the market constantly evolving and demand changing, we help you adapt and grow.\n\nBy harnessing the power of data, automation and human ingenuity, we're building a brighter future for our clients – one that's more efficient, more resilient and more remarkable.\n\n\n                                            I feel incredibly fortunate to work alongside such a talented, curious, and passionate group of individuals. Every day at PSE Consulting, I'm inspired by the creativity, expertise, and kindness that surrounds me.\n\n\n                                                — Paul Moreau Sendjo\n\n\n                                                CEO\n\nOpportunities\n\nJoin PSE Consulting's team of specialists transforming the digital landscape. We welcome talented people who share our passion for innovation and excellence.\n\nWhether you're a seasoned professional or just starting your career, we offer opportunities for growth, development, and collaboration. Interested in exploring a role at PSE Consulting? Send us your application - contact details are below.\n\n↳ info@pse-consulting.com\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n    ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "references",
+    "width": 1440,
+    "domMs": 287,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      null,
+      null,
+      null
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nOur Work\n\nA selection of projects delivered for institutions and major organizations in Cameroon, Switzerland and internationally.\n\nDELIVERED PROJECTS\n\nLarge-scale platforms in production\nPublic sector · Health\nCameroon · 2023\nMinistry of Public Health\n\nUniversal Health Coverage (CSU/CTN) platform and website, providing easier access to quality healthcare.\n\nPublic sector · Mobility\nCameroon · 2022\nMinistry of Transport\n\nNational platform for road-safety exchange, awareness and analysis.\n\nPublic sector · Finance\nCameroon · 2022\nRoad Fund\n\nElectronic platform for authenticating declarations and deposits submitted to the Road Fund.\n\nPublic sector · Planning\nCameroon · 2016–2021\nMINEPAT\n\nAutomated programming-process management for the PPBS chain and BIP reporting.\n\nLogistics & Transport\nCameroon · 2020\nPort Authority of Douala\n\nWeb platform centralizing projects for planning and budget programming.\n\nPublic sector\nSwitzerland · 2011\nRepublic and Canton of Geneva\n\nInformation system for collecting radar data across the canton.\n\nBanking & Finance\nSwitzerland · 2012\nPictet Bank\n\nCompliance application for managing the assets of US taxpayers.\n\nIndustry\nInternational · 2015\nPhilip Morris International\n\nSales-force management application deployed in more than 40 countries.\n\nIndustry\nEurope · 2004\nNestlé & Nespresso\n\nEmployee bonus calculation application deployed across Europe.\n\nTRUSTED BY\n\nInstitutions, banks, industrial companies and public-sector partners\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "references",
+    "width": 390,
+    "domMs": 216,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      null,
+      null,
+      null
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nOur Work\n\nA selection of projects delivered for institutions and major organizations in Cameroon, Switzerland and internationally.\n\nDELIVERED PROJECTS\n\nLarge-scale platforms in production\nPublic sector · Health\nCameroon · 2023\nMinistry of Public Health\n\nUniversal Health Coverage (CSU/CTN) platform and website, providing easier access to quality healthcare.\n\nPublic sector · Mobility\nCameroon · 2022\nMinistry of Transport\n\nNational platform for road-safety exchange, awareness and analysis.\n\nPublic sector · Finance\nCameroon · 2022\nRoad Fund\n\nElectronic platform for authenticating declarations and deposits submitted to the Road Fund.\n\nPublic sector · Planning\nCameroon · 2016–2021\nMINEPAT\n\nAutomated programming-process management for the PPBS chain and BIP reporting.\n\nLogistics & Transport\nCameroon · 2020\nPort Authority of Douala\n\nWeb platform centralizing projects for planning and budget programming.\n\nPublic sector\nSwitzerland · 2011\nRepublic and Canton of Geneva\n\nInformation system for collecting radar data across the canton.\n\nBanking & Finance\nSwitzerland · 2012\nPictet Bank\n\nCompliance application for managing the assets of US taxpayers.\n\nIndustry\nInternational · 2015\nPhilip Morris International\n\nSales-force management application deployed in more than 40 countries.\n\nIndustry\nEurope · 2004\nNestlé & Nespresso\n\nEmployee bonus calculation application deployed across Europe.\n\nTRUSTED BY\n\nInstitutions, banks, industrial companies and public-sector partners\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "contact",
+    "width": 1440,
+    "domMs": 183,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Contact Header",
+      "Section Contact Coordinates",
+      "Section Contact Info"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nGet in Touch\nOur Contact Details\nCameroon\nADDRESS\n\nBastos, Yaoundé 2, Région du Centre, BP 6471 Yaoundé — Cameroun\n\nPHONE\n\n+237 670 91 21 66\n\n(+237) 673 18 67\n\nEMAIL\n\ninfo@pse-consulting.com\n\nSwitzerland\nADDRESS\n\nRoute de Vevey 42, 1009 Pully — Suisse\n\nPHONE\n\n(+41) 76 468 6947\n\nOpen email draft\n\nSend the draft from your email app, or email info@pse-consulting.com.\n\nContact\n\ninfo@pse-consulting.com\n\nCareers\n\ninfo@pse-consulting.com\n\nBusiness Hours\n\nMonday - Friday\n9am - 6pm\n\nSocials\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "contact",
+    "width": 390,
+    "domMs": 149,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Contact Header",
+      "Section Contact Coordinates",
+      "Section Contact Info"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nGet in Touch\nOur Contact Details\nCameroon\nADDRESS\n\nBastos, Yaoundé 2, Région du Centre, BP 6471 Yaoundé — Cameroun\n\nPHONE\n\n+237 670 91 21 66\n\n(+237) 673 18 67\n\nEMAIL\n\ninfo@pse-consulting.com\n\nSwitzerland\nADDRESS\n\nRoute de Vevey 42, 1009 Pully — Suisse\n\nPHONE\n\n(+41) 76 468 6947\n\nOpen email draft\n\nSend the draft from your email app, or email info@pse-consulting.com.\n\nContact\n\ninfo@pse-consulting.com\n\nCareers\n\ninfo@pse-consulting.com\n\nBusiness Hours\n\nMonday - Friday\n9am - 6pm\n\nSocials\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "blog",
+    "width": 1440,
+    "domMs": 593,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Blog Header",
+      "Section Insights & News",
+      "Desktop"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nPSE Consulting SARL\n\nFollow PSE Consulting's latest news, partnerships and insights shaping digital transformation.\n\nExplore the PSE Consulting blog for expert insights on digital, data and project management. Our team shares its know-how and the latest trends.\n\nInsights & News\nAI-powered solutions transforming modern manufacturing\nDeveloping the digital skills that power tomorrow's industries\nTurning enterprise data into confident business decisions\nPredictive maintenance for reliable, efficient operations\nDigital solutions for more sustainable manufacturing\nBuilding the connected enterprise of Industry 4.0\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n  ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html",
+      "http://127.0.0.1:8765/blog/data-driven-manufacturing.html",
+      "http://127.0.0.1:8765/blog/predictive-maintenance-the-game-changer.html",
+      "http://127.0.0.1:8765/blog/sustainable-manufacturing-solutions.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "blog",
+    "width": 390,
+    "domMs": 1092,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Blog Header",
+      "Section Insights & News",
+      "Phone"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nPSE Consulting SARL\n\nFollow PSE Consulting's latest news, partnerships and insights shaping digital transformation.\n\nExplore the PSE Consulting blog for expert insights on digital, data and project management. Our team shares its know-how and the latest trends.\n\nInsights & News\nAI-powered solutions transforming modern manufacturing\nDeveloping the digital skills that power tomorrow's industries\nTurning enterprise data into confident business decisions\nPredictive maintenance for reliable, efficient operations\nDigital solutions for more sustainable manufacturing\nBuilding the connected enterprise of Industry 4.0\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nReferences\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nContact us ↗\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n  ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html",
+      "http://127.0.0.1:8765/blog/data-driven-manufacturing.html",
+      "http://127.0.0.1:8765/blog/predictive-maintenance-the-game-changer.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "team/david-brown",
+    "width": 1440,
+    "domMs": 433,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Team Bio",
+      "Desktop"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nDavid Brown\n\nHead of Operations\n\nA dedicated and forward-thinking leader, this person is driven by a passion for innovation and sustainable performance in technology. With a strong foundation in business and engineering, they bring a unique perspective to the complex challenges organizations face today.\n\nThroughout their career, they have developed deep expertise in operational excellence, sustainable practices and strategic growth. Their experience gives them keen insight into the opportunities and obstacles organizations face.\n\nDeeply committed to delivering innovative, sustainable solutions, this person is dedicated to making a positive impact on the industry and the world. Their vision is to help organizations adopt sustainable practices that drive growth while minimizing their footprint.\n\n\n                                                            Back to Team\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nBlog\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nYaoundé & Geneva\n\n12:11:56\n\nBy PSE Consulting\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "team/david-brown",
+    "width": 390,
+    "domMs": 144,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Section Team Bio",
+      "Phone"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\nDavid Brown\n\nHead of Operations\n\nA dedicated and forward-thinking leader, this person is driven by a passion for innovation and sustainable performance in technology. With a strong foundation in business and engineering, they bring a unique perspective to the complex challenges organizations face today.\n\nThroughout their career, they have developed deep expertise in operational excellence, sustainable practices and strategic growth. Their experience gives them keen insight into the opportunities and obstacles organizations face.\n\nDeeply committed to delivering innovative, sustainable solutions, this person is dedicated to making a positive impact on the industry and the world. Their vision is to help organizations adopt sustainable practices that drive growth while minimizing their footprint.\n\n\n                                                            Back to Team\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nBlog\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nYaoundé & Geneva\n\n12:11:56\n\nBy PSE Consulting\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html",
+      "http://127.0.0.1:8765/blog.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing",
+    "width": 1440,
+    "domMs": 188,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Blog Section",
+      "Desktop"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\n\nBy\n\nHaley Vox\n\n02.10.2025\n\n7 mins\n\nAI for Your Business\n5 Practical Solutions for a Greener, More Sustainable Business\n\nAs environmental concerns keep growing, businesses face increasing pressure to reduce their ecological footprint. Sustainable practices are good for the planet, but they also help cut costs, improve efficiency and strengthen brand reputation. In this post, we explore five practical solutions to make your business greener.\n\nEnergy-Efficient Equipment:\n\nUpgrading to energy-efficient equipment can significantly reduce energy consumption and greenhouse gas emissions. Look for energy-saving features such as LED lighting, variable speed drives and high-efficiency motors.\n\nSustainable Materials:\n\nUsing sustainable materials reduces waste, conserves natural resources and minimizes environmental impact. Consider recycled materials, bioplastics or responsibly sourced wood in your processes.\n\nLean Methods:\n\nLean methods help reduce waste, minimize energy consumption and optimize processes. By streamlining operations and eliminating unnecessary steps, you shrink your environmental footprint.\n\nRenewable Energy Sources:\n\nInvesting in renewable energy such as solar or wind power significantly reduces dependence on fossil fuels and lowers greenhouse gas emissions. Consider installing solar panels or wind turbines on-site to power your operations.\n\nClosed-Loop Production:\n\nClosed-loop production means designing products and processes that can be continuously cycled back into production, reducing waste and the need for new raw materials. This approach lowers environmental impact while also cutting costs.\n\nSustainable practices are no longer a nicety but a necessity. By adopting energy-efficient equipment, sustainable materials, lean methods, renewable energy and closed-loop production, businesses reduce their environmental footprint, improve efficiency and strengthen their brand reputation.\n\nView all\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nBlog\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nYaoundé & Geneva\n\n12:11:55\n\nBy PSE Consulting\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html"
+    ],
+    "styles": true,
+    "errors": []
+  },
+  {
+    "page": "blog/ai-transforms-manufacturing",
+    "width": 390,
+    "domMs": 133,
+    "overflow": false,
+    "broken": [],
+    "overlaps": [],
+    "sections": [
+      "Blog Section",
+      "Phone"
+    ],
+    "text": "Home\nAbout\nSolutions\nTeam\nReferences\nContact\n☀\n☾\nFR\nEN\n\nBy\n\nHaley Vox\n\n02.10.2025\n\n7 mins\n\nAI for Your Business\n5 Practical Solutions for a Greener, More Sustainable Business\n\nAs environmental concerns keep growing, businesses face increasing pressure to reduce their ecological footprint. Sustainable practices are good for the planet, but they also help cut costs, improve efficiency and strengthen brand reputation. In this post, we explore five practical solutions to make your business greener.\n\nEnergy-Efficient Equipment:\n\nUpgrading to energy-efficient equipment can significantly reduce energy consumption and greenhouse gas emissions. Look for energy-saving features such as LED lighting, variable speed drives and high-efficiency motors.\n\nSustainable Materials:\n\nUsing sustainable materials reduces waste, conserves natural resources and minimizes environmental impact. Consider recycled materials, bioplastics or responsibly sourced wood in your processes.\n\nLean Methods:\n\nLean methods help reduce waste, minimize energy consumption and optimize processes. By streamlining operations and eliminating unnecessary steps, you shrink your environmental footprint.\n\nRenewable Energy Sources:\n\nInvesting in renewable energy such as solar or wind power significantly reduces dependence on fossil fuels and lowers greenhouse gas emissions. Consider installing solar panels or wind turbines on-site to power your operations.\n\nClosed-Loop Production:\n\nClosed-loop production means designing products and processes that can be continuously cycled back into production, reducing waste and the need for new raw materials. This approach lowers environmental impact while also cutting costs.\n\nSustainable practices are no longer a nicety but a necessity. By adopting energy-efficient equipment, sustainable materials, lean methods, renewable energy and closed-loop production, businesses reduce their environmental footprint, improve efficiency and strengthen their brand reputation.\n\nView all\n\nWe're Here to Help\n\nReady to accelerate your digital transformation with PSE Consulting? Contact our team to learn more about our solutions and services.\n\nGet in Touch\n\nHome\n\nAbout\n\nSolutions\n\nTeam\n\nBlog\n\nContact\n\nPSE Consulting Cameroun SARL\n\nBASED IN YAOUNDÉ & GENEVA\n\nYaoundé & Geneva\n\n12:11:55\n\nBy PSE Consulting\n\n© 2026 PSE Consulting Cameroun SARL. All rights reserved.\n\n ",
+    "links": [
+      "http://127.0.0.1:8765/index.html",
+      "http://127.0.0.1:8765/about.html",
+      "http://127.0.0.1:8765/solutions.html",
+      "http://127.0.0.1:8765/team.html",
+      "http://127.0.0.1:8765/references.html",
+      "http://127.0.0.1:8765/contact.html",
+      "http://127.0.0.1:8765/blog.html"
+    ],
+    "styles": true,
+    "errors": []
+  }
+]

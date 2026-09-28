@@ -1,0 +1,182 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "sections": [
+        {
+          "name": "Section About Header",
+          "height": 309.671875
+        },
+        {
+          "name": "Section Full Image",
+          "height": 600
+        },
+        {
+          "name": "Section About Intro",
+          "height": 1083.25
+        },
+        {
+          "name": "Section Our Leaders",
+          "height": 2015.203125
+        },
+        {
+          "name": "Section Testimonals",
+          "height": 1096.578125
+        },
+        {
+          "name": "Section Our Values",
+          "height": 3525
+        }
+      ],
+      "missingText": [
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "YAOUNDÉ, CAMEROUN",
+          "cls": "framer-text"
+        }
+      ],
+      "broken": [],
+      "hiddenImages": [
+        {
+          "src": "https://framerusercontent.com/images/oyeVbR3Ko0HpIcfLuq9aWy0jC6s.svg"
+        }
+      ],
+      "images": 116
+    },
+    {
+      "width": 1000,
+      "overflow": false,
+      "sections": [
+        {
+          "name": "Section About Header",
+          "height": 294.546875
+        },
+        {
+          "name": "Section Full Image",
+          "height": 600
+        },
+        {
+          "name": "Section About Intro",
+          "height": 843.15625
+        },
+        {
+          "name": "Section Our Leaders",
+          "height": 1506.171875
+        },
+        {
+          "name": "Section Testimonals",
+          "height": 1234.78125
+        },
+        {
+          "name": "Section Our Values",
+          "height": 2515.796875
+        }
+      ],
+      "missingText": [
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Lire la suite",
+          "cls": "framer-text framer-styles-preset-12pox4o"
+        },
+        {
+          "text": "Yaoundé & Genève",
+          "cls": "framer-text"
+        }
+      ],
+      "broken": [],
+      "hiddenImages": [
+        {
+          "src": "https://framerusercontent.com/images/oyeVbR3Ko0HpIcfLuq9aWy0jC6s.svg"
+        }
+      ],
+      "images": 116
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "sections": [
+        {
+          "name": "Section About Header",
+          "height": 304.46875
+        },
+        {
+          "name": "Section Full Image",
+          "height": 620
+        },
+        {
+          "name": "Section About Intro",
+          "height": 1431.25
+        },
+        {
+          "name": "Section Our Leaders",
+          "height": 3796.265625
+        },
+        {
+          "name": "Section Testimonals",
+          "height": 2064.359375
+        },
+        {
+          "name": "Section Our Values",
+          "height": 3421.015625
+        }
+      ],
+      "missingText": [
+        {
+          "text": "Yaoundé & Genève",
+          "cls": "framer-text"
+        }
+      ],
+      "broken": [],
+      "hiddenImages": [
+        {
+          "src": "https://framerusercontent.com/images/oyeVbR3Ko0HpIcfLuq9aWy0jC6s.svg"
+        }
+      ],
+      "images": 116
+    }
+  ],
+  "errors": []
+}

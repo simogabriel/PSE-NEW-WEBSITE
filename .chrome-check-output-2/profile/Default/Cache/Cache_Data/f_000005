@@ -1,0 +1,402 @@
+/* ============================================================
+ *  PSE — Section « Actualités » en CARROUSEL (réf. image P6.png)
+ *
+ *  Objectifs (demande client) :
+ *   - supprimer le gros paragraphe d'intro (« Explorez nos dernières
+ *     analyses… ») -> géré en CSS (enhance.css), robuste aux rebuilds.
+ *   - transformer la grille d'articles en un carrousel horizontal
+ *     défilable, cartes à grands coins arrondis, avec des boutons
+ *     ronds « précédent / suivant » en bas (comme sur l'image).
+ *
+ *  Le template Framer reconstruit le DOM après coup : on se contente
+ *  d'AJOUTER des classes stables (.pse-news*) et une barre de contrôle,
+ *  de façon idempotente, et on re-scanne sur MutationObserver.
+ *  Tout le style vit dans pse-custom/enhance.css.
+ * ============================================================ */
+(function () {
+  "use strict";
+
+  var SEC_SEL = '[data-framer-name="Section Recent Articles"], [data-framer-name="Section Insights & News"]';
+
+  var IMG_DIR = "pse-custom/news/";
+
+  // Vraies photos d'activités PSE affichées dans les cartes Actualités.
+  // Les 2 premières remplacent l'image des 2 cartes réelles du miroir Framer.
+  var REAL_IMGS = ["news-1.jpg", "news-2.jpg"];
+
+  // One local image assigned to each individual carousel card container.
+  var CARD_IMAGES = [
+    "news-1.jpg",
+    "news-2.jpg",
+    "news-3.jpg",
+    "news-4.jpg",
+    "news-5.jpg",
+    "news-6.jpg",
+    "news-7.jpg"
+  ];
+
+  // Text displayed over each carousel image, in the same order as CARD_IMAGES.
+  var CARD_CAPTIONS = [
+    { en: "AI-powered solutions transforming modern manufacturing", fr: "Des solutions propulsées par l'IA qui transforment l'industrie moderne" },
+    { en: "Developing the digital skills that power tomorrow's industries", fr: "Développer les compétences numériques qui feront avancer les industries de demain" },
+    { en: "Turning enterprise data into confident business decisions", fr: "Transformer les données d'entreprise en décisions stratégiques éclairées" },
+    { en: "Predictive maintenance for reliable, efficient operations", fr: "La maintenance prédictive au service d'opérations fiables et efficaces" },
+    { en: "Digital solutions for more sustainable manufacturing", fr: "Des solutions numériques pour une production plus durable" },
+    { en: "Building the connected enterprise of Industry 4.0", fr: "Construire l'entreprise connectée de l'Industrie 4.0" },
+    { en: "PSE Consulting SARL delivering innovation in the field", fr: "PSE Consulting SARL concrétise l'innovation sur le terrain" }
+  ];
+
+  // Cartes supplémentaires clonées (le miroir Framer ne fige que 2 cartes) :
+  // chacune a sa photo + son titre EN de base (traduction FR/EN dans
+  // translations.js) -> 7 cartes au total, « plusieurs » à faire défiler.
+  var EXTRA = [
+    { href: "blog/data-driven-manufacturing.html",             img: "news-3.jpg", title: "Data-Driven Manufacturing" },
+    { href: "blog/predictive-maintenance-the-game-changer.html", img: "news-4.jpg", title: "Predictive Maintenance: The Game Changer" },
+    { href: "blog/sustainable-manufacturing-solutions.html",   img: "news-5.jpg", title: "Sustainable Manufacturing Solutions" },
+    { href: "blog/this-is-a-bloh-headline-title.html",         img: "news-6.jpg", title: "The Future of Industry 4.0" },
+    { href: "blog.html",                                       img: "news-7.jpg", title: "PSE on the Field", cls: "pse-news-photo7" }
+  ];
+
+  function norm(s) { return (s || "").replace(/\s+/g, " ").trim(); }
+
+  function getLang() {
+    try {
+      var saved = localStorage.getItem("pse-lang");
+      if (saved === "fr" || saved === "en") return saved;
+    } catch (e) {}
+    return (document.documentElement.lang || "fr").toLowerCase().indexOf("en") === 0 ? "en" : "fr";
+  }
+
+  function captionFor(index, lang) {
+    var caption = CARD_CAPTIONS[index] || {};
+    return caption[lang] || caption.fr || caption.en || "";
+  }
+
+  // Remplace la photo d'une carte par une image locale, bien cadrée
+  // (object-fit:cover). On neutralise srcset/sizes sinon ils écrasent src.
+  function setCardImage(card, file) {
+    var imgs = card.querySelectorAll(
+      '[data-framer-name="Blog Image Wrap"] img, [data-framer-name="Image"] img');
+    if (!imgs.length) imgs = card.querySelectorAll('img');   // filet
+    var src = IMG_DIR + file;
+    for (var i = 0; i < imgs.length; i++) {
+      var img = imgs[i];
+      if (img.getAttribute("src") === src) continue;          // déjà fait
+      img.removeAttribute("srcset");
+      img.removeAttribute("sizes");
+      img.removeAttribute("data-framer-original-sizes");
+      img.setAttribute("src", src);
+      img.style.width = "100%";
+      img.style.height = "100%";
+      img.style.objectFit = "cover";
+      img.style.objectPosition = "center";
+    }
+  }
+
+  // Dans une carte clonée, retrouve le <p> du TITRE (ni la date, ni le temps
+  // de lecture, ni « Lire la suite ») et y écrit le nouveau titre.
+  // Give every image/card pair a stable individual container without
+  // changing the image element, its dimensions, crop, radius, or visibility.
+  function configureIndividualCard(card, index) {
+    var cardNumber = index + 1;
+    var oldTitles = card.querySelectorAll(".pse-news-card-title");
+    for (var t = 0; t < oldTitles.length; t++) oldTitles[t].remove();
+
+    card.classList.add("pse-news-card-" + cardNumber);
+    card.setAttribute("data-pse-carousel-card", String(cardNumber));
+    card.setAttribute("data-pse-image-file", CARD_IMAGES[index]);
+
+    var imageContainers = card.querySelectorAll(
+      '[data-framer-name="Blog Image Wrap"]');
+    for (var i = 0; i < imageContainers.length; i++) {
+      var imageContainer = imageContainers[i];
+      imageContainer.classList.add("pse-carousel-image-container");
+      imageContainer.setAttribute("data-pse-image-container", String(cardNumber));
+
+      var caption = imageContainer.querySelector(".pse-carousel-image-caption");
+      if (!caption) {
+        caption = document.createElement("span");
+        caption.className = "pse-carousel-image-caption";
+        imageContainer.appendChild(caption);
+      }
+      var captionText = captionFor(index, getLang());
+      if (caption.textContent !== captionText) caption.textContent = captionText;
+    }
+
+    setCardImage(card, CARD_IMAGES[index]);
+  }
+
+  function setCardTitle(card, title) {
+    var ps = card.querySelectorAll("p");
+    var best = null, bestLen = -1;
+    for (var i = 0; i < ps.length; i++) {
+      var t = norm(ps[i].textContent);
+      if (!t) continue;
+      if (/^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(t)) continue;          // date
+      if (/^\d+\s*min/i.test(t)) continue;                          // temps de lecture
+      if (/^(read more|lire la suite|en savoir plus)$/i.test(t)) continue;
+      if (t.length > bestLen) { bestLen = t.length; best = ps[i]; }
+    }
+    if (best) {
+      best.removeAttribute("data-pse-block");   // i18n traduira par textContent
+      best.textContent = title;
+    }
+  }
+
+  // Ajoute les cartes manquantes en clonant les cartes réelles (idempotent :
+  // identifiées par data-pse-news-clone + data-href ; recréées si Framer
+  // reconstruit la section).
+  function addClones(track, realCards) {
+    if (!realCards.length) return;
+    for (var i = 0; i < EXTRA.length; i++) {
+      var e = EXTRA[i];
+      if (track.querySelector(':scope > a[data-pse-news-clone][data-href="' + e.href + '"]')) continue;
+      var src = realCards[i % realCards.length];   // alterne le modèle (varie l'image)
+      var clone = src.cloneNode(true);
+      clone.setAttribute("href", e.href);
+      clone.setAttribute("data-pse-news-clone", "1");
+      clone.setAttribute("data-href", e.href);
+      clone.classList.add("pse-news-card");
+      if (e.cls) clone.classList.add(e.cls);
+      setCardTitle(clone, e.title);
+      setCardImage(clone, e.img);
+      track.appendChild(clone);
+    }
+  }
+
+  function chevron(dir) {
+    // dir: "left" | "right"
+    var d = dir === "left"
+      ? "M15 5 L8 12 L15 19"
+      : "M9 5 L16 12 L9 19";
+    return '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">' +
+      '<path d="' + d + '" stroke="currentColor" stroke-width="2.2" ' +
+      'stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  }
+
+  // All responsive "View All" variants must perform a full local page load.
+  // This prevents Framer's client router from showing an older route snapshot
+  // that does not include the custom Blog hero, carousel and footer updates.
+  function wireViewAll(section) {
+    if (!section || section.getAttribute("data-framer-name") !== "Section Recent Articles") return;
+    var links = section.querySelectorAll("a");
+    for (var i = 0; i < links.length; i++) {
+      var label = norm(links[i].textContent).toLowerCase();
+      if (label !== "view all" && label !== "voir tout") continue;
+      var link = links[i];
+      link.setAttribute("href", "blog.html");
+      if (link.getAttribute("data-pse-view-all") === "1") continue;
+      link.setAttribute("data-pse-view-all", "1");
+      link.addEventListener("click", function (event) {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        event.stopPropagation();
+        window.location.assign(new URL("blog.html", document.baseURI).href);
+      }, true);
+    }
+  }
+
+  function build(section) {
+    if (!section) return;
+    wireViewAll(section);
+
+    // 1) Repérer la piste : le conteneur direct des cartes <a href="blog/…">.
+    var firstCard = section.querySelector('a[href*="blog/"]');
+    if (!firstCard) return;                 // articles pas encore montés
+    var track = firstCard.parentElement;
+    if (!track) return;
+
+    section.classList.add("pse-news");
+    track.classList.add("pse-news-track");
+
+    // cartes RÉELLES (hors clones) : classe stable + photo PSE, et modèles
+    // de clonage. (Framer reconstruit -> on ré-applique à chaque scan.)
+    var realCards = track.querySelectorAll(':scope > a:not([data-pse-news-clone])');
+    for (var i = 0; i < realCards.length; i++) {
+      realCards[i].classList.add("pse-news-card");
+      if (REAL_IMGS[i]) setCardImage(realCards[i], REAL_IMGS[i]);
+    }
+
+    // ajoute les cartes manquantes (=> « plusieurs » articles à faire défiler)
+    if (section.getAttribute("data-framer-name") === "Section Recent Articles") {
+      addClones(track, realCards);
+    }
+
+    var individualCards = track.querySelectorAll(":scope > .pse-news-card");
+    for (var c = 0; c < individualCards.length && c < CARD_IMAGES.length; c++) {
+      configureIndividualCard(individualCards[c], c);
+    }
+
+    // 2) Barre de contrôle (boutons ronds ‹ ›), créée une seule fois.
+    var controls = track.nextElementSibling;
+    if (!controls || !controls.classList || !controls.classList.contains("pse-news-controls")) {
+      controls = document.createElement("div");
+      controls.className = "pse-news-controls";
+
+      var prev = document.createElement("button");
+      prev.type = "button";
+      prev.className = "pse-news-nav pse-news-prev";
+      prev.setAttribute("aria-label", "Article précédent");
+      prev.innerHTML = chevron("left");
+
+      var next = document.createElement("button");
+      next.type = "button";
+      next.className = "pse-news-nav pse-news-next";
+      next.setAttribute("aria-label", "Article suivant");
+      next.innerHTML = chevron("right");
+
+      controls.appendChild(prev);
+      controls.appendChild(next);
+      track.parentNode.insertBefore(controls, track.nextSibling);
+
+      function isVertical() {
+        var isBlogCarousel = section.getAttribute("data-framer-name") === "Section Insights & News";
+        return !isBlogCarousel && window.matchMedia && window.matchMedia("(max-width: 1199px)").matches;
+      }
+      function position() {
+        return isVertical() ? track.scrollTop : track.scrollLeft;
+      }
+      function maximum() {
+        return isVertical()
+          ? Math.max(0, track.scrollHeight - track.clientHeight)
+          : Math.max(0, track.scrollWidth - track.clientWidth);
+      }
+      function setPosition(value) {
+        if (isVertical()) track.scrollTop = value;
+        else track.scrollLeft = value;
+      }
+      function step() {
+        var card = track.querySelector(".pse-news-card");
+        var styles = getComputedStyle(track);
+        var gap = parseFloat(isVertical() ? styles.rowGap : styles.columnGap) || 24;
+        if (!card) return isVertical() ? track.clientHeight * 0.7 : track.clientWidth * 0.7;
+        var box = card.getBoundingClientRect();
+        return (isVertical() ? box.height : box.width) + gap;
+      }
+      function update() {
+        var max = maximum() - 2;
+        var current = position();
+        prev.disabled = current <= 2;
+        next.disabled = current >= max;
+      }
+
+      // Transition lente et lisible : 1,2 seconde par déplacement.
+      var slideFrame = null;
+      function slideTo(target) {
+        if (slideFrame) window.cancelAnimationFrame(slideFrame);
+        var start = position();
+        var max = maximum();
+        var end = Math.max(0, Math.min(target, max));
+        var distance = end - start;
+        var reduceMotion = window.matchMedia &&
+          window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        if (reduceMotion || Math.abs(distance) < 1) {
+          setPosition(end);
+          return;
+        }
+        var started = performance.now();
+        function animate(now) {
+          var progress = Math.min((now - started) / 1200, 1);
+          var eased = 0.5 - Math.cos(Math.PI * progress) / 2;
+          setPosition(start + distance * eased);
+          if (progress < 1) slideFrame = window.requestAnimationFrame(animate);
+          else slideFrame = null;
+        }
+        slideFrame = window.requestAnimationFrame(animate);
+      }
+
+      // Défilement automatique en boucle. Il se met en pause pendant que
+      // l'utilisateur survole, touche ou utilise le carrousel au clavier.
+      var autoTimer = null;
+      function stopAuto() {
+        if (autoTimer) window.clearInterval(autoTimer);
+        autoTimer = null;
+      }
+      function advanceAuto() {
+        if (!document.documentElement.contains(track)) {
+          stopAuto();
+          return;
+        }
+        var max = maximum() - 2;
+        var current = position();
+        if (current >= max) {
+          slideTo(0);
+        } else {
+          slideTo(current + step());
+        }
+      }
+      function startAuto() {
+        stopAuto();
+        if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        autoTimer = window.setInterval(advanceAuto, 1300);
+      }
+      prev.addEventListener("click", function () {
+        slideTo(position() - step());
+        startAuto();
+      });
+      next.addEventListener("click", function () {
+        slideTo(position() + step());
+        startAuto();
+      });
+      track.addEventListener("scroll", function () {
+        window.requestAnimationFrame(update);
+      });
+      window.addEventListener("resize", update);
+      track.addEventListener("mouseenter", stopAuto);
+      track.addEventListener("mouseleave", startAuto);
+      track.addEventListener("focusin", stopAuto);
+      track.addEventListener("focusout", startAuto);
+      track.addEventListener("touchstart", stopAuto, { passive: true });
+      track.addEventListener("touchend", startAuto, { passive: true });
+      update();
+      startAuto();
+      // petit recalcul après mise en page / chargement des images
+      setTimeout(update, 300);
+      setTimeout(update, 1200);
+    }
+  }
+
+  function scan() {
+    var sections = document.querySelectorAll(SEC_SEL);
+    for (var i = 0; i < sections.length; i++) build(sections[i]);
+  }
+
+  function translateCaptions(lang) {
+    var captions = document.querySelectorAll(".pse-carousel-image-caption");
+    for (var i = 0; i < captions.length; i++) {
+      var card = captions[i].closest("[data-pse-carousel-card]");
+      var index = card ? parseInt(card.getAttribute("data-pse-carousel-card"), 10) - 1 : i;
+      var text = captionFor(index, lang === "en" ? "en" : "fr");
+      if (captions[i].textContent !== text) captions[i].textContent = text;
+    }
+  }
+
+  function hookLanguageSwitcher() {
+    if (window.__pseNewsLangHooked || typeof window.PSE_setLang !== "function") return;
+    window.__pseNewsLangHooked = true;
+    var originalSetLang = window.PSE_setLang;
+    window.PSE_setLang = function (lang) {
+      originalSetLang(lang);
+      translateCaptions(lang);
+    };
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", scan);
+  } else { scan(); }
+  window.addEventListener("load", scan);
+  window.addEventListener("load", hookLanguageSwitcher);
+  setTimeout(scan, 800);
+  setTimeout(scan, 2000);
+  setTimeout(hookLanguageSwitcher, 0);
+  setTimeout(hookLanguageSwitcher, 800);
+
+  if (typeof MutationObserver !== "undefined") {
+    var pend = false;
+    new MutationObserver(function () {
+      if (pend) return;
+      pend = true;
+      window.requestAnimationFrame(function () { pend = false; scan(); });
+    }).observe(document.documentElement, { childList: true, subtree: true });
+  }
+})();

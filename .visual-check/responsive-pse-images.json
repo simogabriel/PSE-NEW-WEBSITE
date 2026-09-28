@@ -1,0 +1,146 @@
+[
+  {
+    "page": "team",
+    "width": 1440,
+    "images": 45,
+    "old": [],
+    "broken": [],
+    "portraits": 12,
+    "overflow": false
+  },
+  {
+    "page": "team",
+    "width": 1000,
+    "images": 45,
+    "old": [],
+    "broken": [],
+    "portraits": 12,
+    "overflow": false
+  },
+  {
+    "page": "team",
+    "width": 390,
+    "images": 45,
+    "old": [],
+    "broken": [],
+    "portraits": 12,
+    "overflow": false
+  },
+  {
+    "page": "team",
+    "width": 1440,
+    "images": 45,
+    "old": [],
+    "broken": [],
+    "portraits": 12,
+    "overflow": false
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "images": 15,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "solutions",
+    "width": 1000,
+    "images": 15,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "solutions",
+    "width": 390,
+    "images": 15,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "solutions",
+    "width": 1440,
+    "images": 15,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "index",
+    "width": 1440,
+    "images": 1,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "index",
+    "width": 1000,
+    "images": 1,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "index",
+    "width": 390,
+    "images": 1,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "index",
+    "width": 1440,
+    "images": 1,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "images": 60,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "about",
+    "width": 1000,
+    "images": 60,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "about",
+    "width": 390,
+    "images": 60,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  },
+  {
+    "page": "about",
+    "width": 1440,
+    "images": 60,
+    "old": [],
+    "broken": [],
+    "portraits": 0,
+    "overflow": false
+  }
+]

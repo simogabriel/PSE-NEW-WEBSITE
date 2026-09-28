@@ -1,0 +1,240 @@
+
+
+
+section[data-framer-name="Section Testimonals"] {
+  display: none !important;
+}
+
+section[data-framer-name="Section Solutions Header"] {
+  position: relative !important;
+  isolation: isolate;
+  height: clamp(360px, 38vw, 480px) !important;
+  min-height: clamp(360px, 38vw, 480px) !important;
+  max-height: none !important;
+  overflow: hidden;
+  background-color: #061a36 !important;
+  background-image: none !important;
+}
+
+section[data-framer-name="Section Solutions Header"]::before {
+  content: "";
+  position: absolute;
+  inset: -3%;
+  z-index: 0;
+  pointer-events: none;
+  background: url("solutions-technology-hero-v2.webp") center center / cover no-repeat;
+  transform: scale(1.03);
+  animation: none;
+}
+
+/* The photograph replaces the original template decoration. */
+section[data-framer-name="Section Solutions Header"] [data-framer-name="Brand Vector"] {
+  display: none !important;
+}
+
+@keyframes pse-solutions-hero-drift {
+  from { transform: scale(1.03) translate3d(-.6%, 0, 0); }
+  to { transform: scale(1.09) translate3d(.6%, -.4%, 0); }
+}
+
+section[data-framer-name="Section Solutions Header"]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(3, 18, 42, .12), rgba(3, 18, 42, .48));
+}
+
+section[data-framer-name="Section Solutions Header"] > * {
+  position: relative;
+  z-index: 2;
+}
+
+section[data-framer-name="Section Solutions Header"]
+  > [data-framer-name="Container"] {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 3 !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  padding: 0 !important;
+}
+
+section[data-framer-name="Section Solutions Header"] [data-framer-name="Container"],
+section[data-framer-name="Section Solutions Header"] [data-framer-name="Content Wrap"],
+section[data-framer-name="Section Solutions Header"] [data-framer-name="Text Wrap"] {
+  box-sizing: border-box !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  min-height: 100% !important;
+  text-align: center !important;
+}
+
+section[data-framer-name="Section Solutions Header"]
+  [data-framer-name="Content Wrap"] {
+  height: 100% !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+section[data-framer-name="Section Solutions Header"]
+  [data-framer-name="Text Wrap"] {
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+section[data-framer-name="Section Solutions Header"]
+  [data-framer-name="Text Wrap"] > .ssr-variant {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+  overflow: visible !important;
+}
+
+section[data-framer-name="Section Solutions Header"]
+  [data-framer-component-type="RichTextContainer"] {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+section[data-framer-name="Section Solutions Header"] h1 {
+  box-sizing: border-box !important;
+  display: block !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: 4 !important;
+  width: min(1100px, calc(100vw - 48px)) !important;
+  max-width: min(1100px, calc(100vw - 48px)) !important;
+  margin: 0 !important;
+  padding-inline: clamp(8px, 2vw, 24px) !important;
+  padding-top: 10px !important;
+  padding-bottom: 18px !important;
+  height: auto !important;
+  max-height: none !important;
+  font-size: clamp(32px, 4.5vw, 56px) !important;
+  line-height: 1.06 !important;
+  transform: translate(-50%, -50%) !important;
+  text-align: center !important;
+  white-space: normal !important;
+  text-wrap: balance !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  hyphens: none !important;
+  text-overflow: clip !important;
+  overflow: visible !important;
+  color: #fff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: 0 3px 24px rgba(0, 8, 25, .72);
+  transform-origin: center center !important;
+  animation: none !important;
+}
+
+section[data-framer-name="Section Solutions Header"] h1 span {
+  overflow: visible !important;
+  white-space: inherit !important;
+}
+
+@media (min-width: 810px) and (max-width: 1199px) {
+  section[data-framer-name="Section Solutions Header"] h1 {
+    width: calc(100vw - 64px) !important;
+    max-width: 900px !important;
+    font-size: clamp(36px, 5vw, 52px) !important;
+  }
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  section[data-framer-name="Section Solutions Header"] h1 {
+    background: linear-gradient(105deg, #fff 20%, #b8e7ff 52%, #fff 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: none !important;
+  }
+}
+
+@keyframes pse-solutions-title-reveal {
+  from { opacity: 0; transform: translate(-50%, calc(-50% + 30px)) scale(.94); filter: blur(9px); letter-spacing: .02em; }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); filter: blur(0); letter-spacing: -.04em; }
+}
+
+@keyframes pse-solutions-title-glow {
+  0%, 100% { text-shadow: 0 3px 24px rgba(0, 8, 25, .72); }
+  50% { text-shadow: 0 3px 28px rgba(0, 8, 25, .78), 0 0 30px rgba(99, 199, 255, .42); }
+}
+
+@keyframes pse-solutions-title-gradient {
+  0%, 25%, 100% { background-position: 100% 0; }
+  55%, 75% { background-position: 0 0; }
+}
+
+@media (max-width: 809px) {
+  section[data-framer-name="Section Solutions Header"] {
+    height: clamp(380px, 92vw, 460px) !important;
+    min-height: clamp(380px, 92vw, 460px) !important;
+    max-height: none !important;
+  }
+
+  section[data-framer-name="Section Solutions Header"]::before {
+    background-position: 46% center;
+  }
+
+  section[data-framer-name="Section Solutions Header"]::after {
+    background: linear-gradient(180deg, rgba(2, 14, 34, .48), rgba(2, 14, 34, .72));
+  }
+
+  section[data-framer-name="Section Solutions Header"] h1 {
+    width: calc(100vw - 32px) !important;
+    max-width: calc(100vw - 32px) !important;
+    padding-inline: 4px !important;
+    font-size: clamp(28px, 8.5vw, 42px) !important;
+    line-height: 1.08 !important;
+    padding-top: 12px !important;
+    padding-bottom: 20px !important;
+    letter-spacing: -.035em !important;
+    transform: translate(-50%, -50%) !important;
+  }
+}
+
+@media (max-width: 360px) {
+  section[data-framer-name="Section Solutions Header"] {
+    min-height: 400px !important;
+  }
+
+  section[data-framer-name="Section Solutions Header"] h1 {
+    width: calc(100vw - 24px) !important;
+    max-width: calc(100vw - 24px) !important;
+    font-size: clamp(26px, 8vw, 32px) !important;
+    padding-inline: 0 !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  section[data-framer-name="Section Solutions Header"]::before {
+    animation: none !important;
+    transform: scale(1.03) !important;
+  }
+
+  section[data-framer-name="Section Solutions Header"] h1 {
+    animation: none !important;
+  }
+}

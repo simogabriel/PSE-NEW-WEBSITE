@@ -1,0 +1,142 @@
+[
+  {
+    "page": "about.html",
+    "deferred": 0,
+    "local_srcsets_removed": 1,
+    "async_decode": 1,
+    "local_logos": 3
+  },
+  {
+    "page": "blog.html",
+    "deferred": 0,
+    "local_srcsets_removed": 3,
+    "async_decode": 1,
+    "local_logos": 3
+  },
+  {
+    "page": "contact.html",
+    "deferred": 0,
+    "local_srcsets_removed": 15,
+    "async_decode": 1,
+    "local_logos": 3
+  },
+  {
+    "page": "index.html",
+    "deferred": 0,
+    "local_srcsets_removed": 11,
+    "async_decode": 1,
+    "local_logos": 1
+  },
+  {
+    "page": "references.html",
+    "deferred": 0,
+    "local_srcsets_removed": 0,
+    "async_decode": 24,
+    "local_logos": 0
+  },
+  {
+    "page": "solution.html",
+    "deferred": 0,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 0
+  },
+  {
+    "page": "solutions.html",
+    "deferred": 0,
+    "local_srcsets_removed": 0,
+    "async_decode": 1,
+    "local_logos": 3
+  },
+  {
+    "page": "team.html",
+    "deferred": 0,
+    "local_srcsets_removed": 0,
+    "async_decode": 37,
+    "local_logos": 3
+  },
+  {
+    "page": "team\\david-brown.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "team\\jane-smith.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "team\\john-doe.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "team\\mesliisa-mane.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "team\\mike-johnson.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "team\\sara-connor.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "blog\\ai-transforms-manufacturing.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "blog\\bridging-the-manufacturing-skills-gap.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "blog\\data-driven-manufacturing.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "blog\\predictive-maintenance-the-game-changer.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "blog\\sustainable-manufacturing-solutions.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  },
+  {
+    "page": "blog\\this-is-a-bloh-headline-title.html",
+    "deferred": 7,
+    "local_srcsets_removed": 0,
+    "async_decode": 0,
+    "local_logos": 3
+  }
+]

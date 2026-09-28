@@ -1,0 +1,2 @@
+[25760:14640:0824/022002.291:ERROR:chrome\installer\util\google_update_settings_win.cc:270] Failed opening key Software\Google\Update\ClientStateMedium\{8A69D345-D564-463c-AFF1-A69D9E530F96} to set usagestats; result: 5
+[25760:20528:0824/022005.076:ERROR:services\device\public\cpp\geolocation\system_geolocation_source_win.cc:259] Failed to get location access status: The parameter is incorrect. (0x80070057)
