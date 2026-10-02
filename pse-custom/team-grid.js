@@ -29,7 +29,7 @@
     { img: "audrey.jpeg",   name: "Audrey Ntamack",         role: { fr: "Directrice marketing", en: "Marketing Director" } },
     { img: "ludivine.jpg",  name: "Petmi Ludivine Chloé",   role: { fr: "Assistante de direction", en: "Executive Assistant" } },
     { img: "arnold.jpeg",   name: "Arno Mbende",            role: { fr: "Ingénieur réseau", en: "Network Engineer" } },
-    { img: "../joel.jpg",    name: "JOEL EDMOND NGUEMETA", role: { fr: "DÉVELOPPEUR FULL STACK", en: "FULL STACK DEVELOPER" } }
+    { img: "../joel.jpg",    name: "JOEL EDMOND NGUEMETA", role: { fr: "INGÉNIEUR LOGICIEL", en: "SOFTWARE ENGINEER" } }
   ];
   
 
