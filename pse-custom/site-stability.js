@@ -7,6 +7,9 @@
 
   // Keep the exported template router from replacing one page with another
   // inside the current document. Leave navigation itself to the browser.
+  var navigationPendingUntil = 0;
+  window.addEventListener("pageshow", function () { navigationPendingUntil = 0; });
+
   function isolatePageNavigation(event) {
     var link = event.target.closest && event.target.closest("a[href]");
     if (!link || event.defaultPrevented) return;
@@ -16,6 +19,30 @@
         target.pathname.indexOf(siteBase.pathname) !== 0 ||
         !/\.html$/i.test(target.pathname)) return;
     event.stopImmediatePropagation();
+    var isNav = link.closest(".pse-nav");
+    var plainClick = event.type === "click" && event.button === 0 &&
+      !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey;
+    if (!isNav || !plainClick || link.hasAttribute("download") ||
+        (link.target && link.target !== "_self")) return;
+
+    isNav.classList.remove("is-open");
+    var burger = isNav.querySelector(".pse-nav__burger");
+    if (burger) burger.setAttribute("aria-expanded", "false");
+
+    var current = new URL(location.href);
+    function pagePath(path) { return path.replace(/\/index\.html$/i, "/"); }
+    var samePage = pagePath(target.pathname) === pagePath(current.pathname) &&
+      target.search === current.search;
+    if (samePage) {
+      if (!target.hash || target.hash === current.hash) event.preventDefault();
+      return;
+    }
+    if (Date.now() < navigationPendingUntil) {
+      event.preventDefault();
+      return;
+    }
+    // Allow one native navigation, with a short retry window if it fails.
+    navigationPendingUntil = Date.now() + 1200;
   }
   window.addEventListener("click", isolatePageNavigation, true);
   window.addEventListener("auxclick", isolatePageNavigation, true);
