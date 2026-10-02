@@ -147,8 +147,8 @@ window.PSE_T = Object.assign(window.PSE_T || {}, {
   },
 
   
-  "Based in Austin, Tx": { fr: "Basé à Yaoundé & Genève", en: "Based in Yaoundé & Geneva" },
-  "Based in Austin,Tx": { fr: "Basé à Yaoundé & Genève", en: "Based in Yaoundé & Geneva" },
+  "Based in Austin, Tx": { fr: "Basé à Yaoundé & Lausanne", en: "Based in Yaoundé & Lausanne" },
+  "Based in Austin,Tx": { fr: "Basé à Yaoundé & Lausanne", en: "Based in Yaoundé & Lausanne" },
   "©2025 PSE Consulting All Rights Reserved": { fr: "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.", en: "© 2026 PSE Consulting Cameroun SARL. All rights reserved." },
 
   
@@ -313,7 +313,7 @@ window.PSE_T = Object.assign(window.PSE_T || {}, {
   },
 
   
-  "Austin, TX": { fr: "Yaoundé & Genève", en: "Yaoundé & Geneva" },
+  "Austin, TX": { fr: "Yaoundé & Lausanne", en: "Yaoundé & Lausanne" },
   "Insights & News": { fr: "Analyses & actualités", en: "Insights & News" },
   "Newsroom": { fr: "Actualités", en: "Newsroom" },
   "Careers": { fr: "Carrières", en: "Careers" },
@@ -440,7 +440,7 @@ window.PSE_T = Object.assign(window.PSE_T || {}, {
     en: "Institutions, banks, industrial companies and public-sector partners"
   },
   "Nous contacter": { fr: "Nous contacter", en: "Contact Us" },
-  "Basé à Yaoundé & Genève": { fr: "Basé à Yaoundé & Genève", en: "Based in Yaoundé & Geneva" },
+  "Basé à Yaoundé & Genève": { fr: "Basé à Yaoundé & Lausanne", en: "Based in Yaoundé & Lausanne" },
   "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.": {
     fr: "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés.",
     en: "© 2026 PSE Consulting Cameroun SARL. All rights reserved."

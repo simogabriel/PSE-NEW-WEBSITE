@@ -50,10 +50,10 @@
     { en: "Digital Transformation Conference", fr: "Conférence sur la transformation numérique" },
     { en: "AI and Industrial Innovation Presentation", fr: "Présentation sur l’IA et l’innovation industrielle" },
     { en: "Smart Manufacturing Leadership Forum", fr: "Forum du leadership en fabrication intelligente" },
-    { en: "Predictive Maintenance Technical Session", fr: "Session technique sur la maintenance prédictive" },
-    { en: "Sustainable Industry Conference", fr: "Conférence sur l’industrie durable" },
-    { en: "Industry 4.0 Executive Presentation", fr: "Présentation stratégique sur l’Industrie 4.0" },
-    { en: "PSE Innovation Showcase", fr: "Présentation des innovations de PSE Consulting" }
+    { en: "Showcase Card-CSU presentation", fr: "Présentation Showcase Card-CSU" },
+    { en: "Meeting with Regional Delegates Of Public Health", fr: "Réunion avec les délégués régionaux de la santé publique" },
+    { en: "Group Picture with the regional delegates of Public Health", fr: "Photo de groupe avec les délégués régionaux de la santé publique" },
+    { en: "INTERVIEW WITH THE MINISTER OF PUBLIC HEALTH", fr: "ENTRETIEN AVEC LE MINISTRE DE LA SANTÉ PUBLIQUE" }
   ];
 
   var HOME_COPY = {

@@ -80,8 +80,24 @@ html body section#team-intro[data-framer-name="Section Team Header"] h2 {
 }
 
 html body section#team-intro[data-framer-name="Section Team Header"] p {
+  width: 100%;
   max-width: 62ch;
   margin-inline: auto !important;
+}
+
+/* Keep both introductory paragraphs on the same centered text column. */
+html body section#team-intro[data-framer-name="Section Team Header"]
+  [data-framer-name="Text Content Wrap"] [data-framer-component-type="RichTextContainer"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-inline: auto !important;
+}
+
+html body section#team-intro[data-framer-name="Section Team Header"] p,
+html body section#team-intro[data-framer-name="Section Team Header"] p .pse-tt-text {
+  white-space: normal !important;
+  text-indent: 0 !important;
 }
 
 

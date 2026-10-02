@@ -5,13 +5,13 @@
   var COPY = {
     fr: {
       brand: "PSE Consulting Cameroun SARL",
-      based: "Basé à Yaoundé & Genève",
+      based: "Basé à Yaoundé & Lausanne",
       contact: "Nous contacter",
       copyright: "© 2026 PSE Consulting Cameroun SARL. Tous droits réservés."
     },
     en: {
       brand: "PSE Consulting Cameroun SARL",
-      based: "Based in Yaoundé & Geneva",
+      based: "Based in Yaoundé & Lausanne",
       contact: "Contact us",
       copyright: "© 2026 PSE Consulting Cameroun SARL. All rights reserved."
     }
