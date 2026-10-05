@@ -21,7 +21,7 @@
   };
   var DATA = {
     cmrAddr: "Bastos, Yaoundé 2, Région du Centre, BP 6471 Yaoundé — Cameroun",
-    cmrPhones: ["+237 670 91 21 66", "(+237) 673 18 67"],
+    cmrPhones: ["+237 670 91 21 66", "(+237)673 18 67 28"],
     cheAddr: "Route de Vevey 42, 1009 Pully — Suisse",
     chePhones: ["(+41) 76 468 6947"],
     email: "info@pse-consulting.com"

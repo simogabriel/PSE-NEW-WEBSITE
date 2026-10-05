@@ -22,9 +22,9 @@
     { img: "philip.jpeg",   name: "Manga Ewane Philippe",   role: { fr: "Chef de projet", en: "Project Manager" } },
     { img: "schimdt.jpeg",  name: "Schimdt Nguemechia",     role: { fr: "Chef de projet", en: "Project Manager" } },
     { img: "aleka.jpg",     name: "Aleka Mervie",           role: { fr: "Analyste d'affaires", en: "Business Analyst" } },
-    { img: "alice.jpeg",    name: "Alice Mervie",           role: { fr: "Développeuse back-end", en: "Back-end Developer" } },
-    { img: "vianney.jpeg",  name: "Vianney Ulrich",         role: { fr: "Développeur front-end", en: "Front-end Developer" } },
-    { img: "lennon.jpeg",   name: "Lennon Youssouf",        role: { fr: "Développeur front-end", en: "Front-end Developer" } },
+    { img: "alice.jpeg",    name: "ALICE .Y",           role: { fr: "Développeuse back-end", en: "Back-end Developer" } },
+    { img: "vianney.jpeg",  name: "ULRICH .K",         role: { fr: "Développeur front-end", en: "Front-end Developer" } },
+    { img: "lennon.jpeg",   name: "NTIECHE YOUSSOUF",        role: { fr: "Développeur front-end", en: "Front-end Developer" } },
     { img: "leonel.jpeg",   name: "Kotieu Léonel",          role: { fr: "Concepteur UI/UX", en: "UI/UX Designer" } },
     { img: "audrey.jpeg",   name: "Audrey Ntamack",         role: { fr: "Directrice marketing", en: "Marketing Director" } },
     { img: "ludivine.jpg",  name: "Petmi Ludivine Chloé",   role: { fr: "Assistante de direction", en: "Executive Assistant" } },
@@ -189,6 +189,8 @@
       var rl = document.createElement("p");
       rl.className = "pse-team-role";
       rl.setAttribute("data-pse-role", "1");
+      rl.setAttribute("data-fr", m.role.fr);
+      rl.setAttribute("data-en", m.role.en);
       rl.textContent = (m.role && m.role[lang]) || (m.role && m.role.fr) || "";
       card.appendChild(img);
       card.appendChild(nm);
@@ -255,7 +257,10 @@
     var rls = document.querySelectorAll('.pse-team-grid [data-pse-role]');
     for (var i = 0; i < rls.length; i++) {
       var m = TEAM[i % TEAM.length];
-      rls[i].textContent = (m.role && m.role[lang]) || (m.role && m.role.fr) || "";
+      rls[i].setAttribute("data-fr", m.role.fr);
+      rls[i].setAttribute("data-en", m.role.en);
+      var translated = (m.role && m.role[lang]) || (m.role && m.role.fr) || "";
+      if (rls[i].textContent !== translated) rls[i].textContent = translated;
     }
   }
   function hookLang() {
@@ -272,7 +277,10 @@
     fixContactLinks();
     updateCareersCopy(getLang());
     updateVisionCopy(getLang());
-    if (mount()) hookLang();
+    if (mount()) {
+      hookLang();
+      relang(getLang());
+    }
   }
 
   if (document.readyState === "loading") {
