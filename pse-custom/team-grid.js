@@ -24,7 +24,7 @@
     { img: "aleka.jpg",     name: "Aleka Mervie",           role: { fr: "Analyste d'affaires", en: "Business Analyst" } },
     { img: "alice.jpeg",    name: "ALICE .Y",           role: { fr: "Développeuse back-end", en: "Back-end Developer" } },
     { img: "vianney.jpeg",  name: "ULRICH .K",         role: { fr: "Développeur front-end", en: "Front-end Developer" } },
-    { img: "lennon.jpeg",   name: "NTIECHE YOUSSOUF",        role: { fr: "Développeur front-end", en: "Front-end Developer" } },
+    { img: "lennon.jpeg",   name: "NTIECHE YOUSSOUF",        role: { fr: "Ingénieur logiciel", en: "Software Engineer" } },
     { img: "leonel.jpeg",   name: "Kotieu Léonel",          role: { fr: "Concepteur UI/UX", en: "UI/UX Designer" } },
     { img: "audrey.jpeg",   name: "Audrey Ntamack",         role: { fr: "Directrice marketing", en: "Marketing Director" } },
     { img: "ludivine.jpg",  name: "Petmi Ludivine Chloé",   role: { fr: "Assistante de direction", en: "Executive Assistant" } },
