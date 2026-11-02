@@ -22,11 +22,10 @@
 
   
   
-  var REAL_IMGS = ["news-1.jpg", "news-2.jpg"];
+  var REAL_IMGS = ["news-2.jpg"];
 
   
   var CARD_IMAGES = [
-    "news-1.jpg",
     "news-2.jpg",
     "news-3.jpg",
     "news-4.jpg",
@@ -47,9 +46,8 @@
   ];
 
   var HOME_CAPTIONS = [
-    { en: "Digital Transformation Conference", fr: "Conférence sur la transformation numérique" },
     { en: "AI and Industrial Innovation Presentation", fr: "Présentation sur l’IA et l’innovation industrielle" },
-    { en: "Smart Manufacturing Leadership Forum", fr: "Forum du leadership en fabrication intelligente" },
+    { en: "Group photo with delegates of the CSU system", fr: "Photo de groupe avec les d\u00e9l\u00e9gu\u00e9s du syst\u00e8me CSU" },
     { en: "Showcase Card-CSU presentation", fr: "Présentation Showcase Card-CSU" },
     { en: "Meeting with Regional Delegates Of Public Health", fr: "Réunion avec les délégués régionaux de la santé publique" },
     { en: "Group Picture with the regional delegates of Public Health", fr: "Photo de groupe avec les délégués régionaux de la santé publique" },
@@ -247,6 +245,12 @@
     var isHome = section.getAttribute("data-framer-name") === "Section Recent Articles";
     if (isHome) updateHomeCopy(section, getLang());
     wireViewAll(section);
+
+    if (isHome && section.getAttribute("data-pse-home-first-removed") !== "1") {
+      var firstHomeCard = section.querySelector('a[href*="blog/"]');
+      if (firstHomeCard) firstHomeCard.remove();
+      section.setAttribute("data-pse-home-first-removed", "1");
+    }
 
     
     var firstCard = section.querySelector('a[href*="blog/"]');

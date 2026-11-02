@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Manage Careers | PSE Consulting</title>
+  <link rel="stylesheet" href="pse-custom/career.css?v=1">
+  <link rel="stylesheet" href="pse-custom/career-admin.css?v=1">
+</head>
+<body class="career-admin-page">
+  <main class="career-admin">
+    <header class="career-admin__header"><a href="career.html">&larr; View Careers page</a><p class="career-eyebrow">PSE CONSULTING / ADMIN</p><h1>Manage job opportunities</h1><p>Add, edit, or close a position. Publishing a new position sends a push alert to subscribed visitors.</p></header>
+    <section class="career-admin__auth" aria-labelledby="admin-auth-title"><h2 id="admin-auth-title">Administrator access</h2><label for="admin-token">Admin token</label><div class="career-admin__auth-row"><input id="admin-token" type="password" autocomplete="current-password" placeholder="Enter CAREERS_ADMIN_TOKEN"><button id="admin-load" type="button">Load listings</button></div><p id="admin-status" role="status" aria-live="polite"></p></section>
+    <section class="career-admin__editor" hidden>
+      <div class="career-admin__layout">
+        <form id="opportunity-form" class="career-admin__form">
+          <h2 id="form-heading">Add a position</h2>
+          <label>Role ID <input name="id" required pattern="[A-Za-z0-9][A-Za-z0-9_-]{1,79}" placeholder="senior-developer-2026"></label>
+          <div class="career-admin__two"><label>Title (English) <input name="titleEn" required maxlength="120"></label><label>Titre (fran&ccedil;ais) <input name="titleFr" required maxlength="120"></label></div>
+          <label>Location <input name="location" required maxlength="120" placeholder="Yaounde, Cameroon"></label>
+          <div class="career-admin__two"><label>Type (English) <input name="typeEn" required maxlength="80" placeholder="Full time"></label><label>Type (French) <input name="typeFr" required maxlength="80" placeholder="Temps plein"></label></div>
+          <div class="career-admin__two"><label>Summary (English) <textarea name="summaryEn" required maxlength="2000" rows="4"></textarea></label><label>R&eacute;sum&eacute; (fran&ccedil;ais) <textarea name="summaryFr" required maxlength="2000" rows="4"></textarea></label></div>
+          <div class="career-admin__two"><label>Closing date <input name="closingDate" type="date"></label><label>Application URL or mailto <input name="applyUrl" type="text" placeholder="https://... or mailto:..."></label></div>
+          <div class="career-admin__actions"><button type="submit">Save position</button><button id="form-cancel" type="button" class="is-secondary">Clear form</button></div>
+        </form>
+        <aside class="career-admin__published"><div class="career-admin__list-heading"><h2>Current listings</h2><button id="admin-publish" type="button">Publish changes</button></div><div id="admin-list"></div></aside>
+      </div>
+    </section>
+  </main>
+  <script src="pse-custom/career-admin.js?v=1"></script>
+</body>
+</html>

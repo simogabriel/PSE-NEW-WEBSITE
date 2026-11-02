@@ -1156,7 +1156,7 @@ a[href*="blog"] [data-framer-name="Read More Wrap"],
 .pse-news-card [data-framer-name="Read More Wrap"] { display: none !important; }
 
 
-[href*="ai-transforms-manufacturing"]             [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-1.jpg") !important; }
+[href*="ai-transforms-manufacturing"]             [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-2.jpg") !important; }
 [href*="bridging-the-manufacturing-skills-gap"]   [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-2.jpg") !important; }
 [href*="data-driven-manufacturing"]               [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-3.jpg") !important; }
 [href*="predictive-maintenance-the-game-changer"] [data-framer-name="Blog Image Wrap"] { background-image: url("news/news-4.jpg") !important; }

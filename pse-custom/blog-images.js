@@ -16,7 +16,7 @@
 
   
   var MAP = {
-    "ai-transforms-manufacturing":            "news-1.jpg",
+    "ai-transforms-manufacturing":            "news-2.jpg",
     "bridging-the-manufacturing-skills-gap":  "news-2.jpg",
     "data-driven-manufacturing":              "news-3.jpg",
     "predictive-maintenance-the-game-changer":"news-4.jpg",

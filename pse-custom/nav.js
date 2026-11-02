@@ -29,6 +29,7 @@
     { href: "solutions.html", fr: "Solutions", en: "Solutions" },
     { href: "team.html",      fr: "Équipe",    en: "Team" },
     { href: "references.html", fr: "Références", en: "References" },
+    { href: "career.html",    fr: "Carri\u00e8res", en: "Careers" },
     { href: "contact.html",   fr: "Contact",   en: "Contact" }
   ];
   var CTA = { href: "contact.html", fr: "Nous contacter", en: "Get in Touch" };
@@ -107,7 +108,7 @@
     if (document.querySelector("link[data-pse-enhance]")) return;
     var l = document.createElement("link");
     l.rel = "stylesheet";
-    l.href = BASE + "pse-custom/enhance.css?v=101";
+    l.href = BASE + "pse-custom/enhance.css?v=102";
     l.setAttribute("data-pse-enhance", "");
     document.head.appendChild(l);
   }
